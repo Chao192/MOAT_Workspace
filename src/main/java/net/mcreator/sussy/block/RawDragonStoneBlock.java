@@ -4,9 +4,9 @@ package net.mcreator.sussy.block;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
 
-public class DragonStoneOreBlock extends Block {
-	public DragonStoneOreBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(6f, 8.705505633f).requiresCorrectToolForDrops());
+public class RawDragonStoneBlock extends Block {
+	public RawDragonStoneBlock() {
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(1f, 10f).requiresCorrectToolForDrops());
 	}
 
 	@Override
@@ -26,6 +26,6 @@ public class DragonStoneOreBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(SussyModItems.DRAGON_STONE_INGOT.get()));
+		return Collections.singletonList(new ItemStack(this, 1));
 	}
 }

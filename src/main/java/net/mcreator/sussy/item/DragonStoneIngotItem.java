@@ -1,8 +1,8 @@
 
 package net.mcreator.sussy.item;
 
-import net.minecraft.world.item.Rarity;
-import net.minecraft.world.item.Item;
+import net.minecraft.world.entity.ai.attributes.Attributes;
+import javax.annotation.Nullable;
 
 public class DragonStoneIngotItem extends Item {
 	public DragonStoneIngotItem() {

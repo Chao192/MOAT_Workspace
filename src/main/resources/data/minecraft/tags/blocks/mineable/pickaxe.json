@@ -1,7 +1,8 @@
 {
   "replace": false,
   "values": [
-    "sussy:dragon_stone_block",
-    "sussy:dragon_stone_ore"
+    "sussy:dragon_stone_ore",
+    "sussy:raw_dragon_stone",
+    "sussy:dragon_stone_block"
   ]
 }

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sussy:block/rawdragonstone",
+    "up": "sussy:block/rawdragonstone",
+    "north": "sussy:block/rawdragonstone",
+    "east": "sussy:block/rawdragonstone",
+    "south": "sussy:block/rawdragonstone",
+    "west": "sussy:block/rawdragonstone",
+    "particle": "sussy:block/rawdragonstone"
+  },
+  "render_type": "solid"
+}
