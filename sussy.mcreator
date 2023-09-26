@@ -960,12 +960,102 @@
         ]
       },
       "path": "~/Ethans_Mods/dragondualglaive"
+    },
+    {
+      "name": "DragonStoneIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_stone_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/item/DragonStoneIngotItem.java",
+          "src/main/resources/assets/sussy/models/item/dragon_stone_ingot.json"
+        ]
+      },
+      "path": "~/DragonStone"
+    },
+    {
+      "name": "DragonStoneOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_stone_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/world/features/ores/DragonStoneOreFeature.java",
+          "src/main/resources/data/sussy/forge/biome_modifier/dragon_stone_ore_biome_modifier.json",
+          "src/main/resources/data/sussy/worldgen/placed_feature/dragon_stone_ore.json",
+          "src/main/resources/assets/sussy/models/item/dragon_stone_ore.json",
+          "src/main/resources/data/sussy/worldgen/configured_feature/dragon_stone_ore.json",
+          "src/main/resources/assets/sussy/models/block/dragon_stone_ore.json",
+          "src/main/java/net/mcreator/sussy/block/DragonStoneOreBlock.java",
+          "src/main/resources/assets/sussy/blockstates/dragon_stone_ore.json"
+        ]
+      },
+      "path": "~/DragonStone"
+    },
+    {
+      "name": "DragonStoneBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_stone_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/block/DragonStoneBlockBlock.java",
+          "src/main/resources/assets/sussy/models/block/dragon_stone_block.json",
+          "src/main/resources/assets/sussy/blockstates/dragon_stone_block.json",
+          "src/main/resources/assets/sussy/models/item/dragon_stone_block.json"
+        ]
+      },
+      "path": "~/DragonStone"
+    },
+    {
+      "name": "DragonStoneOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_stone_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/recipes/dragon_stone_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/DragonStone"
+    },
+    {
+      "name": "DragonStoneBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_stone_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/recipes/dragon_stone_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/DragonStone"
+    },
+    {
+      "name": "DragonStoneOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_stone_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/recipes/dragon_stone_ore_smelting.json"
+        ]
+      },
+      "path": "~/DragonStone"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.sussy.dragon_stone_block": "Block of DragonStone",
       "item.sussy.dragon_pickaxe": "Dragon Pickaxe",
       "item.sussy.dragon_armor_boots": "Dragon Boots",
       "item.sussy.dragon_shovel": "Dragon Shovel",
@@ -979,6 +1069,7 @@
       "item.sussy.crimson_amulet": "Crimson Amulet",
       "item.sussy.copper_armor_armor_leggings": "CopperArmor Leggings",
       "item.sussy.dragon_armor_helmet": "Dragon Helmet",
+      "block.sussy.dragon_stone_ore": "DragonStone Ore",
       "item.sussy.copper_armor_armor_helmet": "CopperArmor Helmet",
       "advancements.are_you_serious.descr": "Just Why...",
       "item.sussy.dragon_sword": "Dragon Sword",
@@ -997,6 +1088,7 @@
       "item.sussy.dragon_hoe": "Dragon Hoe",
       "item_group.sussy.vanilla_addon": "Carsoa\u0027s Extra Content",
       "item.sussy.emerald_armor_armor_boots": "Emerald_Armor Boots",
+      "item.sussy.dragon_stone_ingot": "DragonStone",
       "advancements.reach_for_the_stars.title": "Reach For The Stars",
       "item.sussy.dragon_star": "Dragon Star",
       "advancements.true_freedom.title": "True Freedom",
@@ -1038,6 +1130,10 @@
       },
       {
         "name": "Dragon Tools",
+        "children": []
+      },
+      {
+        "name": "DragonStone",
         "children": []
       }
     ]
