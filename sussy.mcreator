@@ -82,8 +82,20 @@
         ],
         "dependencies": [
           {
-            "name": "entity",
-            "type": "entity"
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -873,8 +885,7 @@
           "src/main/java/net/mcreator/sussy/item/DiamondDualGlaiveItem.java",
           "src/main/resources/assets/sussy/models/item/diamond_dual_glaive.json"
         ]
-      },
-      "path": "~/Ethans_Mods/Diamond Dual Glaive"
+      }
     },
     {
       "name": "Diamonddualglaiverecipe",
@@ -887,8 +898,7 @@
         "files": [
           "src/main/resources/data/sussy/recipes/diamonddualglaiverecipe.json"
         ]
-      },
-      "path": "~/Ethans_Mods/Diamond Dual Glaive"
+      }
     },
     {
       "name": "AreYouSerious",
@@ -915,8 +925,7 @@
           "src/main/resources/assets/sussy/models/item/dragon_dual_glaive.json",
           "src/main/java/net/mcreator/sussy/item/DragonDualGlaiveItem.java"
         ]
-      },
-      "path": "~/Ethans_Mods/dragondualglaive"
+      }
     },
     {
       "name": "Netheritedualglaive",
@@ -930,8 +939,7 @@
           "src/main/java/net/mcreator/sussy/item/NetheritedualglaiveItem.java",
           "src/main/resources/assets/sussy/models/item/netheritedualglaive.json"
         ]
-      },
-      "path": "~/Ethans_Mods/netherite dual glaive"
+      }
     },
     {
       "name": "Netheritedualglaiverecipe",
@@ -944,8 +952,7 @@
         "files": [
           "src/main/resources/data/sussy/recipes/netheritedualglaiverecipe.json"
         ]
-      },
-      "path": "~/Ethans_Mods/netherite dual glaive"
+      }
     },
     {
       "name": "Dragondualglaiverecipe",
@@ -958,8 +965,7 @@
         "files": [
           "src/main/resources/data/sussy/recipes/dragondualglaiverecipe.json"
         ]
-      },
-      "path": "~/Ethans_Mods/dragondualglaive"
+      }
     },
     {
       "name": "Dragonstaradvancement",

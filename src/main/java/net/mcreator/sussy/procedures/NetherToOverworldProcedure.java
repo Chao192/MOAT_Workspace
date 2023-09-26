@@ -1,8 +1,6 @@
 package net.mcreator.sussy.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
-
-import javax.annotation.Nullable;
+import net.minecraft.world.entity.Entity;
 
 public class NetherToOverworldProcedure {
 	public static void execute(Entity entity) {
