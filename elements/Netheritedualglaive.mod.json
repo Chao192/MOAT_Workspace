@@ -4,9 +4,9 @@
   "definition": {
     "toolType": "Axe",
     "renderType": 0,
-    "texture": "ethanglaive",
+    "texture": "netherite_dual_glaive",
     "customModelName": "Normal",
-    "name": "Diamond Dual Glaive",
+    "name": "Netheritedualglaive",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:EthansMods"

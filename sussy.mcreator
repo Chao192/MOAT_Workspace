@@ -839,8 +839,8 @@
       "registry_name": "diamond_dual_glaive",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sussy/models/item/diamond_dual_glaive.json",
-          "src/main/java/net/mcreator/sussy/item/DiamondDualGlaiveItem.java"
+          "src/main/java/net/mcreator/sussy/item/DiamondDualGlaiveItem.java",
+          "src/main/resources/assets/sussy/models/item/diamond_dual_glaive.json"
         ]
       },
       "path": "~/Ethans_Mods/Diamond Dual Glaive"
@@ -871,6 +871,64 @@
           "src/main/resources/data/sussy/advancements/are_you_serious.json"
         ]
       }
+    },
+    {
+      "name": "DragonDualGlaive",
+      "type": "tool",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "dragon_dual_glaive",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sussy/models/item/dragon_dual_glaive.json",
+          "src/main/java/net/mcreator/sussy/item/DragonDualGlaiveItem.java"
+        ]
+      },
+      "path": "~/Ethans_Mods/dragondualglaive"
+    },
+    {
+      "name": "Netheritedualglaive",
+      "type": "tool",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "netheritedualglaive",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/item/NetheritedualglaiveItem.java",
+          "src/main/resources/assets/sussy/models/item/netheritedualglaive.json"
+        ]
+      },
+      "path": "~/Ethans_Mods/netherite dual glaive"
+    },
+    {
+      "name": "Netheritedualglaiverecipe",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netheritedualglaiverecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/recipes/netheritedualglaiverecipe.json"
+        ]
+      },
+      "path": "~/Ethans_Mods/netherite dual glaive"
+    },
+    {
+      "name": "Dragondualglaiverecipe",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragondualglaiverecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/recipes/dragondualglaiverecipe.json"
+        ]
+      },
+      "path": "~/Ethans_Mods/dragondualglaive"
     }
   ],
   "variable_elements": [],
@@ -895,12 +953,14 @@
       "item.sussy.dragon_sword": "Dragon Sword",
       "item.sussy.dragon_armor_leggings": "Dragon Leggings",
       "item.sussy.diamond_dual_glaive": "Diamond Dual Glaive",
+      "item.sussy.netheritedualglaive": "Netheritedualglaive",
       "advancements.true_freedom.descr": "Eat a Moon Fruit",
       "item.sussy.copper_armor_armor_chestplate": "CopperArmor Chestplate",
       "item.sussy.emerald_hammer_tool": "Emerald Hammer Tool",
       "item.sussy.emerald_armor_armor_leggings": "Emerald_Armor Leggings",
       "item.sussy.star_fruit": "Star Fruit",
       "item.sussy.copper_tools_pickaxe": "CopperTools Pickaxe",
+      "item.sussy.dragon_dual_glaive": "Dragon Dual Glaive",
       "item.sussy.copper_tools_hoe": "CopperTools Hoe",
       "item.sussy.copper_armor_armor_boots": "CopperArmor Boots",
       "item.sussy.dragon_hoe": "Dragon Hoe",
@@ -933,6 +993,14 @@
           },
           {
             "name": "Diamond Dual Glaive",
+            "children": []
+          },
+          {
+            "name": "dragondualglaive",
+            "children": []
+          },
+          {
+            "name": "netherite dual glaive",
             "children": []
           }
         ]

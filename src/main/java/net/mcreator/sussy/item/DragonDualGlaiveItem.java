@@ -6,32 +6,32 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.AxeItem;
 
-public class DiamondDualGlaiveItem extends AxeItem {
-	public DiamondDualGlaiveItem() {
+public class DragonDualGlaiveItem extends AxeItem {
+	public DragonDualGlaiveItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 1562;
+				return 660;
 			}
 
 			public float getSpeed() {
-				return 4f;
+				return 9f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 10f;
+				return 18f;
 			}
 
 			public int getLevel() {
-				return 1;
+				return 5;
 			}
 
 			public int getEnchantmentValue() {
-				return 10;
+				return 28;
 			}
 
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 1, -3.2f, new Item.Properties());
+		}, 1, -3.3f, new Item.Properties());
 	}
 }

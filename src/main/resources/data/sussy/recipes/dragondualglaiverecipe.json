@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": [],
+  "base": {
+    "item": "sussy:netheritedualglaive"
+  },
+  "addition": {
+    "item": "sussy:dragon_star"
+  },
+  "result": {
+    "item": "sussy:dragon_dual_glaive"
+  }
+}

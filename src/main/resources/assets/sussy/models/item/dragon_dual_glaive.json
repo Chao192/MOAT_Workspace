@@ -1,7 +1,7 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "sussy:item/ethanglaive"
+    "layer0": "sussy:item/dragon_dual_glaive"
   },
     "display": {
         "ground": {

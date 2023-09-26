@@ -6,8 +6,8 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.AxeItem;
 
-public class DiamondDualGlaiveItem extends AxeItem {
-	public DiamondDualGlaiveItem() {
+public class NetheritedualglaiveItem extends AxeItem {
+	public NetheritedualglaiveItem() {
 		super(new Tier() {
 			public int getUses() {
 				return 1562;

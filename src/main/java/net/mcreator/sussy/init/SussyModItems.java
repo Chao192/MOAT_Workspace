@@ -12,6 +12,7 @@ import net.minecraft.world.item.Item;
 
 import net.mcreator.sussy.item.StarFruitItem;
 import net.mcreator.sussy.item.SnowballCannonItem;
+import net.mcreator.sussy.item.NetheritedualglaiveItem;
 import net.mcreator.sussy.item.MoonFruitItem;
 import net.mcreator.sussy.item.GrungoItem;
 import net.mcreator.sussy.item.Emerald_ArmorArmorItem;
@@ -21,6 +22,7 @@ import net.mcreator.sussy.item.DragonStarItem;
 import net.mcreator.sussy.item.DragonShovelItem;
 import net.mcreator.sussy.item.DragonPickaxeItem;
 import net.mcreator.sussy.item.DragonHoeItem;
+import net.mcreator.sussy.item.DragonDualGlaiveItem;
 import net.mcreator.sussy.item.DragonAxeItem;
 import net.mcreator.sussy.item.DragonArmorItem;
 import net.mcreator.sussy.item.DiamondDualGlaiveItem;
@@ -65,4 +67,6 @@ public class SussyModItems {
 	public static final RegistryObject<Item> DRAGON_ARMOR_BOOTS = REGISTRY.register("dragon_armor_boots", () -> new DragonArmorItem.Boots());
 	public static final RegistryObject<Item> EMERALD_HAMMER_TOOL = REGISTRY.register("emerald_hammer_tool", () -> new EmeraldHammerToolItem());
 	public static final RegistryObject<Item> DIAMOND_DUAL_GLAIVE = REGISTRY.register("diamond_dual_glaive", () -> new DiamondDualGlaiveItem());
+	public static final RegistryObject<Item> DRAGON_DUAL_GLAIVE = REGISTRY.register("dragon_dual_glaive", () -> new DragonDualGlaiveItem());
+	public static final RegistryObject<Item> NETHERITEDUALGLAIVE = REGISTRY.register("netheritedualglaive", () -> new NetheritedualglaiveItem());
 }
