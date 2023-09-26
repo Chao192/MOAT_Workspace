@@ -1265,14 +1265,7 @@
       }
     }
   ],
-  "variable_elements": [
-    {
-      "name": "AttributeUse",
-      "type": "logic",
-      "scope": "player_lifetime",
-      "value": "false"
-    }
-  ],
+  "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
