@@ -1,7 +1,7 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "sussy:item/hammm"
+    "layer0": "sussy:item/ethanglaive"
   },
     "display": {
         "ground": {
@@ -16,7 +16,7 @@
         },
         "thirdperson_righthand": {
             "rotation": [ 0, 90, 40 ],
-            "translation": [ 0, 8, 8 ],
+            "translation": [ 0, 8, 0 ],
             "scale": [ 2.0, 2.0, 2.0 ]
         },
         "firstperson_righthand": {

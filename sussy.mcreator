@@ -806,7 +806,7 @@
       "type": "tool",
       "sortid": 61,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "emerald_hammer_tool",
       "metadata": {
         "files": [
@@ -829,6 +829,35 @@
         ]
       },
       "path": "~/Ethans_Mods/Emerald Hammer"
+    },
+    {
+      "name": "DiamondDualGlaive",
+      "type": "tool",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "diamond_dual_glaive",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sussy/models/item/diamond_dual_glaive.json",
+          "src/main/java/net/mcreator/sussy/item/DiamondDualGlaiveItem.java"
+        ]
+      },
+      "path": "~/Ethans_Mods/Diamond Dual Glaive"
+    },
+    {
+      "name": "Diamonddualglaiverecipe",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamonddualglaiverecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/recipes/diamonddualglaiverecipe.json"
+        ]
+      },
+      "path": "~/Ethans_Mods/Diamond Dual Glaive"
     }
   ],
   "variable_elements": [],
@@ -851,6 +880,7 @@
       "item.sussy.copper_armor_armor_helmet": "CopperArmor Helmet",
       "item.sussy.dragon_sword": "Dragon Sword",
       "item.sussy.dragon_armor_leggings": "Dragon Leggings",
+      "item.sussy.diamond_dual_glaive": "Diamond Dual Glaive",
       "advancements.true_freedom.descr": "Eat a Moon Fruit",
       "item.sussy.copper_armor_armor_chestplate": "CopperArmor Chestplate",
       "item.sussy.emerald_hammer_tool": "Emerald Hammer Tool",
@@ -884,6 +914,10 @@
         "children": [
           {
             "name": "Emerald Hammer",
+            "children": []
+          },
+          {
+            "name": "Diamond Dual Glaive",
             "children": []
           }
         ]

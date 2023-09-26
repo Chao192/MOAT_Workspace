@@ -39,6 +39,7 @@ public class SussyModTabs {
 	public static final RegistryObject<CreativeModeTab> ETHANS_MODS = REGISTRY.register("ethans_mods",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.sussy.ethans_mods")).icon(() -> new ItemStack(Blocks.AMETHYST_CLUSTER)).displayItems((parameters, tabData) -> {
 				tabData.accept(SussyModItems.EMERALD_HAMMER_TOOL.get());
+				tabData.accept(SussyModItems.DIAMOND_DUAL_GLAIVE.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

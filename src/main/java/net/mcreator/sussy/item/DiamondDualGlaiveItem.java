@@ -3,22 +3,22 @@ package net.mcreator.sussy.item;
 
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.AxeItem;
 
-public class EmeraldHammerToolItem extends SwordItem {
-	public EmeraldHammerToolItem() {
+public class DiamondDualGlaiveItem extends AxeItem {
+	public DiamondDualGlaiveItem() {
 		super(new Tier() {
 			public int getUses() {
 				return 1562;
 			}
 
 			public float getSpeed() {
-				return 2f;
+				return 4f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 13f;
+				return 10f;
 			}
 
 			public int getLevel() {
@@ -26,12 +26,12 @@ public class EmeraldHammerToolItem extends SwordItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 12;
+				return 2;
 			}
 
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 3, -3.5f, new Item.Properties());
+		}, 1, -3.2f, new Item.Properties());
 	}
 }
