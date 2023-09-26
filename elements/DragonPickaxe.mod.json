@@ -4,7 +4,7 @@
   "definition": {
     "toolType": "Pickaxe",
     "renderType": 0,
-    "texture": "dragon_pickaxe",
+    "texture": "dragonpickaxe",
     "customModelName": "Normal",
     "name": "Dragon Pickaxe",
     "specialInfo": [],

@@ -9,8 +9,8 @@
       "registry_name": "grungo",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/sussy/item/GrungoItem.java",
-          "src/main/resources/assets/sussy/models/item/grungo.json"
+          "src/main/resources/assets/sussy/models/item/grungo.json",
+          "src/main/java/net/mcreator/sussy/item/GrungoItem.java"
         ]
       }
     },
@@ -215,8 +215,8 @@
       "registry_name": "moon_fruit",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sussy/models/item/moon_fruit.json",
-          "src/main/java/net/mcreator/sussy/item/MoonFruitItem.java"
+          "src/main/java/net/mcreator/sussy/item/MoonFruitItem.java",
+          "src/main/resources/assets/sussy/models/item/moon_fruit.json"
         ]
       }
     },
@@ -377,11 +377,11 @@
       "registry_name": "emerald_armor_armor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sussy/models/item/emerald_armor_armor_chestplate.json",
-          "src/main/resources/assets/sussy/models/item/emerald_armor_armor_leggings.json",
-          "src/main/resources/assets/sussy/models/item/emerald_armor_armor_boots.json",
           "src/main/java/net/mcreator/sussy/item/Emerald_ArmorArmorItem.java",
-          "src/main/resources/assets/sussy/models/item/emerald_armor_armor_helmet.json"
+          "src/main/resources/assets/sussy/models/item/emerald_armor_armor_chestplate.json",
+          "src/main/resources/assets/sussy/models/item/emerald_armor_armor_helmet.json",
+          "src/main/resources/assets/sussy/models/item/emerald_armor_armor_boots.json",
+          "src/main/resources/assets/sussy/models/item/emerald_armor_armor_leggings.json"
         ]
       }
     },
@@ -542,8 +542,8 @@
       "registry_name": "dragon_pickaxe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sussy/models/item/dragon_pickaxe.json",
-          "src/main/java/net/mcreator/sussy/item/DragonPickaxeItem.java"
+          "src/main/java/net/mcreator/sussy/item/DragonPickaxeItem.java",
+          "src/main/resources/assets/sussy/models/item/dragon_pickaxe.json"
         ]
       }
     },

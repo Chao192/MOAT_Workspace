@@ -23,7 +23,7 @@ import net.mcreator.sussy.SussyMod;
 public class SussyModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, SussyMod.MODID);
 	public static final RegistryObject<CreativeModeTab> VANILLA_ADDON = REGISTRY.register("vanilla_addon",
-			() -> CreativeModeTab.builder().title(Component.translatable("item_group.sussy.vanilla_addon")).icon(() -> new ItemStack(SussyModItems.STAR_FRUIT.get())).displayItems((parameters, tabData) -> {
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.sussy.vanilla_addon")).icon(() -> new ItemStack(SussyModItems.CRIMSON_AMULET.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(SussyModItems.GRUNGO.get());
 				tabData.accept(SussyModItems.SNOWBALL_CANNON.get());
 				tabData.accept(SussyModItems.STAR_FRUIT.get());
