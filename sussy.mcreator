@@ -82,8 +82,20 @@
         ],
         "dependencies": [
           {
-            "name": "entity",
-            "type": "entity"
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -1132,6 +1144,44 @@
         ]
       },
       "path": "~/Structures"
+    },
+    {
+      "name": "OverWorldToNether",
+      "type": "procedure",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "over_world_to_nether",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/procedures/OverWorldToNetherProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NetherToOverworld",
+      "type": "procedure",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_to_overworld",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/procedures/NetherToOverworldProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
