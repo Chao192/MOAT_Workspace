@@ -257,8 +257,8 @@
       "registry_name": "copper_tools_axe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/sussy/item/CopperToolsAxeItem.java",
-          "src/main/resources/assets/sussy/models/item/copper_tools_axe.json"
+          "src/main/resources/assets/sussy/models/item/copper_tools_axe.json",
+          "src/main/java/net/mcreator/sussy/item/CopperToolsAxeItem.java"
         ]
       },
       "path": "~/CopperTools"
@@ -272,8 +272,8 @@
       "registry_name": "copper_tools_sword",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sussy/models/item/copper_tools_sword.json",
-          "src/main/java/net/mcreator/sussy/item/CopperToolsSwordItem.java"
+          "src/main/java/net/mcreator/sussy/item/CopperToolsSwordItem.java",
+          "src/main/resources/assets/sussy/models/item/copper_tools_sword.json"
         ]
       },
       "path": "~/CopperTools"
@@ -287,8 +287,8 @@
       "registry_name": "copper_tools_shovel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sussy/models/item/copper_tools_shovel.json",
-          "src/main/java/net/mcreator/sussy/item/CopperToolsShovelItem.java"
+          "src/main/java/net/mcreator/sussy/item/CopperToolsShovelItem.java",
+          "src/main/resources/assets/sussy/models/item/copper_tools_shovel.json"
         ]
       },
       "path": "~/CopperTools"
@@ -302,8 +302,8 @@
       "registry_name": "copper_tools_hoe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/sussy/item/CopperToolsHoeItem.java",
-          "src/main/resources/assets/sussy/models/item/copper_tools_hoe.json"
+          "src/main/resources/assets/sussy/models/item/copper_tools_hoe.json",
+          "src/main/java/net/mcreator/sussy/item/CopperToolsHoeItem.java"
         ]
       },
       "path": "~/CopperTools"
@@ -483,11 +483,11 @@
       "registry_name": "copper_armor_armor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sussy/models/item/copper_armor_armor_boots.json",
-          "src/main/resources/assets/sussy/models/item/copper_armor_armor_helmet.json",
           "src/main/java/net/mcreator/sussy/item/CopperArmorArmorItem.java",
-          "src/main/resources/assets/sussy/models/item/copper_armor_armor_leggings.json",
-          "src/main/resources/assets/sussy/models/item/copper_armor_armor_chestplate.json"
+          "src/main/resources/assets/sussy/models/item/copper_armor_armor_helmet.json",
+          "src/main/resources/assets/sussy/models/item/copper_armor_armor_boots.json",
+          "src/main/resources/assets/sussy/models/item/copper_armor_armor_chestplate.json",
+          "src/main/resources/assets/sussy/models/item/copper_armor_armor_leggings.json"
         ]
       },
       "path": "~/CopperTools"
@@ -716,10 +716,10 @@
       "registry_name": "dragon_armor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sussy/models/item/dragon_armor_helmet.json",
-          "src/main/resources/assets/sussy/models/item/dragon_armor_leggings.json",
           "src/main/java/net/mcreator/sussy/item/DragonArmorItem.java",
           "src/main/resources/assets/sussy/models/item/dragon_armor_chestplate.json",
+          "src/main/resources/assets/sussy/models/item/dragon_armor_helmet.json",
+          "src/main/resources/assets/sussy/models/item/dragon_armor_leggings.json",
           "src/main/resources/assets/sussy/models/item/dragon_armor_boots.json"
         ]
       },
@@ -964,6 +964,7 @@
     {
       "name": "DragonStoneIngot",
       "type": "item",
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dragon_stone_ingot",
@@ -999,6 +1000,7 @@
     {
       "name": "DragonStoneBlock",
       "type": "block",
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dragon_stone_block",
@@ -1029,6 +1031,7 @@
     {
       "name": "DragonStoneBlockOreRecipe",
       "type": "recipe",
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dragon_stone_block_ore_recipe",
@@ -1042,6 +1045,7 @@
     {
       "name": "DragonStoneOreSmelting",
       "type": "recipe",
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dragon_stone_ore_smelting",
@@ -1121,6 +1125,7 @@
       "item.sussy.dragon_pickaxe": "Dragon Pickaxe",
       "item.sussy.dragon_armor_boots": "Dragon Boots",
       "item.sussy.dragon_shovel": "Dragon Shovel",
+      "block.sussy.raw_dragon_stone": "Raw Dragon Stone",
       "item.sussy.moon_fruit": "Moon Fruit",
       "item.sussy.emerald_armor_armor_helmet": "Emerald_Armor Helmet",
       "item.sussy.copper_tools_sword": "CopperTools Sword",
@@ -1131,9 +1136,11 @@
       "item.sussy.crimson_amulet": "Crimson Amulet",
       "item.sussy.copper_armor_armor_leggings": "CopperArmor Leggings",
       "item.sussy.dragon_armor_helmet": "Dragon Helmet",
+      "item.sussy.dragon_ingot": "Dragon Ingot",
       "block.sussy.dragon_stone_ore": "DragonStone Ore",
       "item.sussy.copper_armor_armor_helmet": "CopperArmor Helmet",
       "advancements.are_you_serious.descr": "Just Why...",
+      "advancements.dragonstaradvancement.descr": "Is it lean?",
       "item.sussy.dragon_sword": "Dragon Sword",
       "item.sussy.dragon_armor_leggings": "Dragon Leggings",
       "item.sussy.diamond_dual_glaive": "Diamond Dual Glaive",
@@ -1155,6 +1162,7 @@
       "item.sussy.dragon_star": "Dragon Star",
       "advancements.true_freedom.title": "True Freedom",
       "item.sussy.snowball_cannon": "Snowball Cannon",
+      "advancements.dragonstaradvancement.title": "Dragon Star",
       "advancements.reach_for_the_stars.descr": "Eat a Star Fruit",
       "advancements.are_you_serious.title": "Are You Serious",
       "item.sussy.copper_tools_axe": "CopperTools Axe",
