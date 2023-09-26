@@ -55,7 +55,7 @@ public class CrimsonAmuletItem extends Item {
 		double x = entity.getX();
 		double y = entity.getY();
 		double z = entity.getZ();
-		CrimsonAmuletRightclickedProcedure.execute(entity);
+		CrimsonAmuletRightclickedProcedure.execute(world, x, y, z);
 		return ar;
 	}
 
@@ -65,7 +65,7 @@ public class CrimsonAmuletItem extends Item {
 		double x = entity.getX();
 		double y = entity.getY();
 		double z = entity.getZ();
-		CrimsonAmuletRightclickedProcedure.execute(entity);
+		CrimsonAmuletRightclickedProcedure.execute(world, x, y, z);
 		return retval;
 	}
 }

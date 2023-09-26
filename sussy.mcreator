@@ -870,11 +870,11 @@
       "registry_name": "diamond_dual_glaive",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sussy/models/item/diamond_dual_glaive.json",
-          "src/main/java/net/mcreator/sussy/item/DiamondDualGlaiveItem.java"
+          "src/main/java/net/mcreator/sussy/item/DiamondDualGlaiveItem.java",
+          "src/main/resources/assets/sussy/models/item/diamond_dual_glaive.json"
         ]
       },
-      "path": "~/Ethans_Mods/glaive weapon/Diamond Dual Glaive"
+      "path": "~/Ethans_Mods/Diamond Dual Glaive"
     },
     {
       "name": "Diamonddualglaiverecipe",
@@ -888,7 +888,7 @@
           "src/main/resources/data/sussy/recipes/diamonddualglaiverecipe.json"
         ]
       },
-      "path": "~/Ethans_Mods/glaive weapon/Diamond Dual Glaive"
+      "path": "~/Ethans_Mods/Diamond Dual Glaive"
     },
     {
       "name": "AreYouSerious",
@@ -916,7 +916,7 @@
           "src/main/java/net/mcreator/sussy/item/DragonDualGlaiveItem.java"
         ]
       },
-      "path": "~/Ethans_Mods/glaive weapon/dragondualglaive"
+      "path": "~/Ethans_Mods/dragondualglaive"
     },
     {
       "name": "Netheritedualglaive",
@@ -931,7 +931,7 @@
           "src/main/resources/assets/sussy/models/item/netheritedualglaive.json"
         ]
       },
-      "path": "~/Ethans_Mods/glaive weapon/netherite dual glaive"
+      "path": "~/Ethans_Mods/netherite dual glaive"
     },
     {
       "name": "Netheritedualglaiverecipe",
@@ -945,7 +945,7 @@
           "src/main/resources/data/sussy/recipes/netheritedualglaiverecipe.json"
         ]
       },
-      "path": "~/Ethans_Mods/glaive weapon/netherite dual glaive"
+      "path": "~/Ethans_Mods/netherite dual glaive"
     },
     {
       "name": "Dragondualglaiverecipe",
@@ -959,7 +959,7 @@
           "src/main/resources/data/sussy/recipes/dragondualglaiverecipe.json"
         ]
       },
-      "path": "~/Ethans_Mods/glaive weapon/dragondualglaive"
+      "path": "~/Ethans_Mods/dragondualglaive"
     },
     {
       "name": "Dragonstaradvancement",
@@ -1134,35 +1134,6 @@
       "path": "~/Structures"
     },
     {
-      "name": "Claymoreweapontool",
-      "type": "tool",
-      "sortid": 84,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "claymoreweapontool",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/sussy/models/item/claymoreweapontool.json",
-          "src/main/java/net/mcreator/sussy/item/ClaymoreweapontoolItem.java"
-        ]
-      },
-      "path": "~/Ethans_Mods/claymore weapon/diamondclaymore"
-    },
-    {
-      "name": "Diamondclaymorerecipe",
-      "type": "recipe",
-      "sortid": 85,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "diamondclaymorerecipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/sussy/recipes/diamondclaymorerecipe.json"
-        ]
-      },
-      "path": "~/Ethans_Mods/claymore weapon/diamondclaymore"
-    },
-    {
       "name": "Netheriteclaymoretool",
       "type": "tool",
       "sortid": 86,
@@ -1173,20 +1144,6 @@
         "files": [
           "src/main/java/net/mcreator/sussy/item/NetheriteclaymoretoolItem.java",
           "src/main/resources/assets/sussy/models/item/netheriteclaymoretool.json"
-        ]
-      },
-      "path": "~/Ethans_Mods/claymore weapon/netherite claymore"
-    },
-    {
-      "name": "Netheriteclaymorerecipe",
-      "type": "recipe",
-      "sortid": 87,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "netheriteclaymorerecipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/sussy/recipes/netheriteclaymorerecipe.json"
         ]
       },
       "path": "~/Ethans_Mods/claymore weapon/netherite claymore"
@@ -1207,6 +1164,35 @@
       "path": "~/Ethans_Mods/claymore weapon/dragon claymore"
     },
     {
+      "name": "Diamondclaymorerecipe",
+      "type": "recipe",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamondclaymorerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/recipes/diamondclaymorerecipe.json"
+        ]
+      },
+      "path": "~/Ethans_Mods/claymore weapon/diamondclaymore"
+    },
+    {
+      "name": "Claymoreweapontool",
+      "type": "tool",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "claymoreweapontool",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sussy/models/item/claymoreweapontool.json",
+          "src/main/java/net/mcreator/sussy/item/ClaymoreweapontoolItem.java"
+        ]
+      },
+      "path": "~/Ethans_Mods/claymore weapon/diamondclaymore"
+    },
+    {
       "name": "Dragonclaymorerecipe",
       "type": "recipe",
       "sortid": 89,
@@ -1219,6 +1205,58 @@
         ]
       },
       "path": "~/Ethans_Mods/claymore weapon/dragon claymore"
+    },
+    {
+      "name": "Netheriteclaymorerecipe",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netheriteclaymorerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/recipes/netheriteclaymorerecipe.json"
+        ]
+      },
+      "path": "~/Ethans_Mods/claymore weapon/netherite claymore"
+    },
+    {
+      "name": "NetherToOverworld",
+      "type": "procedure",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_to_overworld",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/procedures/NetherToOverworldProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OverWorldToNether",
+      "type": "procedure",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "over_world_to_nether",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/procedures/OverWorldToNetherProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -1238,42 +1276,31 @@
       "item.sussy.dragon_shovel": "Dragon Shovel",
       "block.sussy.raw_dragon_stone": "Raw Dragon Stone",
       "item.sussy.moon_fruit": "Moon Fruit",
+      "item.sussy.emerald_armor_armor_helmet": "Emerald_Armor Helmet",
       "item.sussy.copper_tools_sword": "CopperTools Sword",
+      "item.sussy.copper_tools_shovel": "CopperTools Shovel",
       "item_group.sussy.ethans_mods": "Ethan\u0027s Mods",
       "item.sussy.grungo": "Blaze Bat",
+      "item.sussy.dragon_armor_chestplate": "Dragon Chestplate",
+      "item.sussy.crimson_amulet": "Crimson Amulet",
       "item.sussy.copper_armor_armor_leggings": "CopperArmor Leggings",
+      "item.sussy.dragon_armor_helmet": "Dragon Helmet",
+      "item.sussy.dragon_ingot": "Dragon Ingot",
       "block.sussy.dragon_stone_ore": "DragonStone Ore",
+      "item.sussy.copper_armor_armor_helmet": "CopperArmor Helmet",
       "advancements.are_you_serious.descr": "Just Why...",
+      "advancements.dragonstaradvancement.descr": "Is it lean?",
+      "item.sussy.dragon_sword": "Dragon Sword",
       "item.sussy.dragon_armor_leggings": "Dragon Leggings",
       "item.sussy.diamond_dual_glaive": "Diamond Dual Glaive",
       "item.sussy.netheritedualglaive": "Netheritedualglaive",
+      "advancements.true_freedom.descr": "Eat a Moon Fruit",
+      "item.sussy.copper_armor_armor_chestplate": "CopperArmor Chestplate",
       "item.sussy.emerald_hammer_tool": "Emerald Hammer Tool",
       "item.sussy.emerald_armor_armor_leggings": "Emerald_Armor Leggings",
       "item.sussy.star_fruit": "Star Fruit",
       "item.sussy.copper_tools_pickaxe": "CopperTools Pickaxe",
       "item.sussy.dragon_dual_glaive": "Dragon Dual Glaive",
-      "item.sussy.dragon_star": "Dragon Star",
-      "advancements.true_freedom.title": "True Freedom",
-      "item.sussy.snowball_cannon": "Snowball Cannon",
-      "advancements.dragonstaradvancement.title": "Dragon Star",
-      "advancements.reach_for_the_stars.descr": "Eat a Star Fruit",
-      "item.sussy.copper_tools_axe": "CopperTools Axe",
-      "item.sussy.emerald_armor_armor_chestplate": "Emerald_Armor Chestplate",
-      "item.sussy.dragon_axe": "Dragon Axe",
-      "item.sussy.dragonclaymoretool": "Dragonclaymoretool",
-      "item.sussy.claymoreweapontool": "Claymoreweapontool",
-      "item.sussy.emerald_armor_armor_helmet": "Emerald_Armor Helmet",
-      "item.sussy.copper_tools_shovel": "CopperTools Shovel",
-      "item.sussy.dragon_armor_chestplate": "Dragon Chestplate",
-      "item.sussy.crimson_amulet": "Crimson Amulet",
-      "item.sussy.dragon_armor_helmet": "Dragon Helmet",
-      "item.sussy.netheriteclaymoretool": "Netheriteclaymoretool",
-      "item.sussy.dragon_ingot": "Dragon Ingot",
-      "item.sussy.copper_armor_armor_helmet": "CopperArmor Helmet",
-      "advancements.dragonstaradvancement.descr": "Is it lean?",
-      "item.sussy.dragon_sword": "Dragon Sword",
-      "advancements.true_freedom.descr": "Eat a Moon Fruit",
-      "item.sussy.copper_armor_armor_chestplate": "CopperArmor Chestplate",
       "item.sussy.copper_tools_hoe": "CopperTools Hoe",
       "item.sussy.copper_armor_armor_boots": "CopperArmor Boots",
       "item.sussy.dragon_hoe": "Dragon Hoe",
@@ -1281,7 +1308,15 @@
       "item.sussy.emerald_armor_armor_boots": "Emerald_Armor Boots",
       "item.sussy.dragon_stone_ingot": "DragonStone",
       "advancements.reach_for_the_stars.title": "Reach For The Stars",
-      "advancements.are_you_serious.title": "Are You Serious"
+      "item.sussy.dragon_star": "Dragon Star",
+      "advancements.true_freedom.title": "True Freedom",
+      "item.sussy.snowball_cannon": "Snowball Cannon",
+      "advancements.dragonstaradvancement.title": "Dragon Star",
+      "advancements.reach_for_the_stars.descr": "Eat a Star Fruit",
+      "advancements.are_you_serious.title": "Are You Serious",
+      "item.sussy.copper_tools_axe": "CopperTools Axe",
+      "item.sussy.emerald_armor_armor_chestplate": "Emerald_Armor Chestplate",
+      "item.sussy.dragon_axe": "Dragon Axe"
     }
   },
   "foldersRoot": {
@@ -1306,14 +1341,6 @@
       {
         "name": "Ethans_Mods",
         "children": [
-          {
-            "name": "advancements",
-            "children": []
-          },
-          {
-            "name": "Emerald Hammer",
-            "children": []
-          },
           {
             "name": "glaive weapon",
             "children": [
@@ -1347,6 +1374,14 @@
                 "children": []
               }
             ]
+          },
+          {
+            "name": "advancements",
+            "children": []
+          },
+          {
+            "name": "Emerald Hammer",
+            "children": []
           }
         ]
       }
