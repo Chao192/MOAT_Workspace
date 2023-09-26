@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "sussy:deleted_mod_element"
+    }
+  ],
+  "result": {
+    "item": "sussy:dragon_stone_ingot",
+    "count": 9
+  }
+}

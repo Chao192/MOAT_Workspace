@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "sussy:dragon_stone_ingot"
+    },
+    "1": {
+      "item": "sussy:dragon_stone_ingot"
+    },
+    "2": {
+      "item": "sussy:dragon_stone_ingot"
+    },
+    "3": {
+      "item": "sussy:dragon_stone_ingot"
+    },
+    "4": {
+      "item": "sussy:dragon_stone_ingot"
+    },
+    "5": {
+      "item": "sussy:dragon_stone_ingot"
+    },
+    "6": {
+      "item": "sussy:dragon_stone_ingot"
+    },
+    "7": {
+      "item": "sussy:dragon_stone_ingot"
+    },
+    "8": {
+      "item": "sussy:dragon_stone_ingot"
+    }
+  },
+  "result": {
+    "item": "sussy:deleted_mod_element",
+    "count": 1
+  }
+}
