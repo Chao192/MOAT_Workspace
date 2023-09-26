@@ -9,8 +9,8 @@
       "registry_name": "grungo",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sussy/models/item/grungo.json",
-          "src/main/java/net/mcreator/sussy/item/GrungoItem.java"
+          "src/main/java/net/mcreator/sussy/item/GrungoItem.java",
+          "src/main/resources/assets/sussy/models/item/grungo.json"
         ]
       }
     },
@@ -124,8 +124,8 @@
       "registry_name": "snowball_cannon",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sussy/models/item/snowball_cannon.json",
           "src/main/java/net/mcreator/sussy/entity/SnowballCannonEntity.java",
+          "src/main/resources/assets/sussy/models/item/snowball_cannon.json",
           "src/main/java/net/mcreator/sussy/item/SnowballCannonItem.java"
         ]
       }
@@ -158,8 +158,8 @@
       "registry_name": "star_fruit",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/sussy/item/StarFruitItem.java",
-          "src/main/resources/assets/sussy/models/item/star_fruit.json"
+          "src/main/resources/assets/sussy/models/item/star_fruit.json",
+          "src/main/java/net/mcreator/sussy/item/StarFruitItem.java"
         ]
       }
     },
@@ -389,8 +389,8 @@
         "files": [
           "src/main/java/net/mcreator/sussy/item/Emerald_ArmorArmorItem.java",
           "src/main/resources/assets/sussy/models/item/emerald_armor_armor_chestplate.json",
-          "src/main/resources/assets/sussy/models/item/emerald_armor_armor_helmet.json",
           "src/main/resources/assets/sussy/models/item/emerald_armor_armor_boots.json",
+          "src/main/resources/assets/sussy/models/item/emerald_armor_armor_helmet.json",
           "src/main/resources/assets/sussy/models/item/emerald_armor_armor_leggings.json"
         ]
       }
@@ -478,7 +478,7 @@
       "name": "CopperArmorArmor",
       "type": "armor",
       "sortid": 36,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "copper_armor_armor",
       "metadata": {
@@ -557,8 +557,8 @@
       "registry_name": "dragon_pickaxe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/sussy/item/DragonPickaxeItem.java",
-          "src/main/resources/assets/sussy/models/item/dragon_pickaxe.json"
+          "src/main/resources/assets/sussy/models/item/dragon_pickaxe.json",
+          "src/main/java/net/mcreator/sussy/item/DragonPickaxeItem.java"
         ]
       },
       "path": "~/Dragon Tools"
@@ -572,8 +572,8 @@
       "registry_name": "dragon_axe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/sussy/item/DragonAxeItem.java",
-          "src/main/resources/assets/sussy/models/item/dragon_axe.json"
+          "src/main/resources/assets/sussy/models/item/dragon_axe.json",
+          "src/main/java/net/mcreator/sussy/item/DragonAxeItem.java"
         ]
       },
       "path": "~/Dragon Tools"
@@ -602,8 +602,8 @@
       "registry_name": "dragon_shovel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sussy/models/item/dragon_shovel.json",
-          "src/main/java/net/mcreator/sussy/item/DragonShovelItem.java"
+          "src/main/java/net/mcreator/sussy/item/DragonShovelItem.java",
+          "src/main/resources/assets/sussy/models/item/dragon_shovel.json"
         ]
       },
       "path": "~/Dragon Tools"
@@ -711,7 +711,7 @@
       "name": "DragonArmor",
       "type": "armor",
       "sortid": 52,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "dragon_armor",
       "metadata": {
@@ -979,7 +979,7 @@
       "name": "DragonStoneIngot",
       "type": "item",
       "sortid": 80,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "dragon_stone_ingot",
       "metadata": {
@@ -994,7 +994,7 @@
       "name": "DragonStoneOre",
       "type": "block",
       "sortid": 72,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "dragon_stone_ore",
       "metadata": {
@@ -1057,7 +1057,7 @@
       "name": "DragonStoneBlock",
       "type": "block",
       "sortid": 79,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "dragon_stone_block",
       "metadata": {
@@ -1088,7 +1088,7 @@
       "name": "RawDragonStone",
       "type": "block",
       "sortid": 77,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "raw_dragon_stone",
       "metadata": {
@@ -1105,7 +1105,7 @@
       "name": "DragonIngot",
       "type": "item",
       "sortid": 76,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "dragon_ingot",
       "metadata": {
@@ -1142,6 +1142,7 @@
       "item.sussy.dragon_pickaxe": "Dragon Pickaxe",
       "item.sussy.dragon_armor_boots": "Dragon Boots",
       "item.sussy.dragon_shovel": "Dragon Shovel",
+      "block.sussy.raw_dragon_stone": "Raw Dragon Stone",
       "item.sussy.moon_fruit": "Moon Fruit",
       "item.sussy.emerald_armor_armor_helmet": "Emerald_Armor Helmet",
       "item.sussy.copper_tools_sword": "CopperTools Sword",
@@ -1152,6 +1153,7 @@
       "item.sussy.crimson_amulet": "Crimson Amulet",
       "item.sussy.copper_armor_armor_leggings": "CopperArmor Leggings",
       "item.sussy.dragon_armor_helmet": "Dragon Helmet",
+      "item.sussy.dragon_ingot": "Dragon Ingot",
       "block.sussy.dragon_stone_ore": "DragonStone Ore",
       "item.sussy.copper_armor_armor_helmet": "CopperArmor Helmet",
       "advancements.are_you_serious.descr": "Just Why...",

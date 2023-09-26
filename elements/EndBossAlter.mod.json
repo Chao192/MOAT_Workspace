@@ -13,10 +13,17 @@
     "spawnXOffset": 0,
     "spawnZOffset": 0,
     "spawnWorldTypes": [
-      "Surface"
+      "End"
     ],
     "restrictionBlocks": [],
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "end_highlands"
+      },
+      {
+        "value": "end_midlands"
+      }
+    ],
     "ignoreBlocks": "STRUCTURE_BLOCK"
   }
 }

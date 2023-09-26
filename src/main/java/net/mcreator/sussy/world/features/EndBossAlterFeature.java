@@ -18,7 +18,7 @@ import net.minecraft.core.BlockPos;
 import java.util.Set;
 
 public class EndBossAlterFeature extends Feature<NoneFeatureConfiguration> {
-	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD);
+	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.END);
 	private StructureTemplate template = null;
 
 	public EndBossAlterFeature() {
