@@ -15,6 +15,7 @@ import net.mcreator.sussy.item.SnowballCannonItem;
 import net.mcreator.sussy.item.MoonFruitItem;
 import net.mcreator.sussy.item.GrungoItem;
 import net.mcreator.sussy.item.Emerald_ArmorArmorItem;
+import net.mcreator.sussy.item.EmeraldHammerToolItem;
 import net.mcreator.sussy.item.DragonSwordItem;
 import net.mcreator.sussy.item.DragonStarItem;
 import net.mcreator.sussy.item.DragonShovelItem;
@@ -61,4 +62,5 @@ public class SussyModItems {
 	public static final RegistryObject<Item> DRAGON_ARMOR_CHESTPLATE = REGISTRY.register("dragon_armor_chestplate", () -> new DragonArmorItem.Chestplate());
 	public static final RegistryObject<Item> DRAGON_ARMOR_LEGGINGS = REGISTRY.register("dragon_armor_leggings", () -> new DragonArmorItem.Leggings());
 	public static final RegistryObject<Item> DRAGON_ARMOR_BOOTS = REGISTRY.register("dragon_armor_boots", () -> new DragonArmorItem.Boots());
+	public static final RegistryObject<Item> EMERALD_HAMMER_TOOL = REGISTRY.register("emerald_hammer_tool", () -> new EmeraldHammerToolItem());
 }

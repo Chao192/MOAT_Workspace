@@ -788,6 +788,47 @@
           "src/main/resources/data/sussy/advancements/true_freedom.json"
         ]
       }
+    },
+    {
+      "name": "EthansMods",
+      "type": "tab",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ethans_mods",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Ethans_Mods"
+    },
+    {
+      "name": "EmeraldHammerTool",
+      "type": "tool",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_hammer_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/item/EmeraldHammerToolItem.java",
+          "src/main/resources/assets/sussy/models/item/emerald_hammer_tool.json"
+        ]
+      },
+      "path": "~/Ethans_Mods/Emerald Hammer"
+    },
+    {
+      "name": "EmeraldHammerRecipe",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_hammer_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/recipes/emerald_hammer_recipe.json"
+        ]
+      },
+      "path": "~/Ethans_Mods/Emerald Hammer"
     }
   ],
   "variable_elements": [],
@@ -801,6 +842,7 @@
       "item.sussy.emerald_armor_armor_helmet": "Emerald_Armor Helmet",
       "item.sussy.copper_tools_sword": "CopperTools Sword",
       "item.sussy.copper_tools_shovel": "CopperTools Shovel",
+      "item_group.sussy.ethans_mods": "Ethan\u0027s Mods",
       "item.sussy.grungo": "Blaze Bat",
       "item.sussy.dragon_armor_chestplate": "Dragon Chestplate",
       "item.sussy.crimson_amulet": "Crimson Amulet",
@@ -811,6 +853,7 @@
       "item.sussy.dragon_armor_leggings": "Dragon Leggings",
       "advancements.true_freedom.descr": "Eat a Moon Fruit",
       "item.sussy.copper_armor_armor_chestplate": "CopperArmor Chestplate",
+      "item.sussy.emerald_hammer_tool": "Emerald Hammer Tool",
       "item.sussy.emerald_armor_armor_leggings": "Emerald_Armor Leggings",
       "item.sussy.star_fruit": "Star Fruit",
       "item.sussy.copper_tools_pickaxe": "CopperTools Pickaxe",
@@ -838,7 +881,12 @@
       },
       {
         "name": "Ethans_Mods",
-        "children": []
+        "children": [
+          {
+            "name": "Emerald Hammer",
+            "children": []
+          }
+        ]
       }
     ]
   },

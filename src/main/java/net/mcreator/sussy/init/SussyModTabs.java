@@ -10,6 +10,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTab;
@@ -35,6 +36,10 @@ public class SussyModTabs {
 			})
 
 					.build());
+	public static final RegistryObject<CreativeModeTab> ETHANS_MODS = REGISTRY.register("ethans_mods",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.sussy.ethans_mods")).icon(() -> new ItemStack(Blocks.AMETHYST_CLUSTER)).displayItems((parameters, tabData) -> {
+				tabData.accept(SussyModItems.EMERALD_HAMMER_TOOL.get());
+			}).withSearchBar().build());
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
