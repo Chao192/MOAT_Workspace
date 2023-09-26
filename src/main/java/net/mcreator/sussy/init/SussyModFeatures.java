@@ -12,10 +12,12 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraft.world.level.levelgen.feature.Feature;
 
 import net.mcreator.sussy.world.features.ores.DragonStoneOreFeature;
+import net.mcreator.sussy.world.features.EndBossAlterFeature;
 import net.mcreator.sussy.SussyMod;
 
 @Mod.EventBusSubscriber
 public class SussyModFeatures {
 	public static final DeferredRegister<Feature<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.FEATURES, SussyMod.MODID);
 	public static final RegistryObject<Feature<?>> DRAGON_STONE_ORE = REGISTRY.register("dragon_stone_ore", DragonStoneOreFeature::new);
+	public static final RegistryObject<Feature<?>> END_BOSS_ALTER = REGISTRY.register("end_boss_alter", EndBossAlterFeature::new);
 }

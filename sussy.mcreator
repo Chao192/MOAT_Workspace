@@ -478,7 +478,7 @@
       "name": "CopperArmorArmor",
       "type": "armor",
       "sortid": 36,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "copper_armor_armor",
       "metadata": {
@@ -711,7 +711,7 @@
       "name": "DragonArmor",
       "type": "armor",
       "sortid": 52,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "dragon_armor",
       "metadata": {
@@ -978,7 +978,8 @@
     {
       "name": "DragonStoneIngot",
       "type": "item",
-      "compiles": true,
+      "sortid": 80,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "dragon_stone_ingot",
       "metadata": {
@@ -993,7 +994,7 @@
       "name": "DragonStoneOre",
       "type": "block",
       "sortid": 72,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "dragon_stone_ore",
       "metadata": {
@@ -1013,6 +1014,7 @@
     {
       "name": "DragonStoneBlockOreRecipe",
       "type": "recipe",
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dragon_stone_block_ore_recipe",
@@ -1026,6 +1028,7 @@
     {
       "name": "DragonStoneOreSmelting",
       "type": "recipe",
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dragon_stone_ore_smelting",
@@ -1053,7 +1056,8 @@
     {
       "name": "DragonStoneBlock",
       "type": "block",
-      "compiles": true,
+      "sortid": 79,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "dragon_stone_block",
       "metadata": {
@@ -1084,7 +1088,7 @@
       "name": "RawDragonStone",
       "type": "block",
       "sortid": 77,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "raw_dragon_stone",
       "metadata": {
@@ -1101,7 +1105,7 @@
       "name": "DragonIngot",
       "type": "item",
       "sortid": 76,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "dragon_ingot",
       "metadata": {
@@ -1111,6 +1115,23 @@
         ]
       },
       "path": "~/DragonStone"
+    },
+    {
+      "name": "EndBossAlter",
+      "type": "structure",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_boss_alter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/worldgen/placed_feature/end_boss_alter.json",
+          "src/main/resources/data/sussy/forge/biome_modifier/end_boss_alter_biome_modifier.json",
+          "src/main/resources/data/sussy/worldgen/configured_feature/end_boss_alter.json",
+          "src/main/java/net/mcreator/sussy/world/features/EndBossAlterFeature.java"
+        ]
+      },
+      "path": "~/Structures"
     }
   ],
   "variable_elements": [],

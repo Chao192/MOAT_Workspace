@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "sussy:end_boss_alter",
+  "step": "surface_structures"
+}
