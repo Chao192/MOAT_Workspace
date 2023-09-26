@@ -245,7 +245,8 @@
           "src/main/resources/assets/sussy/models/item/copper_tools_pickaxe.json",
           "src/main/java/net/mcreator/sussy/item/CopperToolsPickaxeItem.java"
         ]
-      }
+      },
+      "path": "~/CopperTools"
     },
     {
       "name": "CopperToolsAxe",
@@ -259,7 +260,8 @@
           "src/main/java/net/mcreator/sussy/item/CopperToolsAxeItem.java",
           "src/main/resources/assets/sussy/models/item/copper_tools_axe.json"
         ]
-      }
+      },
+      "path": "~/CopperTools"
     },
     {
       "name": "CopperToolsSword",
@@ -273,7 +275,8 @@
           "src/main/resources/assets/sussy/models/item/copper_tools_sword.json",
           "src/main/java/net/mcreator/sussy/item/CopperToolsSwordItem.java"
         ]
-      }
+      },
+      "path": "~/CopperTools"
     },
     {
       "name": "CopperToolsShovel",
@@ -287,7 +290,8 @@
           "src/main/resources/assets/sussy/models/item/copper_tools_shovel.json",
           "src/main/java/net/mcreator/sussy/item/CopperToolsShovelItem.java"
         ]
-      }
+      },
+      "path": "~/CopperTools"
     },
     {
       "name": "CopperToolsHoe",
@@ -301,7 +305,8 @@
           "src/main/java/net/mcreator/sussy/item/CopperToolsHoeItem.java",
           "src/main/resources/assets/sussy/models/item/copper_tools_hoe.json"
         ]
-      }
+      },
+      "path": "~/CopperTools"
     },
     {
       "name": "CopperToolsPickaxeRecipe",
@@ -314,7 +319,8 @@
         "files": [
           "src/main/resources/data/sussy/recipes/copper_tools_pickaxe_recipe.json"
         ]
-      }
+      },
+      "path": "~/CopperTools"
     },
     {
       "name": "CopperToolsAxeRecipe",
@@ -327,7 +333,8 @@
         "files": [
           "src/main/resources/data/sussy/recipes/copper_tools_axe_recipe.json"
         ]
-      }
+      },
+      "path": "~/CopperTools"
     },
     {
       "name": "CopperToolsSwordRecipe",
@@ -340,7 +347,8 @@
         "files": [
           "src/main/resources/data/sussy/recipes/copper_tools_sword_recipe.json"
         ]
-      }
+      },
+      "path": "~/CopperTools"
     },
     {
       "name": "CopperToolsShovelRecipe",
@@ -353,7 +361,8 @@
         "files": [
           "src/main/resources/data/sussy/recipes/copper_tools_shovel_recipe.json"
         ]
-      }
+      },
+      "path": "~/CopperTools"
     },
     {
       "name": "CopperToolsHoeRecipe",
@@ -366,7 +375,8 @@
         "files": [
           "src/main/resources/data/sussy/recipes/copper_tools_hoe_recipe.json"
         ]
-      }
+      },
+      "path": "~/CopperTools"
     },
     {
       "name": "Emerald_ArmorArmor",
@@ -479,7 +489,8 @@
           "src/main/resources/assets/sussy/models/item/copper_armor_armor_leggings.json",
           "src/main/resources/assets/sussy/models/item/copper_armor_armor_chestplate.json"
         ]
-      }
+      },
+      "path": "~/CopperTools"
     },
     {
       "name": "CopperArmorArmorHelmetRecipe",
@@ -492,7 +503,8 @@
         "files": [
           "src/main/resources/data/sussy/recipes/copper_armor_armor_helmet_recipe.json"
         ]
-      }
+      },
+      "path": "~/CopperTools"
     },
     {
       "name": "CopperArmorArmorChestplateRecipe",
@@ -505,7 +517,8 @@
         "files": [
           "src/main/resources/data/sussy/recipes/copper_armor_armor_chestplate_recipe.json"
         ]
-      }
+      },
+      "path": "~/CopperTools"
     },
     {
       "name": "CopperArmorArmorLeggingsRecipe",
@@ -518,7 +531,8 @@
         "files": [
           "src/main/resources/data/sussy/recipes/copper_armor_armor_leggings_recipe.json"
         ]
-      }
+      },
+      "path": "~/CopperTools"
     },
     {
       "name": "CopperArmorArmorBootsRecipe",
@@ -531,7 +545,8 @@
         "files": [
           "src/main/resources/data/sussy/recipes/copper_armor_armor_boots_recipe.json"
         ]
-      }
+      },
+      "path": "~/CopperTools"
     },
     {
       "name": "DragonPickaxe",
@@ -545,7 +560,8 @@
           "src/main/java/net/mcreator/sussy/item/DragonPickaxeItem.java",
           "src/main/resources/assets/sussy/models/item/dragon_pickaxe.json"
         ]
-      }
+      },
+      "path": "~/Dragon Tools"
     },
     {
       "name": "DragonAxe",
@@ -559,7 +575,8 @@
           "src/main/java/net/mcreator/sussy/item/DragonAxeItem.java",
           "src/main/resources/assets/sussy/models/item/dragon_axe.json"
         ]
-      }
+      },
+      "path": "~/Dragon Tools"
     },
     {
       "name": "DragonSword",
@@ -573,7 +590,8 @@
           "src/main/java/net/mcreator/sussy/item/DragonSwordItem.java",
           "src/main/resources/assets/sussy/models/item/dragon_sword.json"
         ]
-      }
+      },
+      "path": "~/Dragon Tools"
     },
     {
       "name": "DragonShovel",
@@ -587,7 +605,8 @@
           "src/main/resources/assets/sussy/models/item/dragon_shovel.json",
           "src/main/java/net/mcreator/sussy/item/DragonShovelItem.java"
         ]
-      }
+      },
+      "path": "~/Dragon Tools"
     },
     {
       "name": "DragonHoe",
@@ -601,7 +620,8 @@
           "src/main/java/net/mcreator/sussy/item/DragonHoeItem.java",
           "src/main/resources/assets/sussy/models/item/dragon_hoe.json"
         ]
-      }
+      },
+      "path": "~/Dragon Tools"
     },
     {
       "name": "DragonPickaxeRecipe",
@@ -614,7 +634,8 @@
         "files": [
           "src/main/resources/data/sussy/recipes/dragon_pickaxe_recipe.json"
         ]
-      }
+      },
+      "path": "~/Dragon Tools"
     },
     {
       "name": "DragonAxeRecipe",
@@ -627,7 +648,8 @@
         "files": [
           "src/main/resources/data/sussy/recipes/dragon_axe_recipe.json"
         ]
-      }
+      },
+      "path": "~/Dragon Tools"
     },
     {
       "name": "DragonSwordRecipe",
@@ -640,7 +662,8 @@
         "files": [
           "src/main/resources/data/sussy/recipes/dragon_sword_recipe.json"
         ]
-      }
+      },
+      "path": "~/Dragon Tools"
     },
     {
       "name": "DragonShovelRecipe",
@@ -653,7 +676,8 @@
         "files": [
           "src/main/resources/data/sussy/recipes/dragon_shovel_recipe.json"
         ]
-      }
+      },
+      "path": "~/Dragon Tools"
     },
     {
       "name": "DragonHoeRecipe",
@@ -666,7 +690,8 @@
         "files": [
           "src/main/resources/data/sussy/recipes/dragon_hoe_recipe.json"
         ]
-      }
+      },
+      "path": "~/Dragon Tools"
     },
     {
       "name": "DragonStarRecipe",
@@ -679,7 +704,8 @@
         "files": [
           "src/main/resources/data/sussy/recipes/dragon_star_recipe.json"
         ]
-      }
+      },
+      "path": "~/Dragon Tools"
     },
     {
       "name": "DragonArmor",
@@ -696,7 +722,8 @@
           "src/main/resources/assets/sussy/models/item/dragon_armor_chestplate.json",
           "src/main/resources/assets/sussy/models/item/dragon_armor_boots.json"
         ]
-      }
+      },
+      "path": "~/Dragon Tools"
     },
     {
       "name": "DragonArmorHelmetRecipe",
@@ -709,7 +736,8 @@
         "files": [
           "src/main/resources/data/sussy/recipes/dragon_armor_helmet_recipe.json"
         ]
-      }
+      },
+      "path": "~/Dragon Tools"
     },
     {
       "name": "DragonArmorChestplateRecipe",
@@ -722,7 +750,8 @@
         "files": [
           "src/main/resources/data/sussy/recipes/dragon_armor_chestplate_recipe.json"
         ]
-      }
+      },
+      "path": "~/Dragon Tools"
     },
     {
       "name": "DragonArmorLeggingsRecipe",
@@ -735,7 +764,8 @@
         "files": [
           "src/main/resources/data/sussy/recipes/dragon_armor_leggings_recipe.json"
         ]
-      }
+      },
+      "path": "~/Dragon Tools"
     },
     {
       "name": "DragonArmorBootsRecipe",
@@ -748,7 +778,8 @@
         "files": [
           "src/main/resources/data/sussy/recipes/dragon_armor_boots_recipe.json"
         ]
-      }
+      },
+      "path": "~/Dragon Tools"
     },
     {
       "name": "Addon",
@@ -1004,6 +1035,10 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "Dragon Tools",
+        "children": []
       }
     ]
   },
