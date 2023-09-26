@@ -835,6 +835,10 @@
       {
         "name": "CopperTools",
         "children": []
+      },
+      {
+        "name": "Ethans_Mods",
+        "children": []
       }
     ]
   },
