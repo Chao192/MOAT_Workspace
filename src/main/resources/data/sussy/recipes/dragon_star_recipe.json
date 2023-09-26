@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " 1 ",
+    " 4 ",
+    "678"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:dragon_breath"
+    },
+    "4": {
+      "item": "minecraft:nether_star"
+    },
+    "6": {
+      "item": "minecraft:end_crystal"
+    },
+    "7": {
+      "item": "minecraft:netherite_upgrade_smithing_template"
+    },
+    "8": {
+      "item": "minecraft:end_crystal"
+    }
+  },
+  "result": {
+    "item": "sussy:dragon_star",
+    "count": 1
+  }
+}

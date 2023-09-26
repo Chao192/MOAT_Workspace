@@ -1,0 +1,860 @@
+{
+  "mod_elements": [
+    {
+      "name": "Grungo",
+      "type": "tool",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grungo",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/item/GrungoItem.java",
+          "src/main/resources/assets/sussy/models/item/grungo.json"
+        ]
+      }
+    },
+    {
+      "name": "GrungoRightclicked",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grungo_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/procedures/GrungoRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GrungoLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grungo_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/procedures/GrungoLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GrungoRecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grungo_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/recipes/grungo_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CrimsonAmuletRightclicked",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_amulet_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/procedures/CrimsonAmuletRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CrimsonAmulet",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_amulet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sussy/models/item/crimson_amulet.json",
+          "src/main/java/net/mcreator/sussy/item/CrimsonAmuletItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CrimsonAmuletRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_amulet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/recipes/crimson_amulet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SnowballCannon",
+      "type": "rangeditem",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snowball_cannon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sussy/models/item/snowball_cannon.json",
+          "src/main/java/net/mcreator/sussy/entity/SnowballCannonEntity.java",
+          "src/main/java/net/mcreator/sussy/item/SnowballCannonItem.java"
+        ]
+      }
+    },
+    {
+      "name": "StarFruitPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_fruit_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/procedures/StarFruitPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StarFruit",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_fruit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/item/StarFruitItem.java",
+          "src/main/resources/assets/sussy/models/item/star_fruit.json"
+        ]
+      }
+    },
+    {
+      "name": "VanillaAddon",
+      "type": "tab",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vanilla_addon",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "MoonFruitPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_fruit_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/procedures/MoonFruitPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StarFruitRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_fruit_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/recipes/star_fruit_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MoonFruit",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_fruit",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sussy/models/item/moon_fruit.json",
+          "src/main/java/net/mcreator/sussy/item/MoonFruitItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MoonFruitRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_fruit_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/recipes/moon_fruit_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperToolsPickaxe",
+      "type": "tool",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_tools_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sussy/models/item/copper_tools_pickaxe.json",
+          "src/main/java/net/mcreator/sussy/item/CopperToolsPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CopperToolsAxe",
+      "type": "tool",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_tools_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/item/CopperToolsAxeItem.java",
+          "src/main/resources/assets/sussy/models/item/copper_tools_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperToolsSword",
+      "type": "tool",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_tools_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sussy/models/item/copper_tools_sword.json",
+          "src/main/java/net/mcreator/sussy/item/CopperToolsSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CopperToolsShovel",
+      "type": "tool",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_tools_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sussy/models/item/copper_tools_shovel.json",
+          "src/main/java/net/mcreator/sussy/item/CopperToolsShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CopperToolsHoe",
+      "type": "tool",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_tools_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/item/CopperToolsHoeItem.java",
+          "src/main/resources/assets/sussy/models/item/copper_tools_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperToolsPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_tools_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/recipes/copper_tools_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperToolsAxeRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_tools_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/recipes/copper_tools_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperToolsSwordRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_tools_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/recipes/copper_tools_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperToolsShovelRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_tools_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/recipes/copper_tools_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperToolsHoeRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_tools_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/recipes/copper_tools_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Emerald_ArmorArmor",
+      "type": "armor",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_armor_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sussy/models/item/emerald_armor_armor_chestplate.json",
+          "src/main/resources/assets/sussy/models/item/emerald_armor_armor_leggings.json",
+          "src/main/resources/assets/sussy/models/item/emerald_armor_armor_boots.json",
+          "src/main/java/net/mcreator/sussy/item/Emerald_ArmorArmorItem.java",
+          "src/main/resources/assets/sussy/models/item/emerald_armor_armor_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "Emerald_ArmorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_armor_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/recipes/emerald_armor_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Emerald_ArmorArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_armor_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/recipes/emerald_armor_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Emerald_ArmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_armor_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/recipes/emerald_armor_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Emerald_ArmorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_armor_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/recipes/emerald_armor_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DragonStar",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_star",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sussy/models/item/dragon_star.json",
+          "src/main/java/net/mcreator/sussy/item/DragonStarItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ReachForTheStars",
+      "type": "achievement",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reach_for_the_stars",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/advancements/reach_for_the_stars.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperArmorArmor",
+      "type": "armor",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_armor_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sussy/models/item/copper_armor_armor_boots.json",
+          "src/main/resources/assets/sussy/models/item/copper_armor_armor_helmet.json",
+          "src/main/java/net/mcreator/sussy/item/CopperArmorArmorItem.java",
+          "src/main/resources/assets/sussy/models/item/copper_armor_armor_leggings.json",
+          "src/main/resources/assets/sussy/models/item/copper_armor_armor_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperArmorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_armor_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/recipes/copper_armor_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperArmorArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_armor_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/recipes/copper_armor_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperArmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_armor_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/recipes/copper_armor_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperArmorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_armor_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/recipes/copper_armor_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DragonPickaxe",
+      "type": "tool",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sussy/models/item/dragon_pickaxe.json",
+          "src/main/java/net/mcreator/sussy/item/DragonPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DragonAxe",
+      "type": "tool",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/item/DragonAxeItem.java",
+          "src/main/resources/assets/sussy/models/item/dragon_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "DragonSword",
+      "type": "tool",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/item/DragonSwordItem.java",
+          "src/main/resources/assets/sussy/models/item/dragon_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "DragonShovel",
+      "type": "tool",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sussy/models/item/dragon_shovel.json",
+          "src/main/java/net/mcreator/sussy/item/DragonShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DragonHoe",
+      "type": "tool",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/item/DragonHoeItem.java",
+          "src/main/resources/assets/sussy/models/item/dragon_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "DragonPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/recipes/dragon_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DragonAxeRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/recipes/dragon_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DragonSwordRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/recipes/dragon_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DragonShovelRecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/recipes/dragon_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DragonHoeRecipe",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/recipes/dragon_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DragonStarRecipe",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_star_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/recipes/dragon_star_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DragonArmor",
+      "type": "armor",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sussy/models/item/dragon_armor_helmet.json",
+          "src/main/resources/assets/sussy/models/item/dragon_armor_leggings.json",
+          "src/main/java/net/mcreator/sussy/item/DragonArmorItem.java",
+          "src/main/resources/assets/sussy/models/item/dragon_armor_chestplate.json",
+          "src/main/resources/assets/sussy/models/item/dragon_armor_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "DragonArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/recipes/dragon_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DragonArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/recipes/dragon_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DragonArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/recipes/dragon_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DragonArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/recipes/dragon_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Addon",
+      "type": "loottable",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "addon",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/loot_tables/chests/addon.json"
+        ]
+      }
+    },
+    {
+      "name": "SnowBallCannonRecipe",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snow_ball_cannon_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/recipes/snow_ball_cannon_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TrueFreedom",
+      "type": "achievement",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "true_freedom",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/advancements/true_freedom.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.sussy.dragon_pickaxe": "Dragon Pickaxe",
+      "item.sussy.dragon_armor_boots": "Dragon Boots",
+      "item.sussy.dragon_shovel": "Dragon Shovel",
+      "item.sussy.moon_fruit": "Moon Fruit",
+      "item.sussy.emerald_armor_armor_helmet": "Emerald_Armor Helmet",
+      "item.sussy.copper_tools_sword": "CopperTools Sword",
+      "item.sussy.copper_tools_shovel": "CopperTools Shovel",
+      "item.sussy.grungo": "Blaze Bat",
+      "item.sussy.dragon_armor_chestplate": "Dragon Chestplate",
+      "item.sussy.crimson_amulet": "Crimson Amulet",
+      "item.sussy.copper_armor_armor_leggings": "CopperArmor Leggings",
+      "item.sussy.dragon_armor_helmet": "Dragon Helmet",
+      "item.sussy.copper_armor_armor_helmet": "CopperArmor Helmet",
+      "item.sussy.dragon_sword": "Dragon Sword",
+      "item.sussy.dragon_armor_leggings": "Dragon Leggings",
+      "advancements.true_freedom.descr": "Eat a Moon Fruit",
+      "item.sussy.copper_armor_armor_chestplate": "CopperArmor Chestplate",
+      "item.sussy.emerald_armor_armor_leggings": "Emerald_Armor Leggings",
+      "item.sussy.star_fruit": "Star Fruit",
+      "item.sussy.copper_tools_pickaxe": "CopperTools Pickaxe",
+      "item.sussy.copper_tools_hoe": "CopperTools Hoe",
+      "item.sussy.copper_armor_armor_boots": "CopperArmor Boots",
+      "item.sussy.dragon_hoe": "Dragon Hoe",
+      "item_group.sussy.vanilla_addon": "Carsoa\u0027s Extra Content",
+      "item.sussy.emerald_armor_armor_boots": "Emerald_Armor Boots",
+      "advancements.reach_for_the_stars.title": "Reach For The Stars",
+      "item.sussy.dragon_star": "Dragon Star",
+      "advancements.true_freedom.title": "True Freedom",
+      "item.sussy.snowball_cannon": "Snowball Cannon",
+      "advancements.reach_for_the_stars.descr": "Eat a Star Fruit",
+      "item.sussy.copper_tools_axe": "CopperTools Axe",
+      "item.sussy.emerald_armor_armor_chestplate": "Emerald_Armor Chestplate",
+      "item.sussy.dragon_axe": "Dragon Axe"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "CopperTools",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "sussy",
+    "modName": "Sussy",
+    "version": "1.0.0",
+    "author": "bands, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.sussy",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}

@@ -1,0 +1,39 @@
+{
+  "_fv": 47,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "snowballgun",
+    "customModelName": "Normal",
+    "name": "Snowball Cannon",
+    "specialInfo": [
+      "Uses Snowballs"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:VanillaAddon"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "Items.SNOWBALL"
+    },
+    "shootConstantly": true,
+    "usageCount": 100,
+    "actionSound": {
+      "value": "entity.snowman.shoot"
+    },
+    "hasGlow": false,
+    "animation": "none",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 2.0,
+    "bulletDamage": 2.5,
+    "bulletKnockback": 1,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "Items.SNOWBALL"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

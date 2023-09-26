@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "sussy:moon_fruit"
+    },
+    "title": {
+      "translate": "advancements.true_freedom.title"
+    },
+    "description": {
+      "translate": "advancements.true_freedom.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "true_freedom": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "sussy:moon_fruit"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "sussy:reach_for_the_stars"
+}

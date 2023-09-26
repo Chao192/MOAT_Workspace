@@ -1,0 +1,37 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Axe",
+    "renderType": 0,
+    "texture": "batter",
+    "customModelName": "Normal",
+    "name": "Blaze Bat",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:VanillaAddon"
+    },
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 8.0,
+    "usageCount": 4250,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Items.NETHER_STAR"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "GrungoRightclicked"
+    },
+    "onEntityHitWith": {
+      "name": "GrungoLivingEntityIsHitWithTool"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "sussy:item/emerald_armor_boots"
+  }
+}

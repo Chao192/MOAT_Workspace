@@ -1,0 +1,30 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "sussy:star_fruit"
+    },
+    "title": {
+      "translate": "advancements.reach_for_the_stars.title"
+    },
+    "description": {
+      "translate": "advancements.reach_for_the_stars.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "reach_for_the_stars": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "sussy:star_fruit"
+          ]
+        }
+      }
+    }
+  }
+}

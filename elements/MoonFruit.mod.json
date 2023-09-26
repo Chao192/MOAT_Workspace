@@ -1,0 +1,50 @@
+{
+  "_fv": 47,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "moonfruit",
+    "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
+    "name": "Moon Fruit",
+    "rarity": "EPIC",
+    "creativeTab": {
+      "value": "CUSTOM:VanillaAddon"
+    },
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 32,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "TO THE MOON!!!",
+      "Grants Creative Flight"
+    ],
+    "hasGlow": true,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onFinishUsingItem": {
+      "name": "MoonFruitPlayerFinishesUsingItem"
+    },
+    "isFood": true,
+    "nutritionalValue": 255,
+    "saturation": 255.0,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": true,
+    "animation": "eat"
+  }
+}
