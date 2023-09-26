@@ -11,7 +11,7 @@ import net.minecraft.resources.ResourceKey;
 import java.util.Set;
 
 public class DragonStoneOreFeature extends OreFeature {
-	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD);
+	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.END);
 
 	public DragonStoneOreFeature() {
 		super(OreConfiguration.CODEC);

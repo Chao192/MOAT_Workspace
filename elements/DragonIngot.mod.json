@@ -3,12 +3,12 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "dragon_gem",
+    "texture": "dragonstone_ingot",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "DragonStone",
-    "rarity": "COMMON",
+    "name": "Dragon Ingot",
+    "rarity": "RARE",
     "creativeTab": {
       "value": "CUSTOM:VanillaAddon"
     },
@@ -26,7 +26,9 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [],
+    "specialInfo": [
+      "Holds The Souls Of Dragons"
+    ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,

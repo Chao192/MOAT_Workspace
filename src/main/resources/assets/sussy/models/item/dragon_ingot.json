@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "sussy:item/dragon_gem"
+    "layer0": "sussy:item/dragonstone_ingot"
   }
 }

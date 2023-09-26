@@ -2,20 +2,20 @@
   "_fv": 47,
   "_type": "block",
   "definition": {
-    "texture": "dragonstone_ore",
+    "texture": "rawdragonstone",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 11,
-    "customModelName": "Single texture",
+    "renderType": 10,
+    "customModelName": "Normal",
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
-    "particleTexture": "dragonstone_ore",
+    "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": false,
@@ -33,10 +33,10 @@
         "subtract": false
       }
     ],
-    "name": "DragonStone Ore",
+    "name": "Raw Dragon Stone",
     "specialInfo": [],
-    "hardness": 6.0,
-    "resistance": 8.705505632961241,
+    "hardness": 1.0,
+    "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -44,7 +44,7 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "CUSTOM:DragonStoneIngot"
+      "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -117,19 +117,13 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [
-      "End"
-    ],
+    "spawnWorldTypes": [],
     "restrictionBiomes": [],
-    "blocksToReplace": [
-      {
-        "value": "Blocks.END_STONE"
-      }
-    ],
+    "blocksToReplace": [],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 3,
-    "frequencyOnChunk": 6,
-    "minGenerateHeight": -50,
-    "maxGenerateHeight": 128
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
   }
 }

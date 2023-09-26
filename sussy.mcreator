@@ -964,6 +964,7 @@
     {
       "name": "DragonStoneIngot",
       "type": "item",
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dragon_stone_ingot",
@@ -978,6 +979,7 @@
     {
       "name": "DragonStoneOre",
       "type": "block",
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dragon_stone_ore",
@@ -998,6 +1000,7 @@
     {
       "name": "DragonStoneBlock",
       "type": "block",
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dragon_stone_block",
@@ -1014,6 +1017,7 @@
     {
       "name": "DragonStoneOreBlockRecipe",
       "type": "recipe",
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dragon_stone_ore_block_recipe",
@@ -1027,6 +1031,7 @@
     {
       "name": "DragonStoneBlockOreRecipe",
       "type": "recipe",
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dragon_stone_block_ore_recipe",
@@ -1040,12 +1045,59 @@
     {
       "name": "DragonStoneOreSmelting",
       "type": "recipe",
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dragon_stone_ore_smelting",
       "metadata": {
         "files": [
           "src/main/resources/data/sussy/recipes/dragon_stone_ore_smelting.json"
+        ]
+      },
+      "path": "~/DragonStone"
+    },
+    {
+      "name": "DragonIngot",
+      "type": "item",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/item/DragonIngotItem.java",
+          "src/main/resources/assets/sussy/models/item/dragon_ingot.json"
+        ]
+      },
+      "path": "~/DragonStone"
+    },
+    {
+      "name": "RawDragonStone",
+      "type": "block",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_dragon_stone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/block/RawDragonStoneBlock.java",
+          "src/main/resources/assets/sussy/models/item/raw_dragon_stone.json",
+          "src/main/resources/assets/sussy/blockstates/raw_dragon_stone.json",
+          "src/main/resources/assets/sussy/models/block/raw_dragon_stone.json"
+        ]
+      },
+      "path": "~/DragonStone"
+    },
+    {
+      "name": "DragonIngotBlock",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_ingot_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/recipes/dragon_ingot_block.json"
         ]
       },
       "path": "~/DragonStone"
@@ -1059,6 +1111,7 @@
       "item.sussy.dragon_pickaxe": "Dragon Pickaxe",
       "item.sussy.dragon_armor_boots": "Dragon Boots",
       "item.sussy.dragon_shovel": "Dragon Shovel",
+      "block.sussy.raw_dragon_stone": "Raw Dragon Stone",
       "item.sussy.moon_fruit": "Moon Fruit",
       "item.sussy.emerald_armor_armor_helmet": "Emerald_Armor Helmet",
       "item.sussy.copper_tools_sword": "CopperTools Sword",
@@ -1069,6 +1122,7 @@
       "item.sussy.crimson_amulet": "Crimson Amulet",
       "item.sussy.copper_armor_armor_leggings": "CopperArmor Leggings",
       "item.sussy.dragon_armor_helmet": "Dragon Helmet",
+      "item.sussy.dragon_ingot": "Dragon Ingot",
       "block.sussy.dragon_stone_ore": "DragonStone Ore",
       "item.sussy.copper_armor_armor_helmet": "CopperArmor Helmet",
       "advancements.are_you_serious.descr": "Just Why...",

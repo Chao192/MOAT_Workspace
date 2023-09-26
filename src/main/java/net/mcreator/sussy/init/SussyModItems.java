@@ -24,6 +24,7 @@ import net.mcreator.sussy.item.DragonStoneIngotItem;
 import net.mcreator.sussy.item.DragonStarItem;
 import net.mcreator.sussy.item.DragonShovelItem;
 import net.mcreator.sussy.item.DragonPickaxeItem;
+import net.mcreator.sussy.item.DragonIngotItem;
 import net.mcreator.sussy.item.DragonHoeItem;
 import net.mcreator.sussy.item.DragonDualGlaiveItem;
 import net.mcreator.sussy.item.DragonAxeItem;
@@ -75,6 +76,8 @@ public class SussyModItems {
 	public static final RegistryObject<Item> DRAGON_STONE_BLOCK = block(SussyModBlocks.DRAGON_STONE_BLOCK);
 	public static final RegistryObject<Item> DRAGON_STONE_ORE = block(SussyModBlocks.DRAGON_STONE_ORE);
 	public static final RegistryObject<Item> DRAGON_STONE_INGOT = REGISTRY.register("dragon_stone_ingot", () -> new DragonStoneIngotItem());
+	public static final RegistryObject<Item> DRAGON_INGOT = REGISTRY.register("dragon_ingot", () -> new DragonIngotItem());
+	public static final RegistryObject<Item> RAW_DRAGON_STONE = block(SussyModBlocks.RAW_DRAGON_STONE);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

@@ -36,6 +36,8 @@ public class SussyModTabs {
 				tabData.accept(SussyModBlocks.DRAGON_STONE_BLOCK.get().asItem());
 				tabData.accept(SussyModBlocks.DRAGON_STONE_ORE.get().asItem());
 				tabData.accept(SussyModItems.DRAGON_STONE_INGOT.get());
+				tabData.accept(SussyModItems.DRAGON_INGOT.get());
+				tabData.accept(SussyModBlocks.RAW_DRAGON_STONE.get().asItem());
 			})
 
 					.build());
