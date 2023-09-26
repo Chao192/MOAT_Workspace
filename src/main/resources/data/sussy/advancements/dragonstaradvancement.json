@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "sussy:dragon_star"
+    },
+    "title": {
+      "translate": "advancements.dragonstaradvancement.title"
+    },
+    "description": {
+      "translate": "advancements.dragonstaradvancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "dragonstaradvancement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sussy:dragon_star"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "minecraft:end/kill_dragon"
+}

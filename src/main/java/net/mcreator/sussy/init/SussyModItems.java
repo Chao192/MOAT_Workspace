@@ -73,11 +73,11 @@ public class SussyModItems {
 	public static final RegistryObject<Item> DIAMOND_DUAL_GLAIVE = REGISTRY.register("diamond_dual_glaive", () -> new DiamondDualGlaiveItem());
 	public static final RegistryObject<Item> DRAGON_DUAL_GLAIVE = REGISTRY.register("dragon_dual_glaive", () -> new DragonDualGlaiveItem());
 	public static final RegistryObject<Item> NETHERITEDUALGLAIVE = REGISTRY.register("netheritedualglaive", () -> new NetheritedualglaiveItem());
-	public static final RegistryObject<Item> DRAGON_STONE_BLOCK = block(SussyModBlocks.DRAGON_STONE_BLOCK);
 	public static final RegistryObject<Item> DRAGON_STONE_ORE = block(SussyModBlocks.DRAGON_STONE_ORE);
-	public static final RegistryObject<Item> DRAGON_STONE_INGOT = REGISTRY.register("dragon_stone_ingot", () -> new DragonStoneIngotItem());
 	public static final RegistryObject<Item> DRAGON_INGOT = REGISTRY.register("dragon_ingot", () -> new DragonIngotItem());
 	public static final RegistryObject<Item> RAW_DRAGON_STONE = block(SussyModBlocks.RAW_DRAGON_STONE);
+	public static final RegistryObject<Item> DRAGON_STONE_BLOCK = block(SussyModBlocks.DRAGON_STONE_BLOCK);
+	public static final RegistryObject<Item> DRAGON_STONE_INGOT = REGISTRY.register("dragon_stone_ingot", () -> new DragonStoneIngotItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

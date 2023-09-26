@@ -33,11 +33,11 @@ public class SussyModTabs {
 				tabData.accept(SussyModItems.COPPER_TOOLS_SHOVEL.get());
 				tabData.accept(SussyModItems.COPPER_TOOLS_HOE.get());
 				tabData.accept(SussyModItems.DRAGON_STAR.get());
-				tabData.accept(SussyModBlocks.DRAGON_STONE_BLOCK.get().asItem());
 				tabData.accept(SussyModBlocks.DRAGON_STONE_ORE.get().asItem());
-				tabData.accept(SussyModItems.DRAGON_STONE_INGOT.get());
 				tabData.accept(SussyModItems.DRAGON_INGOT.get());
 				tabData.accept(SussyModBlocks.RAW_DRAGON_STONE.get().asItem());
+				tabData.accept(SussyModBlocks.DRAGON_STONE_BLOCK.get().asItem());
+				tabData.accept(SussyModItems.DRAGON_STONE_INGOT.get());
 			})
 
 					.build());

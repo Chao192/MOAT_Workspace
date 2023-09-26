@@ -17,7 +17,7 @@ import net.mcreator.sussy.SussyMod;
 
 public class SussyModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, SussyMod.MODID);
-	public static final RegistryObject<Block> DRAGON_STONE_BLOCK = REGISTRY.register("dragon_stone_block", () -> new DragonStoneBlockBlock());
 	public static final RegistryObject<Block> DRAGON_STONE_ORE = REGISTRY.register("dragon_stone_ore", () -> new DragonStoneOreBlock());
 	public static final RegistryObject<Block> RAW_DRAGON_STONE = REGISTRY.register("raw_dragon_stone", () -> new RawDragonStoneBlock());
+	public static final RegistryObject<Block> DRAGON_STONE_BLOCK = REGISTRY.register("dragon_stone_block", () -> new DragonStoneBlockBlock());
 }
