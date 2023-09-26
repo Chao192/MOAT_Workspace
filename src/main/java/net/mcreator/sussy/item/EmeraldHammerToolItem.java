@@ -32,6 +32,6 @@ public class EmeraldHammerToolItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 3, -3.1f, new Item.Properties());
+		}, 3, -3.3f, new Item.Properties());
 	}
 }
