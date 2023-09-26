@@ -960,6 +960,20 @@
         ]
       },
       "path": "~/Ethans_Mods/dragondualglaive"
+    },
+    {
+      "name": "Dragonstaradvancement",
+      "type": "achievement",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragonstaradvancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/advancements/dragonstaradvancement.json"
+        ]
+      },
+      "path": "~/Ethans_Mods/advancements"
     }
   ],
   "variable_elements": [],
@@ -981,6 +995,7 @@
       "item.sussy.dragon_armor_helmet": "Dragon Helmet",
       "item.sussy.copper_armor_armor_helmet": "CopperArmor Helmet",
       "advancements.are_you_serious.descr": "Just Why...",
+      "advancements.dragonstaradvancement.descr": "Is it lean?",
       "item.sussy.dragon_sword": "Dragon Sword",
       "item.sussy.dragon_armor_leggings": "Dragon Leggings",
       "item.sussy.diamond_dual_glaive": "Diamond Dual Glaive",
@@ -1001,6 +1016,7 @@
       "item.sussy.dragon_star": "Dragon Star",
       "advancements.true_freedom.title": "True Freedom",
       "item.sussy.snowball_cannon": "Snowball Cannon",
+      "advancements.dragonstaradvancement.title": "Dragon Star",
       "advancements.reach_for_the_stars.descr": "Eat a Star Fruit",
       "advancements.are_you_serious.title": "Are You Serious",
       "item.sussy.copper_tools_axe": "CopperTools Axe",
@@ -1033,11 +1049,19 @@
           {
             "name": "netherite dual glaive",
             "children": []
+          },
+          {
+            "name": "advancements",
+            "children": []
           }
         ]
       },
       {
         "name": "Dragon Tools",
+        "children": []
+      },
+      {
+        "name": "Structures",
         "children": []
       }
     ]
