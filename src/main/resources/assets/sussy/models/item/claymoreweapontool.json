@@ -1,7 +1,7 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "sussy:item/ethanglaive"
+    "layer0": "sussy:item/diamond_claymore"
   },
     "display": {
         "ground": {
@@ -16,18 +16,18 @@
         },
         "thirdperson_righthand": {
             "rotation": [ 0, 90, 40 ],
-            "translation": [ 0, 5, 0 ],
-            "scale": [ 2.0, 2.0, 2.0 ]
+            "translation": [ 0, 22, 0 ],
+            "scale": [ 3.0, 3.0, 3.0 ]
         },
         "firstperson_righthand": {
             "rotation": [ 0, 90, 40 ],
-            "translation": [ 0, 5,0 ],
-            "scale": [ 2.0, 2.0, 2.0 ]
+            "translation": [ 0, 22,0 ],
+            "scale": [ 3.0, 3.0, 3.0 ]
         },
         "firstperson_lefthand": {
             "rotation": [ 0, 90, 40 ],
-            "translation": [ 0, 5, 0 ],
-            "scale": [ 2.0, 2.0, 2.0 ]
+            "translation": [ 0, 22, 0 ],
+            "scale": [ 3.0, 3.0, 3.0 ]
         }
     }
-} 
+}

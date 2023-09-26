@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": [],
+  "base": {
+    "item": "sussy:netheriteclaymoretool"
+  },
+  "addition": {
+    "item": "sussy:dragon_star"
+  },
+  "result": {
+    "item": "sussy:dragonclaymoretool"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "texture": "netherite_claymore",
+    "customModelName": "Normal",
+    "name": "Netheriteclaymoretool",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:EthansMods"
+    },
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 0.6,
+    "enchantability": 15,
+    "damageVsEntity": 15.0,
+    "usageCount": 2031,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

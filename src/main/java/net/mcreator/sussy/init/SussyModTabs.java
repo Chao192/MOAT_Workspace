@@ -47,6 +47,9 @@ public class SussyModTabs {
 				tabData.accept(SussyModItems.DIAMOND_DUAL_GLAIVE.get());
 				tabData.accept(SussyModItems.DRAGON_DUAL_GLAIVE.get());
 				tabData.accept(SussyModItems.NETHERITEDUALGLAIVE.get());
+				tabData.accept(SussyModItems.CLAYMOREWEAPONTOOL.get());
+				tabData.accept(SussyModItems.NETHERITECLAYMORETOOL.get());
+				tabData.accept(SussyModItems.DRAGONCLAYMORETOOL.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

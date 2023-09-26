@@ -1,0 +1,27 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "texture": "diamond_claymore",
+    "customModelName": "Normal",
+    "name": "Claymoreweapontool",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:EthansMods"
+    },
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 0.6,
+    "enchantability": 2,
+    "damageVsEntity": 15.0,
+    "usageCount": 1562,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}
