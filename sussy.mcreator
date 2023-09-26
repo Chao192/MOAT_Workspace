@@ -858,6 +858,19 @@
         ]
       },
       "path": "~/Ethans_Mods/Diamond Dual Glaive"
+    },
+    {
+      "name": "AreYouSerious",
+      "type": "achievement",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "are_you_serious",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/advancements/are_you_serious.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -878,6 +891,7 @@
       "item.sussy.copper_armor_armor_leggings": "CopperArmor Leggings",
       "item.sussy.dragon_armor_helmet": "Dragon Helmet",
       "item.sussy.copper_armor_armor_helmet": "CopperArmor Helmet",
+      "advancements.are_you_serious.descr": "Just Why...",
       "item.sussy.dragon_sword": "Dragon Sword",
       "item.sussy.dragon_armor_leggings": "Dragon Leggings",
       "item.sussy.diamond_dual_glaive": "Diamond Dual Glaive",
@@ -897,6 +911,7 @@
       "advancements.true_freedom.title": "True Freedom",
       "item.sussy.snowball_cannon": "Snowball Cannon",
       "advancements.reach_for_the_stars.descr": "Eat a Star Fruit",
+      "advancements.are_you_serious.title": "Are You Serious",
       "item.sussy.copper_tools_axe": "CopperTools Axe",
       "item.sussy.emerald_armor_armor_chestplate": "Emerald_Armor Chestplate",
       "item.sussy.dragon_axe": "Dragon Axe"

@@ -1,14 +1,13 @@
 {
   "display": {
-    "background": "minecraft:textures/block/stone.png",
     "icon": {
-      "item": "sussy:star_fruit"
+      "item": "sussy:dragon_hoe"
     },
     "title": {
-      "translate": "advancements.reach_for_the_stars.title"
+      "translate": "advancements.are_you_serious.title"
     },
     "description": {
-      "translate": "advancements.reach_for_the_stars.descr"
+      "translate": "advancements.are_you_serious.descr"
     },
     "frame": "challenge",
     "show_toast": true,
@@ -16,13 +15,13 @@
     "hidden": false
   },
   "criteria": {
-    "reach_for_the_stars": {
+    "are_you_serious": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "sussy:star_fruit"
+              "sussy:dragon_hoe"
             ],
             "count": {
               "min": 1,
@@ -32,5 +31,6 @@
         ]
       }
     }
-  }
+  },
+  "parent": "sussy:reach_for_the_stars"
 }
