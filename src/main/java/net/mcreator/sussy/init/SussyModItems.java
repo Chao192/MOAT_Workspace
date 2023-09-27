@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.sussy.item.UniversalRespawnAnchorItem;
 import net.mcreator.sussy.item.StarFruitItem;
 import net.mcreator.sussy.item.SnowballCannonItem;
 import net.mcreator.sussy.item.NetheritedualglaiveItem;
@@ -88,6 +89,7 @@ public class SussyModItems {
 	public static final RegistryObject<Item> DRAGONCLAYMORETOOL = REGISTRY.register("dragonclaymoretool", () -> new DragonclaymoretoolItem());
 	public static final RegistryObject<Item> BUTTER = REGISTRY.register("butter", () -> new ButterItem());
 	public static final RegistryObject<Item> HOLOGRAM = REGISTRY.register("hologram", () -> new HologramItem());
+	public static final RegistryObject<Item> UNIVERSAL_RESPAWN_ANCHOR = REGISTRY.register("universal_respawn_anchor", () -> new UniversalRespawnAnchorItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

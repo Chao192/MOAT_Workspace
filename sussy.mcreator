@@ -1365,6 +1365,53 @@
         ]
       },
       "path": "~/music discs"
+    },
+    {
+      "name": "TestRightclicked",
+      "type": "procedure",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/procedures/TestRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      },
+      "path": "~/CarsonsMods"
+    },
+    {
+      "name": "UniversalRespawnAnchor",
+      "type": "item",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "universal_respawn_anchor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/item/UniversalRespawnAnchorItem.java",
+          "src/main/resources/assets/sussy/models/item/universal_respawn_anchor.json"
+        ]
+      },
+      "path": "~/CarsonsMods"
     }
   ],
   "variable_elements": [],
@@ -1381,14 +1428,15 @@
   "language_map": {
     "en_us": {
       "block.sussy.dragon_stone_block": "Block of DragonStone",
+      "item.sussy.universal_respawn_anchor": "Test",
       "item.sussy.dragon_pickaxe": "Dragon Pickaxe",
       "item.sussy.dragon_armor_boots": "Dragon Boots",
       "block.sussy.raw_dragon_stone": "Raw Dragon Stone",
       "item.sussy.dragon_shovel": "Dragon Shovel",
       "item.sussy.hologram": "Hologram",
       "item.sussy.moon_fruit": "Moon Fruit",
-      "item_group.sussy.ethans_mods": "Ethan\u0027s Mods",
       "item.sussy.copper_tools_sword": "CopperTools Sword",
+      "item_group.sussy.ethans_mods": "Ethan\u0027s Mods",
       "item.sussy.grungo": "Blaze Bat",
       "subtitles.hologramaudio": "",
       "item.sussy.copper_armor_armor_leggings": "CopperArmor Leggings",
