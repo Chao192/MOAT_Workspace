@@ -4,7 +4,7 @@ import net.minecraftforge.items.ItemHandlerHelper;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.eventbus.api.Event;
-import net.minecraftforge.event.entity.living.LivingEntityUseItemEvent;
+import net.minecraftforge.event.entity.living.LivingHurtEvent;
 
 import net.minecraft.world.item.enchantment.EnchantmentHelper;
 import net.minecraft.world.item.ItemStack;
@@ -21,25 +21,25 @@ import javax.annotation.Nullable;
 @Mod.EventBusSubscriber
 public class ButterFingerEnchantProcedure {
 	@SubscribeEvent
-	public static void onUseItemStart(LivingEntityUseItemEvent.Start event) {
+	public static void onEntityAttacked(LivingHurtEvent event) {
 		if (event != null && event.getEntity() != null) {
-			execute(event, event.getEntity(), event.getItem());
+			execute(event, event.getEntity());
 		}
 	}
 
-	public static void execute(Entity entity, ItemStack itemstack) {
-		execute(null, entity, itemstack);
+	public static void execute(Entity entity) {
+		execute(null, entity);
 	}
 
-	private static void execute(@Nullable Event event, Entity entity, ItemStack itemstack) {
+	private static void execute(@Nullable Event event, Entity entity) {
 		if (entity == null)
 			return;
 		double grumb = 0;
+		grumb = Math.random() * 100;
 		if (EnchantmentHelper.getItemEnchantmentLevel(SussyModEnchantments.BUTTER_FINGERS.get(), (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) != 0) {
-			grumb = Math.random() * 100;
-			if (grumb == 1) {
+			if (grumb <= 100) {
 				if (entity instanceof Player _player) {
-					ItemStack _setstack = itemstack;
+					ItemStack _setstack = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY);
 					_setstack.setCount(1);
 					ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
 				}
