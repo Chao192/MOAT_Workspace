@@ -885,8 +885,7 @@
           "src/main/java/net/mcreator/sussy/item/DiamondDualGlaiveItem.java",
           "src/main/resources/assets/sussy/models/item/diamond_dual_glaive.json"
         ]
-      },
-      "path": "~/Ethans_Mods/glaive weapon/Diamond Dual Glaive"
+      }
     },
     {
       "name": "Diamonddualglaiverecipe",
@@ -899,8 +898,7 @@
         "files": [
           "src/main/resources/data/sussy/recipes/diamonddualglaiverecipe.json"
         ]
-      },
-      "path": "~/Ethans_Mods/glaive weapon/Diamond Dual Glaive"
+      }
     },
     {
       "name": "AreYouSerious",
@@ -927,8 +925,7 @@
           "src/main/resources/assets/sussy/models/item/dragon_dual_glaive.json",
           "src/main/java/net/mcreator/sussy/item/DragonDualGlaiveItem.java"
         ]
-      },
-      "path": "~/Ethans_Mods/glaive weapon/dragondualglaive"
+      }
     },
     {
       "name": "Netheritedualglaive",
@@ -942,8 +939,7 @@
           "src/main/java/net/mcreator/sussy/item/NetheritedualglaiveItem.java",
           "src/main/resources/assets/sussy/models/item/netheritedualglaive.json"
         ]
-      },
-      "path": "~/Ethans_Mods/glaive weapon/netherite dual glaive"
+      }
     },
     {
       "name": "Netheritedualglaiverecipe",
@@ -956,8 +952,7 @@
         "files": [
           "src/main/resources/data/sussy/recipes/netheritedualglaiverecipe.json"
         ]
-      },
-      "path": "~/Ethans_Mods/glaive weapon/netherite dual glaive"
+      }
     },
     {
       "name": "Dragondualglaiverecipe",
@@ -970,8 +965,7 @@
         "files": [
           "src/main/resources/data/sussy/recipes/dragondualglaiverecipe.json"
         ]
-      },
-      "path": "~/Ethans_Mods/glaive weapon/dragondualglaive"
+      }
     },
     {
       "name": "Dragonstaradvancement",
@@ -1315,6 +1309,56 @@
         ]
       },
       "path": "~/Ethans_Mods/enchantments"
+    },
+    {
+      "name": "Butter",
+      "type": "item",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "butter",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sussy/models/item/butter.json",
+          "src/main/java/net/mcreator/sussy/item/ButterItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ButterFingerEnchant",
+      "type": "procedure",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "butter_finger_enchant",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/procedures/ButterFingerEnchantProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ButterFingers",
+      "type": "enchantment",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "butter_fingers",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/enchantment/ButterFingersEnchantment.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1367,8 +1411,7 @@
       "item.sussy.emerald_armor_armor_boots": "Emerald_Armor Boots",
       "item.sussy.dragon_stone_ingot": "DragonStone",
       "advancements.reach_for_the_stars.title": "Reach For The Stars",
-      "advancements.are_you_serious.title": "Are You Serious",
-      "enchantment.sussy.critical_strike": "Critical Strike"
+      "advancements.are_you_serious.title": "Are You Serious"
     }
   },
   "foldersRoot": {
@@ -1397,7 +1440,7 @@
             "name": "glaive weapon",
             "children": [
               {
-                "name": "dragondualglaive",
+                "name": "Diamond Dual Glaive",
                 "children": []
               },
               {
@@ -1405,7 +1448,7 @@
                 "children": []
               },
               {
-                "name": "Diamond Dual Glaive",
+                "name": "dragondualglaive",
                 "children": []
               }
             ]
@@ -1414,15 +1457,15 @@
             "name": "claymore weapon",
             "children": [
               {
+                "name": "dragon claymore",
+                "children": []
+              },
+              {
                 "name": "diamondclaymore",
                 "children": []
               },
               {
                 "name": "netherite claymore",
-                "children": []
-              },
-              {
-                "name": "dragon claymore",
                 "children": []
               }
             ]
