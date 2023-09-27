@@ -12,7 +12,8 @@
           "src/main/java/net/mcreator/sussy/item/GrungoItem.java",
           "src/main/resources/assets/sussy/models/item/grungo.json"
         ]
-      }
+      },
+      "path": "~/CarsonsMods"
     },
     {
       "name": "GrungoRightclicked",
@@ -35,7 +36,8 @@
             "type": "itemstack"
           }
         ]
-      }
+      },
+      "path": "~/CarsonsMods"
     },
     {
       "name": "GrungoLivingEntityIsHitWithTool",
@@ -54,7 +56,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/CarsonsMods"
     },
     {
       "name": "GrungoRecipe",
@@ -67,7 +70,8 @@
         "files": [
           "src/main/resources/data/sussy/recipes/grungo_recipe.json"
         ]
-      }
+      },
+      "path": "~/CarsonsMods"
     },
     {
       "name": "CrimsonAmuletRightclicked",
@@ -98,7 +102,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/CarsonsMods"
     },
     {
       "name": "CrimsonAmulet",
@@ -112,7 +117,8 @@
           "src/main/resources/assets/sussy/models/item/crimson_amulet.json",
           "src/main/java/net/mcreator/sussy/item/CrimsonAmuletItem.java"
         ]
-      }
+      },
+      "path": "~/CarsonsMods"
     },
     {
       "name": "CrimsonAmuletRecipe",
@@ -125,7 +131,8 @@
         "files": [
           "src/main/resources/data/sussy/recipes/crimson_amulet_recipe.json"
         ]
-      }
+      },
+      "path": "~/CarsonsMods"
     },
     {
       "name": "SnowballCannon",
@@ -140,7 +147,8 @@
           "src/main/resources/assets/sussy/models/item/snowball_cannon.json",
           "src/main/java/net/mcreator/sussy/item/SnowballCannonItem.java"
         ]
-      }
+      },
+      "path": "~/CarsonsMods"
     },
     {
       "name": "StarFruitPlayerFinishesUsingItem",
@@ -159,7 +167,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/CarsonsMods"
     },
     {
       "name": "StarFruit",
@@ -173,7 +182,8 @@
           "src/main/resources/assets/sussy/models/item/star_fruit.json",
           "src/main/java/net/mcreator/sussy/item/StarFruitItem.java"
         ]
-      }
+      },
+      "path": "~/CarsonsMods"
     },
     {
       "name": "VanillaAddon",
@@ -184,7 +194,8 @@
       "registry_name": "vanilla_addon",
       "metadata": {
         "files": []
-      }
+      },
+      "path": "~/CarsonsMods"
     },
     {
       "name": "MoonFruitPlayerFinishesUsingItem",
@@ -203,7 +214,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/CarsonsMods"
     },
     {
       "name": "StarFruitRecipe",
@@ -216,7 +228,8 @@
         "files": [
           "src/main/resources/data/sussy/recipes/star_fruit_recipe.json"
         ]
-      }
+      },
+      "path": "~/CarsonsMods"
     },
     {
       "name": "MoonFruit",
@@ -230,7 +243,8 @@
           "src/main/java/net/mcreator/sussy/item/MoonFruitItem.java",
           "src/main/resources/assets/sussy/models/item/moon_fruit.json"
         ]
-      }
+      },
+      "path": "~/CarsonsMods"
     },
     {
       "name": "MoonFruitRecipe",
@@ -243,7 +257,8 @@
         "files": [
           "src/main/resources/data/sussy/recipes/moon_fruit_recipe.json"
         ]
-      }
+      },
+      "path": "~/CarsonsMods"
     },
     {
       "name": "CopperToolsPickaxe",
@@ -405,7 +420,8 @@
           "src/main/resources/assets/sussy/models/item/emerald_armor_armor_helmet.json",
           "src/main/resources/assets/sussy/models/item/emerald_armor_armor_leggings.json"
         ]
-      }
+      },
+      "path": "~/CarsonsMods"
     },
     {
       "name": "Emerald_ArmorArmorHelmetRecipe",
@@ -418,7 +434,8 @@
         "files": [
           "src/main/resources/data/sussy/recipes/emerald_armor_armor_helmet_recipe.json"
         ]
-      }
+      },
+      "path": "~/CarsonsMods"
     },
     {
       "name": "Emerald_ArmorArmorChestplateRecipe",
@@ -431,7 +448,8 @@
         "files": [
           "src/main/resources/data/sussy/recipes/emerald_armor_armor_chestplate_recipe.json"
         ]
-      }
+      },
+      "path": "~/CarsonsMods"
     },
     {
       "name": "Emerald_ArmorArmorLeggingsRecipe",
@@ -444,7 +462,8 @@
         "files": [
           "src/main/resources/data/sussy/recipes/emerald_armor_armor_leggings_recipe.json"
         ]
-      }
+      },
+      "path": "~/CarsonsMods"
     },
     {
       "name": "Emerald_ArmorArmorBootsRecipe",
@@ -457,7 +476,8 @@
         "files": [
           "src/main/resources/data/sussy/recipes/emerald_armor_armor_boots_recipe.json"
         ]
-      }
+      },
+      "path": "~/CarsonsMods"
     },
     {
       "name": "DragonStar",
@@ -471,7 +491,8 @@
           "src/main/resources/assets/sussy/models/item/dragon_star.json",
           "src/main/java/net/mcreator/sussy/item/DragonStarItem.java"
         ]
-      }
+      },
+      "path": "~/CarsonsMods"
     },
     {
       "name": "ReachForTheStars",
@@ -484,7 +505,8 @@
         "files": [
           "src/main/resources/data/sussy/advancements/reach_for_the_stars.json"
         ]
-      }
+      },
+      "path": "~/CarsonsMods"
     },
     {
       "name": "CopperArmorArmor",
@@ -804,7 +826,8 @@
         "files": [
           "src/main/resources/data/sussy/loot_tables/chests/addon.json"
         ]
-      }
+      },
+      "path": "~/CarsonsMods"
     },
     {
       "name": "SnowBallCannonRecipe",
@@ -817,7 +840,8 @@
         "files": [
           "src/main/resources/data/sussy/recipes/snow_ball_cannon_recipe.json"
         ]
-      }
+      },
+      "path": "~/CarsonsMods"
     },
     {
       "name": "TrueFreedom",
@@ -830,7 +854,8 @@
         "files": [
           "src/main/resources/data/sussy/advancements/true_freedom.json"
         ]
-      }
+      },
+      "path": "~/CarsonsMods"
     },
     {
       "name": "EthansMods",
@@ -911,7 +936,8 @@
         "files": [
           "src/main/resources/data/sussy/advancements/are_you_serious.json"
         ]
-      }
+      },
+      "path": "~/CarsonsMods"
     },
     {
       "name": "DragonDualGlaive",
@@ -1227,44 +1253,6 @@
       "path": "~/Ethans_Mods/claymore weapon/netherite claymore"
     },
     {
-      "name": "NetherToOverworld",
-      "type": "procedure",
-      "sortid": 85,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "nether_to_overworld",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/sussy/procedures/NetherToOverworldProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "OverWorldToNether",
-      "type": "procedure",
-      "sortid": 84,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "over_world_to_nether",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/sussy/procedures/OverWorldToNetherProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
       "name": "CriticalStrike",
       "type": "enchantment",
       "sortid": 90,
@@ -1322,7 +1310,8 @@
           "src/main/resources/assets/sussy/models/item/butter.json",
           "src/main/java/net/mcreator/sussy/item/ButterItem.java"
         ]
-      }
+      },
+      "path": "~/CarsonsMods"
     },
     {
       "name": "ButterFingerEnchant",
@@ -1345,7 +1334,8 @@
             "type": "itemstack"
           }
         ]
-      }
+      },
+      "path": "~/CarsonsMods"
     },
     {
       "name": "ButterFingers",
@@ -1358,7 +1348,8 @@
         "files": [
           "src/main/java/net/mcreator/sussy/enchantment/ButterFingersEnchantment.java"
         ]
-      }
+      },
+      "path": "~/CarsonsMods"
     },
     {
       "name": "Hologram",
@@ -1396,8 +1387,8 @@
       "item.sussy.dragon_shovel": "Dragon Shovel",
       "item.sussy.hologram": "Hologram",
       "item.sussy.moon_fruit": "Moon Fruit",
-      "item_group.sussy.ethans_mods": "Ethan\u0027s Mods",
       "item.sussy.copper_tools_sword": "CopperTools Sword",
+      "item_group.sussy.ethans_mods": "Ethan\u0027s Mods",
       "item.sussy.grungo": "Blaze Bat",
       "subtitles.hologramaudio": "",
       "item.sussy.copper_armor_armor_leggings": "CopperArmor Leggings",
@@ -1516,6 +1507,10 @@
       },
       {
         "name": "music discs",
+        "children": []
+      },
+      {
+        "name": "CarsonsMods",
         "children": []
       }
     ]
