@@ -17,7 +17,6 @@ import net.mcreator.sussy.item.SnowballCannonItem;
 import net.mcreator.sussy.item.NetheritedualglaiveItem;
 import net.mcreator.sussy.item.NetheriteclaymoretoolItem;
 import net.mcreator.sussy.item.MoonFruitItem;
-import net.mcreator.sussy.item.HologramItem;
 import net.mcreator.sussy.item.GrungoItem;
 import net.mcreator.sussy.item.Emerald_ArmorArmorItem;
 import net.mcreator.sussy.item.EmeraldHammerToolItem;
@@ -87,7 +86,6 @@ public class SussyModItems {
 	public static final RegistryObject<Item> NETHERITECLAYMORETOOL = REGISTRY.register("netheriteclaymoretool", () -> new NetheriteclaymoretoolItem());
 	public static final RegistryObject<Item> DRAGONCLAYMORETOOL = REGISTRY.register("dragonclaymoretool", () -> new DragonclaymoretoolItem());
 	public static final RegistryObject<Item> BUTTER = REGISTRY.register("butter", () -> new ButterItem());
-	public static final RegistryObject<Item> HOLOGRAM = REGISTRY.register("hologram", () -> new HologramItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

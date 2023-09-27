@@ -30,7 +30,6 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.sussy.init.SussyModTabs;
-import net.mcreator.sussy.init.SussyModSounds;
 import net.mcreator.sussy.init.SussyModItems;
 import net.mcreator.sussy.init.SussyModFeatures;
 import net.mcreator.sussy.init.SussyModEntities;
@@ -54,7 +53,7 @@ public class SussyMod {
 	public SussyMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-		SussyModSounds.REGISTRY.register(bus);
+
 		SussyModBlocks.REGISTRY.register(bus);
 
 		SussyModItems.REGISTRY.register(bus);
