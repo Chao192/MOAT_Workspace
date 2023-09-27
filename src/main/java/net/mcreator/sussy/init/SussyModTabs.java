@@ -51,6 +51,7 @@ public class SussyModTabs {
 				tabData.accept(SussyModItems.CLAYMOREWEAPONTOOL.get());
 				tabData.accept(SussyModItems.NETHERITECLAYMORETOOL.get());
 				tabData.accept(SussyModItems.DRAGONCLAYMORETOOL.get());
+				tabData.accept(SussyModItems.HOLOGRAM.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

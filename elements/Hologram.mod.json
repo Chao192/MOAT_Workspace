@@ -1,0 +1,19 @@
+{
+  "_fv": 47,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Hologram",
+    "texture": "hologram_disc",
+    "description": "Hologram",
+    "creativeTab": {
+      "value": "CUSTOM:EthansMods"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:hologramaudio"
+    },
+    "lengthInTicks": 820,
+    "analogOutput": 0
+  }
+}

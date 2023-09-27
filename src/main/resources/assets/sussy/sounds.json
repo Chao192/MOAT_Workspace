@@ -1,0 +1,10 @@
+{
+  "hologramaudio": {
+    "sounds": [
+      {
+        "name": "sussy:hologram_audio",
+        "stream": true
+      }
+    ]
+  }
+}
