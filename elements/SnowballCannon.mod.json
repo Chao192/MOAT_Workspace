@@ -3,7 +3,7 @@
   "_type": "rangeditem",
   "definition": {
     "renderType": 0,
-    "texture": "snowballgun",
+    "texture": "snowballcannon",
     "customModelName": "Normal",
     "name": "Snowball Cannon",
     "specialInfo": [
@@ -22,7 +22,7 @@
       "value": "entity.snowman.shoot"
     },
     "hasGlow": false,
-    "animation": "none",
+    "animation": "bow",
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "bulletPower": 2.0,

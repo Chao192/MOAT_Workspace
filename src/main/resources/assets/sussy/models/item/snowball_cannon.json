@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "sussy:item/snowballgun"
+    "layer0": "sussy:item/snowballcannon"
   },
   "display": {
     "thirdperson_righthand": {
