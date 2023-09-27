@@ -33,6 +33,7 @@ import net.mcreator.sussy.init.SussyModTabs;
 import net.mcreator.sussy.init.SussyModItems;
 import net.mcreator.sussy.init.SussyModFeatures;
 import net.mcreator.sussy.init.SussyModEntities;
+import net.mcreator.sussy.init.SussyModEnchantments;
 import net.mcreator.sussy.init.SussyModBlocks;
 
 import java.util.function.Supplier;
@@ -57,7 +58,7 @@ public class SussyMod {
 
 		SussyModItems.REGISTRY.register(bus);
 		SussyModEntities.REGISTRY.register(bus);
-
+		SussyModEnchantments.REGISTRY.register(bus);
 		SussyModTabs.REGISTRY.register(bus);
 		SussyModFeatures.REGISTRY.register(bus);
 

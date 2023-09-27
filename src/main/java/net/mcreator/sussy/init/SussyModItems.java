@@ -40,6 +40,7 @@ import net.mcreator.sussy.item.CopperToolsHoeItem;
 import net.mcreator.sussy.item.CopperToolsAxeItem;
 import net.mcreator.sussy.item.CopperArmorArmorItem;
 import net.mcreator.sussy.item.ClaymoreweapontoolItem;
+import net.mcreator.sussy.item.ButterItem;
 import net.mcreator.sussy.SussyMod;
 
 public class SussyModItems {
@@ -84,6 +85,7 @@ public class SussyModItems {
 	public static final RegistryObject<Item> CLAYMOREWEAPONTOOL = REGISTRY.register("claymoreweapontool", () -> new ClaymoreweapontoolItem());
 	public static final RegistryObject<Item> NETHERITECLAYMORETOOL = REGISTRY.register("netheriteclaymoretool", () -> new NetheriteclaymoretoolItem());
 	public static final RegistryObject<Item> DRAGONCLAYMORETOOL = REGISTRY.register("dragonclaymoretool", () -> new DragonclaymoretoolItem());
+	public static final RegistryObject<Item> BUTTER = REGISTRY.register("butter", () -> new ButterItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
