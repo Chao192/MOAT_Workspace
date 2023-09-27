@@ -273,7 +273,7 @@
           "src/main/java/net/mcreator/sussy/item/CopperToolsPickaxeItem.java"
         ]
       },
-      "path": "~/CopperTools"
+      "path": "~/CarsonsMods/CopperTools"
     },
     {
       "name": "CopperToolsAxe",
@@ -288,7 +288,7 @@
           "src/main/resources/assets/sussy/models/item/copper_tools_axe.json"
         ]
       },
-      "path": "~/CopperTools"
+      "path": "~/CarsonsMods/CopperTools"
     },
     {
       "name": "CopperToolsSword",
@@ -303,7 +303,7 @@
           "src/main/java/net/mcreator/sussy/item/CopperToolsSwordItem.java"
         ]
       },
-      "path": "~/CopperTools"
+      "path": "~/CarsonsMods/CopperTools"
     },
     {
       "name": "CopperToolsShovel",
@@ -318,7 +318,7 @@
           "src/main/java/net/mcreator/sussy/item/CopperToolsShovelItem.java"
         ]
       },
-      "path": "~/CopperTools"
+      "path": "~/CarsonsMods/CopperTools"
     },
     {
       "name": "CopperToolsHoe",
@@ -333,7 +333,7 @@
           "src/main/resources/assets/sussy/models/item/copper_tools_hoe.json"
         ]
       },
-      "path": "~/CopperTools"
+      "path": "~/CarsonsMods/CopperTools"
     },
     {
       "name": "CopperToolsPickaxeRecipe",
@@ -347,7 +347,7 @@
           "src/main/resources/data/sussy/recipes/copper_tools_pickaxe_recipe.json"
         ]
       },
-      "path": "~/CopperTools"
+      "path": "~/CarsonsMods/CopperTools"
     },
     {
       "name": "CopperToolsAxeRecipe",
@@ -361,7 +361,7 @@
           "src/main/resources/data/sussy/recipes/copper_tools_axe_recipe.json"
         ]
       },
-      "path": "~/CopperTools"
+      "path": "~/CarsonsMods/CopperTools"
     },
     {
       "name": "CopperToolsSwordRecipe",
@@ -375,7 +375,7 @@
           "src/main/resources/data/sussy/recipes/copper_tools_sword_recipe.json"
         ]
       },
-      "path": "~/CopperTools"
+      "path": "~/CarsonsMods/CopperTools"
     },
     {
       "name": "CopperToolsShovelRecipe",
@@ -389,7 +389,7 @@
           "src/main/resources/data/sussy/recipes/copper_tools_shovel_recipe.json"
         ]
       },
-      "path": "~/CopperTools"
+      "path": "~/CarsonsMods/CopperTools"
     },
     {
       "name": "CopperToolsHoeRecipe",
@@ -403,7 +403,7 @@
           "src/main/resources/data/sussy/recipes/copper_tools_hoe_recipe.json"
         ]
       },
-      "path": "~/CopperTools"
+      "path": "~/CarsonsMods/CopperTools"
     },
     {
       "name": "Emerald_ArmorArmor",
@@ -524,7 +524,7 @@
           "src/main/resources/assets/sussy/models/item/copper_armor_armor_helmet.json"
         ]
       },
-      "path": "~/CopperTools"
+      "path": "~/CarsonsMods/CopperTools"
     },
     {
       "name": "CopperArmorArmorHelmetRecipe",
@@ -538,7 +538,7 @@
           "src/main/resources/data/sussy/recipes/copper_armor_armor_helmet_recipe.json"
         ]
       },
-      "path": "~/CopperTools"
+      "path": "~/CarsonsMods/CopperTools"
     },
     {
       "name": "CopperArmorArmorChestplateRecipe",
@@ -552,7 +552,7 @@
           "src/main/resources/data/sussy/recipes/copper_armor_armor_chestplate_recipe.json"
         ]
       },
-      "path": "~/CopperTools"
+      "path": "~/CarsonsMods/CopperTools"
     },
     {
       "name": "CopperArmorArmorLeggingsRecipe",
@@ -566,7 +566,7 @@
           "src/main/resources/data/sussy/recipes/copper_armor_armor_leggings_recipe.json"
         ]
       },
-      "path": "~/CopperTools"
+      "path": "~/CarsonsMods/CopperTools"
     },
     {
       "name": "CopperArmorArmorBootsRecipe",
@@ -580,7 +580,7 @@
           "src/main/resources/data/sussy/recipes/copper_armor_armor_boots_recipe.json"
         ]
       },
-      "path": "~/CopperTools"
+      "path": "~/CarsonsMods/CopperTools"
     },
     {
       "name": "DragonPickaxe",
@@ -595,7 +595,7 @@
           "src/main/java/net/mcreator/sussy/item/DragonPickaxeItem.java"
         ]
       },
-      "path": "~/Dragon Tools"
+      "path": "~/CarsonsMods/Dragon Tools"
     },
     {
       "name": "DragonAxe",
@@ -610,7 +610,7 @@
           "src/main/java/net/mcreator/sussy/item/DragonAxeItem.java"
         ]
       },
-      "path": "~/Dragon Tools"
+      "path": "~/CarsonsMods/Dragon Tools"
     },
     {
       "name": "DragonSword",
@@ -625,7 +625,7 @@
           "src/main/resources/assets/sussy/models/item/dragon_sword.json"
         ]
       },
-      "path": "~/Dragon Tools"
+      "path": "~/CarsonsMods/Dragon Tools"
     },
     {
       "name": "DragonShovel",
@@ -640,7 +640,7 @@
           "src/main/resources/assets/sussy/models/item/dragon_shovel.json"
         ]
       },
-      "path": "~/Dragon Tools"
+      "path": "~/CarsonsMods/Dragon Tools"
     },
     {
       "name": "DragonHoe",
@@ -655,7 +655,7 @@
           "src/main/resources/assets/sussy/models/item/dragon_hoe.json"
         ]
       },
-      "path": "~/Dragon Tools"
+      "path": "~/CarsonsMods/Dragon Tools"
     },
     {
       "name": "DragonPickaxeRecipe",
@@ -669,7 +669,7 @@
           "src/main/resources/data/sussy/recipes/dragon_pickaxe_recipe.json"
         ]
       },
-      "path": "~/Dragon Tools"
+      "path": "~/CarsonsMods/Dragon Tools"
     },
     {
       "name": "DragonAxeRecipe",
@@ -683,7 +683,7 @@
           "src/main/resources/data/sussy/recipes/dragon_axe_recipe.json"
         ]
       },
-      "path": "~/Dragon Tools"
+      "path": "~/CarsonsMods/Dragon Tools"
     },
     {
       "name": "DragonSwordRecipe",
@@ -697,7 +697,7 @@
           "src/main/resources/data/sussy/recipes/dragon_sword_recipe.json"
         ]
       },
-      "path": "~/Dragon Tools"
+      "path": "~/CarsonsMods/Dragon Tools"
     },
     {
       "name": "DragonShovelRecipe",
@@ -711,7 +711,7 @@
           "src/main/resources/data/sussy/recipes/dragon_shovel_recipe.json"
         ]
       },
-      "path": "~/Dragon Tools"
+      "path": "~/CarsonsMods/Dragon Tools"
     },
     {
       "name": "DragonHoeRecipe",
@@ -725,7 +725,7 @@
           "src/main/resources/data/sussy/recipes/dragon_hoe_recipe.json"
         ]
       },
-      "path": "~/Dragon Tools"
+      "path": "~/CarsonsMods/Dragon Tools"
     },
     {
       "name": "DragonStarRecipe",
@@ -739,7 +739,7 @@
           "src/main/resources/data/sussy/recipes/dragon_star_recipe.json"
         ]
       },
-      "path": "~/Dragon Tools"
+      "path": "~/CarsonsMods/Dragon Tools"
     },
     {
       "name": "DragonArmor",
@@ -757,7 +757,7 @@
           "src/main/java/net/mcreator/sussy/item/DragonArmorItem.java"
         ]
       },
-      "path": "~/Dragon Tools"
+      "path": "~/CarsonsMods/Dragon Tools"
     },
     {
       "name": "DragonArmorHelmetRecipe",
@@ -771,7 +771,7 @@
           "src/main/resources/data/sussy/recipes/dragon_armor_helmet_recipe.json"
         ]
       },
-      "path": "~/Dragon Tools"
+      "path": "~/CarsonsMods/Dragon Tools"
     },
     {
       "name": "DragonArmorChestplateRecipe",
@@ -785,7 +785,7 @@
           "src/main/resources/data/sussy/recipes/dragon_armor_chestplate_recipe.json"
         ]
       },
-      "path": "~/Dragon Tools"
+      "path": "~/CarsonsMods/Dragon Tools"
     },
     {
       "name": "DragonArmorLeggingsRecipe",
@@ -799,7 +799,7 @@
           "src/main/resources/data/sussy/recipes/dragon_armor_leggings_recipe.json"
         ]
       },
-      "path": "~/Dragon Tools"
+      "path": "~/CarsonsMods/Dragon Tools"
     },
     {
       "name": "DragonArmorBootsRecipe",
@@ -813,7 +813,7 @@
           "src/main/resources/data/sussy/recipes/dragon_armor_boots_recipe.json"
         ]
       },
-      "path": "~/Dragon Tools"
+      "path": "~/CarsonsMods/Dragon Tools"
     },
     {
       "name": "Addon",
@@ -1387,8 +1387,8 @@
       "item.sussy.dragon_shovel": "Dragon Shovel",
       "item.sussy.hologram": "Hologram",
       "item.sussy.moon_fruit": "Moon Fruit",
-      "item_group.sussy.ethans_mods": "Ethan\u0027s Mods",
       "item.sussy.copper_tools_sword": "CopperTools Sword",
+      "item_group.sussy.ethans_mods": "Ethan\u0027s Mods",
       "item.sussy.grungo": "Blaze Bat",
       "subtitles.hologramaudio": "",
       "item.sussy.copper_armor_armor_leggings": "CopperArmor Leggings",
@@ -1438,14 +1438,6 @@
   "foldersRoot": {
     "name": "~",
     "children": [
-      {
-        "name": "CopperTools",
-        "children": []
-      },
-      {
-        "name": "Dragon Tools",
-        "children": []
-      },
       {
         "name": "Structures",
         "children": []
@@ -1511,7 +1503,16 @@
       },
       {
         "name": "CarsonsMods",
-        "children": []
+        "children": [
+          {
+            "name": "Dragon Tools",
+            "children": []
+          },
+          {
+            "name": "CopperTools",
+            "children": []
+          }
+        ]
       }
     ]
   },

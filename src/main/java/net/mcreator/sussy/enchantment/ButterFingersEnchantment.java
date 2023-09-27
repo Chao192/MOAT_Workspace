@@ -7,7 +7,7 @@ import net.minecraft.world.entity.EquipmentSlot;
 
 public class ButterFingersEnchantment extends Enchantment {
 	public ButterFingersEnchantment(EquipmentSlot... slots) {
-		super(Enchantment.Rarity.UNCOMMON, EnchantmentCategory.BREAKABLE, slots);
+		super(Enchantment.Rarity.RARE, EnchantmentCategory.BREAKABLE, slots);
 	}
 
 	@Override
