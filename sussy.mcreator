@@ -885,7 +885,8 @@
           "src/main/java/net/mcreator/sussy/item/DiamondDualGlaiveItem.java",
           "src/main/resources/assets/sussy/models/item/diamond_dual_glaive.json"
         ]
-      }
+      },
+      "path": "~/Ethans_Mods/glaive weapon/Diamond Dual Glaive"
     },
     {
       "name": "Diamonddualglaiverecipe",
@@ -898,7 +899,8 @@
         "files": [
           "src/main/resources/data/sussy/recipes/diamonddualglaiverecipe.json"
         ]
-      }
+      },
+      "path": "~/Ethans_Mods/glaive weapon/Diamond Dual Glaive"
     },
     {
       "name": "AreYouSerious",
@@ -925,7 +927,8 @@
           "src/main/resources/assets/sussy/models/item/dragon_dual_glaive.json",
           "src/main/java/net/mcreator/sussy/item/DragonDualGlaiveItem.java"
         ]
-      }
+      },
+      "path": "~/Ethans_Mods/glaive weapon/dragondualglaive"
     },
     {
       "name": "Netheritedualglaive",
@@ -939,7 +942,8 @@
           "src/main/java/net/mcreator/sussy/item/NetheritedualglaiveItem.java",
           "src/main/resources/assets/sussy/models/item/netheritedualglaive.json"
         ]
-      }
+      },
+      "path": "~/Ethans_Mods/glaive weapon/netherite dual glaive"
     },
     {
       "name": "Netheritedualglaiverecipe",
@@ -952,7 +956,8 @@
         "files": [
           "src/main/resources/data/sussy/recipes/netheritedualglaiverecipe.json"
         ]
-      }
+      },
+      "path": "~/Ethans_Mods/glaive weapon/netherite dual glaive"
     },
     {
       "name": "Dragondualglaiverecipe",
@@ -965,7 +970,8 @@
         "files": [
           "src/main/resources/data/sussy/recipes/dragondualglaiverecipe.json"
         ]
-      }
+      },
+      "path": "~/Ethans_Mods/glaive weapon/dragondualglaive"
     },
     {
       "name": "Dragonstaradvancement",
@@ -1263,6 +1269,52 @@
           }
         ]
       }
+    },
+    {
+      "name": "CriticalStrike",
+      "type": "enchantment",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "critical_strike",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/enchantment/CriticalStrikeEnchantment.java"
+        ]
+      },
+      "path": "~/Ethans_Mods/enchantments"
+    },
+    {
+      "name": "Criticalstrikeprocedure",
+      "type": "procedure",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "criticalstrikeprocedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/procedures/CriticalstrikeprocedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "amount",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Ethans_Mods/enchantments"
     }
   ],
   "variable_elements": [],
@@ -1275,31 +1327,39 @@
       "item.sussy.dragon_shovel": "Dragon Shovel",
       "block.sussy.raw_dragon_stone": "Raw Dragon Stone",
       "item.sussy.moon_fruit": "Moon Fruit",
-      "item.sussy.emerald_armor_armor_helmet": "Emerald_Armor Helmet",
       "item.sussy.copper_tools_sword": "CopperTools Sword",
-      "item.sussy.copper_tools_shovel": "CopperTools Shovel",
       "item_group.sussy.ethans_mods": "Ethan\u0027s Mods",
       "item.sussy.grungo": "Blaze Bat",
-      "item.sussy.dragon_armor_chestplate": "Dragon Chestplate",
-      "item.sussy.crimson_amulet": "Crimson Amulet",
       "item.sussy.copper_armor_armor_leggings": "CopperArmor Leggings",
-      "item.sussy.dragon_armor_helmet": "Dragon Helmet",
-      "item.sussy.dragon_ingot": "Dragon Ingot",
       "block.sussy.dragon_stone_ore": "DragonStone Ore",
-      "item.sussy.copper_armor_armor_helmet": "CopperArmor Helmet",
       "advancements.are_you_serious.descr": "Just Why...",
-      "advancements.dragonstaradvancement.descr": "Is it lean?",
-      "item.sussy.dragon_sword": "Dragon Sword",
       "item.sussy.dragon_armor_leggings": "Dragon Leggings",
       "item.sussy.diamond_dual_glaive": "Diamond Dual Glaive",
       "item.sussy.netheritedualglaive": "Netheritedualglaive",
-      "advancements.true_freedom.descr": "Eat a Moon Fruit",
-      "item.sussy.copper_armor_armor_chestplate": "CopperArmor Chestplate",
       "item.sussy.emerald_hammer_tool": "Emerald Hammer Tool",
       "item.sussy.emerald_armor_armor_leggings": "Emerald_Armor Leggings",
       "item.sussy.star_fruit": "Star Fruit",
       "item.sussy.copper_tools_pickaxe": "CopperTools Pickaxe",
       "item.sussy.dragon_dual_glaive": "Dragon Dual Glaive",
+      "item.sussy.dragon_star": "Dragon Star",
+      "advancements.true_freedom.title": "True Freedom",
+      "item.sussy.snowball_cannon": "Snowball Cannon",
+      "advancements.dragonstaradvancement.title": "Dragon Star",
+      "advancements.reach_for_the_stars.descr": "Eat a Star Fruit",
+      "item.sussy.copper_tools_axe": "CopperTools Axe",
+      "item.sussy.emerald_armor_armor_chestplate": "Emerald_Armor Chestplate",
+      "item.sussy.dragon_axe": "Dragon Axe",
+      "item.sussy.emerald_armor_armor_helmet": "Emerald_Armor Helmet",
+      "item.sussy.copper_tools_shovel": "CopperTools Shovel",
+      "item.sussy.dragon_armor_chestplate": "Dragon Chestplate",
+      "item.sussy.crimson_amulet": "Crimson Amulet",
+      "item.sussy.dragon_armor_helmet": "Dragon Helmet",
+      "item.sussy.dragon_ingot": "Dragon Ingot",
+      "item.sussy.copper_armor_armor_helmet": "CopperArmor Helmet",
+      "advancements.dragonstaradvancement.descr": "Is it lean?",
+      "item.sussy.dragon_sword": "Dragon Sword",
+      "advancements.true_freedom.descr": "Eat a Moon Fruit",
+      "item.sussy.copper_armor_armor_chestplate": "CopperArmor Chestplate",
       "item.sussy.copper_tools_hoe": "CopperTools Hoe",
       "item.sussy.copper_armor_armor_boots": "CopperArmor Boots",
       "item.sussy.dragon_hoe": "Dragon Hoe",
@@ -1307,15 +1367,8 @@
       "item.sussy.emerald_armor_armor_boots": "Emerald_Armor Boots",
       "item.sussy.dragon_stone_ingot": "DragonStone",
       "advancements.reach_for_the_stars.title": "Reach For The Stars",
-      "item.sussy.dragon_star": "Dragon Star",
-      "advancements.true_freedom.title": "True Freedom",
-      "item.sussy.snowball_cannon": "Snowball Cannon",
-      "advancements.dragonstaradvancement.title": "Dragon Star",
-      "advancements.reach_for_the_stars.descr": "Eat a Star Fruit",
       "advancements.are_you_serious.title": "Are You Serious",
-      "item.sussy.copper_tools_axe": "CopperTools Axe",
-      "item.sussy.emerald_armor_armor_chestplate": "Emerald_Armor Chestplate",
-      "item.sussy.dragon_axe": "Dragon Axe"
+      "enchantment.sussy.critical_strike": "Critical Strike"
     }
   },
   "foldersRoot": {
@@ -1380,6 +1433,10 @@
           },
           {
             "name": "Emerald Hammer",
+            "children": []
+          },
+          {
+            "name": "enchantments",
             "children": []
           }
         ]
