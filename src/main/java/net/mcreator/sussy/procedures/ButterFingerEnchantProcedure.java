@@ -37,7 +37,7 @@ public class ButterFingerEnchantProcedure {
 		double grumb = 0;
 		grumb = Math.random() * 100;
 		if (EnchantmentHelper.getItemEnchantmentLevel(SussyModEnchantments.BUTTER_FINGERS.get(), (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) != 0) {
-			if (grumb <= 100) {
+			if (grumb <= 5) {
 				if (entity instanceof Player _player) {
 					ItemStack _setstack = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY);
 					_setstack.setCount(1);
