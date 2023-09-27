@@ -910,7 +910,8 @@
           "src/main/java/net/mcreator/sussy/item/DiamondDualGlaiveItem.java",
           "src/main/resources/assets/sussy/models/item/diamond_dual_glaive.json"
         ]
-      }
+      },
+      "path": "~/Ethans_Mods/glaive weapon/dragondualglaive"
     },
     {
       "name": "Diamonddualglaiverecipe",
@@ -923,7 +924,8 @@
         "files": [
           "src/main/resources/data/sussy/recipes/diamonddualglaiverecipe.json"
         ]
-      }
+      },
+      "path": "~/Ethans_Mods/glaive weapon/Diamond Dual Glaive"
     },
     {
       "name": "AreYouSerious",
@@ -951,7 +953,8 @@
           "src/main/resources/assets/sussy/models/item/dragon_dual_glaive.json",
           "src/main/java/net/mcreator/sussy/item/DragonDualGlaiveItem.java"
         ]
-      }
+      },
+      "path": "~/Ethans_Mods/glaive weapon/Diamond Dual Glaive"
     },
     {
       "name": "Netheritedualglaive",
@@ -965,7 +968,8 @@
           "src/main/java/net/mcreator/sussy/item/NetheritedualglaiveItem.java",
           "src/main/resources/assets/sussy/models/item/netheritedualglaive.json"
         ]
-      }
+      },
+      "path": "~/Ethans_Mods/glaive weapon/netherite dual glaive"
     },
     {
       "name": "Netheritedualglaiverecipe",
@@ -978,7 +982,8 @@
         "files": [
           "src/main/resources/data/sussy/recipes/netheritedualglaiverecipe.json"
         ]
-      }
+      },
+      "path": "~/Ethans_Mods/glaive weapon/netherite dual glaive"
     },
     {
       "name": "Dragondualglaiverecipe",
@@ -991,7 +996,8 @@
         "files": [
           "src/main/resources/data/sussy/recipes/dragondualglaiverecipe.json"
         ]
-      }
+      },
+      "path": "~/Ethans_Mods/glaive weapon/Diamond Dual Glaive"
     },
     {
       "name": "Dragonstaradvancement",
@@ -1427,16 +1433,16 @@
   ],
   "language_map": {
     "en_us": {
-      "block.sussy.dragon_stone_block": "Block of DragonStone",
       "item.sussy.universal_respawn_anchor": "Test",
+      "block.sussy.dragon_stone_block": "Block of DragonStone",
       "item.sussy.dragon_pickaxe": "Dragon Pickaxe",
       "item.sussy.dragon_armor_boots": "Dragon Boots",
-      "block.sussy.raw_dragon_stone": "Raw Dragon Stone",
       "item.sussy.dragon_shovel": "Dragon Shovel",
+      "block.sussy.raw_dragon_stone": "Raw Dragon Stone",
       "item.sussy.hologram": "Hologram",
       "item.sussy.moon_fruit": "Moon Fruit",
-      "item.sussy.copper_tools_sword": "CopperTools Sword",
       "item_group.sussy.ethans_mods": "Ethan\u0027s Mods",
+      "item.sussy.copper_tools_sword": "CopperTools Sword",
       "item.sussy.grungo": "Blaze Bat",
       "subtitles.hologramaudio": "",
       "item.sussy.copper_armor_armor_leggings": "CopperArmor Leggings",
