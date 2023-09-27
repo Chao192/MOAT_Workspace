@@ -1,8 +1,11 @@
 
 package net.mcreator.sussy.enchantment;
 
-public class ButterFingersEnchantment extends Enchantment {
+import net.minecraft.world.item.enchantment.EnchantmentCategory;
+import net.minecraft.world.item.enchantment.Enchantment;
+import net.minecraft.world.entity.EquipmentSlot;
 
+public class ButterFingersEnchantment extends Enchantment {
 	public ButterFingersEnchantment(EquipmentSlot... slots) {
 		super(Enchantment.Rarity.UNCOMMON, EnchantmentCategory.BREAKABLE, slots);
 	}
@@ -11,5 +14,4 @@ public class ButterFingersEnchantment extends Enchantment {
 	public boolean isCurse() {
 		return true;
 	}
-
 }

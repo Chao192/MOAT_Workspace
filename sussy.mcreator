@@ -1368,11 +1368,11 @@
       "block.sussy.dragon_stone_block": "Block of DragonStone",
       "item.sussy.dragon_pickaxe": "Dragon Pickaxe",
       "item.sussy.dragon_armor_boots": "Dragon Boots",
-      "item.sussy.dragon_shovel": "Dragon Shovel",
       "block.sussy.raw_dragon_stone": "Raw Dragon Stone",
+      "item.sussy.dragon_shovel": "Dragon Shovel",
       "item.sussy.moon_fruit": "Moon Fruit",
-      "item.sussy.copper_tools_sword": "CopperTools Sword",
       "item_group.sussy.ethans_mods": "Ethan\u0027s Mods",
+      "item.sussy.copper_tools_sword": "CopperTools Sword",
       "item.sussy.grungo": "Blaze Bat",
       "item.sussy.copper_armor_armor_leggings": "CopperArmor Leggings",
       "block.sussy.dragon_stone_ore": "DragonStone Ore",
@@ -1380,6 +1380,7 @@
       "item.sussy.dragon_armor_leggings": "Dragon Leggings",
       "item.sussy.diamond_dual_glaive": "Diamond Dual Glaive",
       "item.sussy.netheritedualglaive": "Netheritedualglaive",
+      "enchantment.sussy.butter_fingers": "Butter Fingers",
       "item.sussy.emerald_hammer_tool": "Emerald Hammer Tool",
       "item.sussy.emerald_armor_armor_leggings": "Emerald_Armor Leggings",
       "item.sussy.star_fruit": "Star Fruit",
@@ -1399,6 +1400,7 @@
       "item.sussy.crimson_amulet": "Crimson Amulet",
       "item.sussy.dragon_armor_helmet": "Dragon Helmet",
       "item.sussy.dragon_ingot": "Dragon Ingot",
+      "item.sussy.butter": "Butter",
       "item.sussy.copper_armor_armor_helmet": "CopperArmor Helmet",
       "advancements.dragonstaradvancement.descr": "Is it lean?",
       "item.sussy.dragon_sword": "Dragon Sword",
@@ -1411,7 +1413,8 @@
       "item.sussy.emerald_armor_armor_boots": "Emerald_Armor Boots",
       "item.sussy.dragon_stone_ingot": "DragonStone",
       "advancements.reach_for_the_stars.title": "Reach For The Stars",
-      "advancements.are_you_serious.title": "Are You Serious"
+      "advancements.are_you_serious.title": "Are You Serious",
+      "enchantment.sussy.critical_strike": "Critical Strike"
     }
   },
   "foldersRoot": {
