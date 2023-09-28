@@ -39,6 +39,7 @@ import net.mcreator.sussy.item.DragonAxeItem;
 import net.mcreator.sussy.item.DragonArmorItem;
 import net.mcreator.sussy.item.DiamonddaggerItem;
 import net.mcreator.sussy.item.DiamondDualGlaiveItem;
+import net.mcreator.sussy.item.DameDameItem;
 import net.mcreator.sussy.item.CrimsonAmuletItem;
 import net.mcreator.sussy.item.CopperToolsSwordItem;
 import net.mcreator.sussy.item.CopperToolsShovelItem;
@@ -100,6 +101,7 @@ public class SussyModItems {
 	public static final RegistryObject<Item> RINGOF_LUCK = REGISTRY.register("ringof_luck", () -> new RingofLuckItem());
 	public static final RegistryObject<Item> DRAGONDAGGER = REGISTRY.register("dragondagger", () -> new DragondaggerItem());
 	public static final RegistryObject<Item> FIRE_WAND = REGISTRY.register("fire_wand", () -> new FireWandItem());
+	public static final RegistryObject<Item> BAKA_MITAI = REGISTRY.register("baka_mitai", () -> new DameDameItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

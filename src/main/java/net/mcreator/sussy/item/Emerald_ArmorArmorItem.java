@@ -75,7 +75,7 @@ public abstract class Emerald_ArmorArmorItem extends ArmorItem {
 		@Override
 		public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 			super.appendHoverText(itemstack, world, list, flag);
-			list.add(Component.literal("Full set grants 42% discount on villager trades!"));
+			list.add(Component.literal("Full Set Bonus: 42% Off Villager Trades"));
 		}
 
 		@Override
@@ -97,7 +97,7 @@ public abstract class Emerald_ArmorArmorItem extends ArmorItem {
 		@Override
 		public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 			super.appendHoverText(itemstack, world, list, flag);
-			list.add(Component.literal("Full set grants 42% discount on villager trades!"));
+			list.add(Component.literal("Full Set Bonus: 42% Off Villager Trades"));
 		}
 
 		@Override
@@ -114,7 +114,7 @@ public abstract class Emerald_ArmorArmorItem extends ArmorItem {
 		@Override
 		public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 			super.appendHoverText(itemstack, world, list, flag);
-			list.add(Component.literal("Full set grants 42% discount on villager trades!"));
+			list.add(Component.literal("Full Set Bonus: 42% Off Villager Trades"));
 		}
 
 		@Override
@@ -131,7 +131,7 @@ public abstract class Emerald_ArmorArmorItem extends ArmorItem {
 		@Override
 		public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 			super.appendHoverText(itemstack, world, list, flag);
-			list.add(Component.literal("Full set grants 42% discount on villager trades!"));
+			list.add(Component.literal("Full Set Bonus: 42% Off Villager Trades"));
 		}
 
 		@Override

@@ -3,6 +3,7 @@ package net.mcreator.sussy.item;
 
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
@@ -13,8 +14,11 @@ import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundEvent;
+import net.minecraft.network.chat.Component;
 
 import net.mcreator.sussy.procedures.CopperArmorArmorHelmetTickEventProcedure;
+
+import java.util.List;
 
 public abstract class CopperArmorArmorItem extends ArmorItem {
 	public CopperArmorArmorItem(ArmorItem.Type type, Item.Properties properties) {
@@ -67,6 +71,12 @@ public abstract class CopperArmorArmorItem extends ArmorItem {
 		}
 
 		@Override
+		public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
+			super.appendHoverText(itemstack, world, list, flag);
+			list.add(Component.literal("Full Set Bonus: Speed (Haste When Used With Pickaxe)"));
+		}
+
+		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "sussy:textures/models/armor/copperarmor_layer_1.png";
 		}
@@ -83,6 +93,12 @@ public abstract class CopperArmorArmorItem extends ArmorItem {
 		}
 
 		@Override
+		public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
+			super.appendHoverText(itemstack, world, list, flag);
+			list.add(Component.literal("Full Set Bonus: Speed (Haste When Used With Pickaxe)"));
+		}
+
+		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "sussy:textures/models/armor/copperarmor_layer_1.png";
 		}
@@ -94,6 +110,12 @@ public abstract class CopperArmorArmorItem extends ArmorItem {
 		}
 
 		@Override
+		public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
+			super.appendHoverText(itemstack, world, list, flag);
+			list.add(Component.literal("Full Set Bonus: Speed (Haste When Used With Pickaxe)"));
+		}
+
+		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "sussy:textures/models/armor/copperarmor_layer_2.png";
 		}
@@ -102,6 +124,12 @@ public abstract class CopperArmorArmorItem extends ArmorItem {
 	public static class Boots extends CopperArmorArmorItem {
 		public Boots() {
 			super(ArmorItem.Type.BOOTS, new Item.Properties());
+		}
+
+		@Override
+		public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
+			super.appendHoverText(itemstack, world, list, flag);
+			list.add(Component.literal("Full Set Bonus: Speed (Haste When Used With Pickaxe)"));
 		}
 
 		@Override
