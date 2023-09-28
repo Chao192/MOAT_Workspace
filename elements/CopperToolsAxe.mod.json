@@ -9,7 +9,7 @@
     "name": "CopperTools Axe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:MOAT"
     },
     "harvestLevel": 2,
     "efficiency": 6.0,

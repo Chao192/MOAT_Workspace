@@ -10,7 +10,7 @@
     "name": "DragonStone",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:VanillaAddon"
+      "value": "CUSTOM:MOAT"
     },
     "stackSize": 64,
     "enchantability": 0,
@@ -21,12 +21,14 @@
       "value": ""
     },
     "destroyAnyBlock": false,
-    "immuneToFire": false,
+    "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [],
+    "specialInfo": [
+      "A Dense And Heat Resistant Material"
+    ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,

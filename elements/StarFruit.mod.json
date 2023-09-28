@@ -10,7 +10,7 @@
     "name": "Star Fruit",
     "rarity": "EPIC",
     "creativeTab": {
-      "value": "CUSTOM:VanillaAddon"
+      "value": "CUSTOM:MOAT"
     },
     "stackSize": 64,
     "enchantability": 0,

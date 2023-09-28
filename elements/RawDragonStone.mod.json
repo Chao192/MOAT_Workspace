@@ -40,7 +40,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:VanillaAddon"
+      "value": "CUSTOM:MOAT"
     },
     "destroyTool": "pickaxe",
     "customDrop": {

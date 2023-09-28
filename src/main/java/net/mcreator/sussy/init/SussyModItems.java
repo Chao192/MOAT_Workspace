@@ -15,6 +15,7 @@ import net.minecraft.world.item.BlockItem;
 import net.mcreator.sussy.item.UniversalRespawnAnchorItem;
 import net.mcreator.sussy.item.StarFruitItem;
 import net.mcreator.sussy.item.SnowballCannonItem;
+import net.mcreator.sussy.item.RingofLuckItem;
 import net.mcreator.sussy.item.NetheritedualglaiveItem;
 import net.mcreator.sussy.item.NetheritedaggerItem;
 import net.mcreator.sussy.item.NetheriteclaymoretoolItem;
@@ -96,6 +97,7 @@ public class SussyModItems {
 	public static final RegistryObject<Item> DIAMONDDAGGER = REGISTRY.register("diamonddagger", () -> new DiamonddaggerItem());
 	public static final RegistryObject<Item> NETHERITEDAGGER = REGISTRY.register("netheritedagger", () -> new NetheritedaggerItem());
 	public static final RegistryObject<Item> DRAGONDAGGER = REGISTRY.register("dragondagger", () -> new DragondaggerItem());
+	public static final RegistryObject<Item> RINGOF_LUCK = REGISTRY.register("ringof_luck", () -> new RingofLuckItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

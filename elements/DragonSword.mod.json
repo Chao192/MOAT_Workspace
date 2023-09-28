@@ -9,7 +9,7 @@
     "name": "Dragon Sword",
     "specialInfo": [],
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:MOAT"
     },
     "harvestLevel": 5,
     "efficiency": 9.0,

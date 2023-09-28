@@ -186,18 +186,6 @@
       "path": "~/CarsonsMods"
     },
     {
-      "name": "VanillaAddon",
-      "type": "tab",
-      "sortid": 14,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "vanilla_addon",
-      "metadata": {
-        "files": []
-      },
-      "path": "~/CarsonsMods"
-    },
-    {
       "name": "MoonFruitPlayerFinishesUsingItem",
       "type": "procedure",
       "sortid": 15,
@@ -1435,18 +1423,19 @@
       "path": "~/Ethans_Mods/dagger weapon/diamond dagger"
     },
     {
-      "name": "Diamonddaggerrecipe",
-      "type": "recipe",
-      "sortid": 97,
+      "name": "Dragondagger",
+      "type": "tool",
+      "sortid": 100,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "diamonddaggerrecipe",
+      "registry_name": "dragondagger",
       "metadata": {
         "files": [
-          "src/main/resources/data/sussy/recipes/diamonddaggerrecipe.json"
+          "src/main/resources/assets/sussy/models/item/dragondagger.json",
+          "src/main/java/net/mcreator/sussy/item/DragondaggerItem.java"
         ]
       },
-      "path": "~/Ethans_Mods/dagger weapon/diamond dagger"
+      "path": "~/Ethans_Mods/dagger weapon/dragon dagger"
     },
     {
       "name": "Netheritedagger",
@@ -1464,6 +1453,20 @@
       "path": "~/Ethans_Mods/dagger weapon/netherite dagger"
     },
     {
+      "name": "Dragondaggerrecipe",
+      "type": "recipe",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragondaggerrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/recipes/dragondaggerrecipe.json"
+        ]
+      },
+      "path": "~/Ethans_Mods/dagger weapon/dragon dagger"
+    },
+    {
       "name": "Netheritedaggerecipe",
       "type": "recipe",
       "sortid": 99,
@@ -1478,33 +1481,141 @@
       "path": "~/Ethans_Mods/dagger weapon/netherite dagger"
     },
     {
-      "name": "Dragondagger",
-      "type": "tool",
-      "sortid": 100,
+      "name": "Diamonddaggerrecipe",
+      "type": "recipe",
+      "sortid": 97,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dragondagger",
+      "registry_name": "diamonddaggerrecipe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sussy/models/item/dragondagger.json",
-          "src/main/java/net/mcreator/sussy/item/DragondaggerItem.java"
+          "src/main/resources/data/sussy/recipes/diamonddaggerrecipe.json"
         ]
       },
-      "path": "~/Ethans_Mods/dagger weapon/dragon dagger"
+      "path": "~/Ethans_Mods/dagger weapon/diamond dagger"
     },
     {
-      "name": "Dragondaggerrecipe",
-      "type": "recipe",
+      "name": "EmArmor",
+      "type": "procedure",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "em_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/procedures/EmArmorProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CarsonsMods"
+    },
+    {
+      "name": "MOAT",
+      "type": "tab",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moat",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/CarsonsMods"
+    },
+    {
+      "name": "RingofLuckItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ringof_luck_item_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/procedures/RingofLuckItemInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CarsonsMods"
+    },
+    {
+      "name": "DragonStoneOreBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_stone_ore_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/procedures/DragonStoneOreBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/DragonStone"
+    },
+    {
+      "name": "DragonSet",
+      "type": "procedure",
       "sortid": 101,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dragondaggerrecipe",
+      "registry_name": "dragon_set",
       "metadata": {
         "files": [
-          "src/main/resources/data/sussy/recipes/dragondaggerrecipe.json"
+          "src/main/java/net/mcreator/sussy/procedures/DragonSetProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
         ]
       },
-      "path": "~/Ethans_Mods/dagger weapon/dragon dagger"
+      "path": "~/CarsonsMods/Dragon Tools"
+    },
+    {
+      "name": "RingofLuck",
+      "type": "item",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ringof_luck",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/item/RingofLuckItem.java",
+          "src/main/resources/assets/sussy/models/item/ringof_luck.json"
+        ]
+      },
+      "path": "~/CarsonsMods"
     }
   ],
   "variable_elements": [],
@@ -1560,21 +1671,17 @@
       "item.sussy.dragon_armor_helmet": "Dragon Helmet",
       "item.sussy.dragon_ingot": "Dragon Ingot",
       "item.sussy.butter": "Butter",
-      "item.sussy.netheritedagger": "Netheritedagger",
       "item.sussy.copper_armor_armor_helmet": "CopperArmor Helmet",
       "advancements.dragonstaradvancement.descr": "Is it lean?",
       "item.sussy.dragon_sword": "Dragon Sword",
       "advancements.true_freedom.descr": "Eat a Moon Fruit",
       "item.sussy.copper_armor_armor_chestplate": "CopperArmor Chestplate",
-      "item.sussy.dragondagger": "Dragondagger",
       "item.sussy.copper_tools_hoe": "CopperTools Hoe",
       "item.sussy.copper_armor_armor_boots": "CopperArmor Boots",
       "item.sussy.dragon_hoe": "Dragon Hoe",
-      "item_group.sussy.vanilla_addon": "Carsoa\u0027s Extra Content",
       "item.sussy.emerald_armor_armor_boots": "Emerald_Armor Boots",
       "item.sussy.dragon_stone_ingot": "DragonStone",
       "advancements.reach_for_the_stars.title": "Reach For The Stars",
-      "item.sussy.diamonddagger": "Diamonddagger",
       "advancements.are_you_serious.title": "Are You Serious",
       "enchantment.sussy.critical_strike": "Critical Strike"
     }
@@ -1588,6 +1695,10 @@
       },
       {
         "name": "DragonStone",
+        "children": []
+      },
+      {
+        "name": "music discs",
         "children": []
       },
       {
@@ -1628,18 +1739,6 @@
             ]
           },
           {
-            "name": "advancements",
-            "children": []
-          },
-          {
-            "name": "Emerald Hammer",
-            "children": []
-          },
-          {
-            "name": "enchantments",
-            "children": []
-          },
-          {
             "name": "dagger weapon",
             "children": [
               {
@@ -1655,22 +1754,30 @@
                 "children": []
               }
             ]
+          },
+          {
+            "name": "advancements",
+            "children": []
+          },
+          {
+            "name": "Emerald Hammer",
+            "children": []
+          },
+          {
+            "name": "enchantments",
+            "children": []
           }
         ]
-      },
-      {
-        "name": "music discs",
-        "children": []
       },
       {
         "name": "CarsonsMods",
         "children": [
           {
-            "name": "Dragon Tools",
+            "name": "CopperTools",
             "children": []
           },
           {
-            "name": "CopperTools",
+            "name": "Dragon Tools",
             "children": []
           }
         ]
