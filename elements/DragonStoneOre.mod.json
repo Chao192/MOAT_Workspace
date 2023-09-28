@@ -2,7 +2,7 @@
   "_fv": 47,
   "_type": "block",
   "definition": {
-    "texture": "dragonstone_ore",
+    "texture": "unnamed",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -15,7 +15,7 @@
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
-    "particleTexture": "dragonstone_ore",
+    "particleTexture": "unnamed",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": false,
@@ -40,7 +40,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:VanillaAddon"
+      "value": "CUSTOM:MOAT"
     },
     "destroyTool": "pickaxe",
     "customDrop": {
@@ -117,6 +117,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onDestroyedByPlayer": {
+      "name": "DragonStoneOreBlockDestroyedByPlayer"
+    },
     "spawnWorldTypes": [
       "End"
     ],

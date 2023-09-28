@@ -9,7 +9,7 @@
     "name": "Dragon Hoe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:MOAT"
     },
     "harvestLevel": 5,
     "efficiency": 12.0,

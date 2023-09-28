@@ -3,18 +3,18 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "butter",
+    "texture": "ringofluck",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Butter",
+    "name": "Ringof Luck",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:MOAT"
     },
     "stackSize": 64,
     "enchantability": 0,
-    "useDuration": 32,
+    "useDuration": 0,
     "toolType": 1.0,
     "damageCount": 0,
     "recipeRemainder": {
@@ -27,20 +27,23 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "Almost Useless"
+      "Grants luck to the user"
     ],
-    "hasGlow": false,
+    "hasGlow": true,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
-    "isFood": true,
-    "nutritionalValue": 1,
-    "saturation": 0.5,
+    "onItemInInventoryTick": {
+      "name": "RingofLuckItemInInventoryTick"
+    },
+    "isFood": false,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
     "eatResultItem": {
       "value": ""
     },
     "isMeat": false,
-    "isAlwaysEdible": true,
-    "animation": "eat"
+    "isAlwaysEdible": false,
+    "animation": "none"
   }
 }

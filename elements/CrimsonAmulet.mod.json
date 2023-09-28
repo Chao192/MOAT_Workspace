@@ -10,7 +10,7 @@
     "name": "Crimson Amulet",
     "rarity": "EPIC",
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:MOAT"
     },
     "stackSize": 1,
     "enchantability": 0,

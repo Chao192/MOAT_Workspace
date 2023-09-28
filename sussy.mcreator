@@ -9,8 +9,8 @@
       "registry_name": "grungo",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/sussy/item/GrungoItem.java",
-          "src/main/resources/assets/sussy/models/item/grungo.json"
+          "src/main/resources/assets/sussy/models/item/grungo.json",
+          "src/main/java/net/mcreator/sussy/item/GrungoItem.java"
         ]
       },
       "path": "~/CarsonsMods"
@@ -179,21 +179,9 @@
       "registry_name": "star_fruit",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sussy/models/item/star_fruit.json",
-          "src/main/java/net/mcreator/sussy/item/StarFruitItem.java"
+          "src/main/java/net/mcreator/sussy/item/StarFruitItem.java",
+          "src/main/resources/assets/sussy/models/item/star_fruit.json"
         ]
-      },
-      "path": "~/CarsonsMods"
-    },
-    {
-      "name": "VanillaAddon",
-      "type": "tab",
-      "sortid": 14,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "vanilla_addon",
-      "metadata": {
-        "files": []
       },
       "path": "~/CarsonsMods"
     },
@@ -284,8 +272,8 @@
       "registry_name": "copper_tools_axe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/sussy/item/CopperToolsAxeItem.java",
-          "src/main/resources/assets/sussy/models/item/copper_tools_axe.json"
+          "src/main/resources/assets/sussy/models/item/copper_tools_axe.json",
+          "src/main/java/net/mcreator/sussy/item/CopperToolsAxeItem.java"
         ]
       },
       "path": "~/CarsonsMods/CopperTools"
@@ -299,8 +287,8 @@
       "registry_name": "copper_tools_sword",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sussy/models/item/copper_tools_sword.json",
-          "src/main/java/net/mcreator/sussy/item/CopperToolsSwordItem.java"
+          "src/main/java/net/mcreator/sussy/item/CopperToolsSwordItem.java",
+          "src/main/resources/assets/sussy/models/item/copper_tools_sword.json"
         ]
       },
       "path": "~/CarsonsMods/CopperTools"
@@ -314,8 +302,8 @@
       "registry_name": "copper_tools_shovel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sussy/models/item/copper_tools_shovel.json",
-          "src/main/java/net/mcreator/sussy/item/CopperToolsShovelItem.java"
+          "src/main/java/net/mcreator/sussy/item/CopperToolsShovelItem.java",
+          "src/main/resources/assets/sussy/models/item/copper_tools_shovel.json"
         ]
       },
       "path": "~/CarsonsMods/CopperTools"
@@ -329,8 +317,8 @@
       "registry_name": "copper_tools_hoe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/sussy/item/CopperToolsHoeItem.java",
-          "src/main/resources/assets/sussy/models/item/copper_tools_hoe.json"
+          "src/main/resources/assets/sussy/models/item/copper_tools_hoe.json",
+          "src/main/java/net/mcreator/sussy/item/CopperToolsHoeItem.java"
         ]
       },
       "path": "~/CarsonsMods/CopperTools"
@@ -416,8 +404,8 @@
         "files": [
           "src/main/java/net/mcreator/sussy/item/Emerald_ArmorArmorItem.java",
           "src/main/resources/assets/sussy/models/item/emerald_armor_armor_chestplate.json",
-          "src/main/resources/assets/sussy/models/item/emerald_armor_armor_boots.json",
           "src/main/resources/assets/sussy/models/item/emerald_armor_armor_helmet.json",
+          "src/main/resources/assets/sussy/models/item/emerald_armor_armor_boots.json",
           "src/main/resources/assets/sussy/models/item/emerald_armor_armor_leggings.json"
         ]
       },
@@ -492,7 +480,7 @@
           "src/main/java/net/mcreator/sussy/item/DragonStarItem.java"
         ]
       },
-      "path": "~/CarsonsMods"
+      "path": "~/CarsonsMods/Dragon Tools"
     },
     {
       "name": "ReachForTheStars",
@@ -517,11 +505,11 @@
       "registry_name": "copper_armor_armor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sussy/models/item/copper_armor_armor_chestplate.json",
-          "src/main/resources/assets/sussy/models/item/copper_armor_armor_leggings.json",
-          "src/main/resources/assets/sussy/models/item/copper_armor_armor_boots.json",
           "src/main/java/net/mcreator/sussy/item/CopperArmorArmorItem.java",
-          "src/main/resources/assets/sussy/models/item/copper_armor_armor_helmet.json"
+          "src/main/resources/assets/sussy/models/item/copper_armor_armor_helmet.json",
+          "src/main/resources/assets/sussy/models/item/copper_armor_armor_boots.json",
+          "src/main/resources/assets/sussy/models/item/copper_armor_armor_chestplate.json",
+          "src/main/resources/assets/sussy/models/item/copper_armor_armor_leggings.json"
         ]
       },
       "path": "~/CarsonsMods/CopperTools"
@@ -591,8 +579,8 @@
       "registry_name": "dragon_pickaxe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sussy/models/item/dragon_pickaxe.json",
-          "src/main/java/net/mcreator/sussy/item/DragonPickaxeItem.java"
+          "src/main/java/net/mcreator/sussy/item/DragonPickaxeItem.java",
+          "src/main/resources/assets/sussy/models/item/dragon_pickaxe.json"
         ]
       },
       "path": "~/CarsonsMods/Dragon Tools"
@@ -606,8 +594,8 @@
       "registry_name": "dragon_axe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sussy/models/item/dragon_axe.json",
-          "src/main/java/net/mcreator/sussy/item/DragonAxeItem.java"
+          "src/main/java/net/mcreator/sussy/item/DragonAxeItem.java",
+          "src/main/resources/assets/sussy/models/item/dragon_axe.json"
         ]
       },
       "path": "~/CarsonsMods/Dragon Tools"
@@ -636,8 +624,8 @@
       "registry_name": "dragon_shovel",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/sussy/item/DragonShovelItem.java",
-          "src/main/resources/assets/sussy/models/item/dragon_shovel.json"
+          "src/main/resources/assets/sussy/models/item/dragon_shovel.json",
+          "src/main/java/net/mcreator/sussy/item/DragonShovelItem.java"
         ]
       },
       "path": "~/CarsonsMods/Dragon Tools"
@@ -750,11 +738,11 @@
       "registry_name": "dragon_armor",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/sussy/item/DragonArmorItem.java",
           "src/main/resources/assets/sussy/models/item/dragon_armor_chestplate.json",
-          "src/main/resources/assets/sussy/models/item/dragon_armor_leggings.json",
           "src/main/resources/assets/sussy/models/item/dragon_armor_helmet.json",
-          "src/main/resources/assets/sussy/models/item/dragon_armor_boots.json",
-          "src/main/java/net/mcreator/sussy/item/DragonArmorItem.java"
+          "src/main/resources/assets/sussy/models/item/dragon_armor_leggings.json",
+          "src/main/resources/assets/sussy/models/item/dragon_armor_boots.json"
         ]
       },
       "path": "~/CarsonsMods/Dragon Tools"
@@ -1022,8 +1010,8 @@
       "registry_name": "dragon_stone_ingot",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sussy/models/item/dragon_stone_ingot.json",
-          "src/main/java/net/mcreator/sussy/item/DragonStoneIngotItem.java"
+          "src/main/java/net/mcreator/sussy/item/DragonStoneIngotItem.java",
+          "src/main/resources/assets/sussy/models/item/dragon_stone_ingot.json"
         ]
       },
       "path": "~/DragonStone"
@@ -1038,13 +1026,13 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/sussy/world/features/ores/DragonStoneOreFeature.java",
-          "src/main/resources/assets/sussy/models/item/dragon_stone_ore.json",
-          "src/main/java/net/mcreator/sussy/block/DragonStoneOreBlock.java",
-          "src/main/resources/data/sussy/worldgen/configured_feature/dragon_stone_ore.json",
-          "src/main/resources/data/sussy/worldgen/placed_feature/dragon_stone_ore.json",
-          "src/main/resources/assets/sussy/blockstates/dragon_stone_ore.json",
           "src/main/resources/data/sussy/forge/biome_modifier/dragon_stone_ore_biome_modifier.json",
-          "src/main/resources/assets/sussy/models/block/dragon_stone_ore.json"
+          "src/main/resources/data/sussy/worldgen/placed_feature/dragon_stone_ore.json",
+          "src/main/resources/assets/sussy/models/item/dragon_stone_ore.json",
+          "src/main/resources/data/sussy/worldgen/configured_feature/dragon_stone_ore.json",
+          "src/main/resources/assets/sussy/models/block/dragon_stone_ore.json",
+          "src/main/java/net/mcreator/sussy/block/DragonStoneOreBlock.java",
+          "src/main/resources/assets/sussy/blockstates/dragon_stone_ore.json"
         ]
       },
       "path": "~/DragonStone"
@@ -1100,10 +1088,10 @@
       "registry_name": "dragon_stone_block",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/sussy/block/DragonStoneBlockBlock.java",
           "src/main/resources/assets/sussy/models/block/dragon_stone_block.json",
-          "src/main/resources/assets/sussy/models/item/dragon_stone_block.json",
           "src/main/resources/assets/sussy/blockstates/dragon_stone_block.json",
-          "src/main/java/net/mcreator/sussy/block/DragonStoneBlockBlock.java"
+          "src/main/resources/assets/sussy/models/item/dragon_stone_block.json"
         ]
       },
       "path": "~/DragonStone"
@@ -1131,9 +1119,9 @@
       "registry_name": "raw_dragon_stone",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/sussy/block/RawDragonStoneBlock.java",
           "src/main/resources/assets/sussy/models/item/raw_dragon_stone.json",
           "src/main/resources/assets/sussy/blockstates/raw_dragon_stone.json",
-          "src/main/java/net/mcreator/sussy/block/RawDragonStoneBlock.java",
           "src/main/resources/assets/sussy/models/block/raw_dragon_stone.json"
         ]
       },
@@ -1163,10 +1151,10 @@
       "registry_name": "end_boss_alter",
       "metadata": {
         "files": [
-          "src/main/resources/data/sussy/worldgen/placed_feature/end_boss_alter.json",
+          "src/main/java/net/mcreator/sussy/world/features/EndBossAlterFeature.java",
           "src/main/resources/data/sussy/forge/biome_modifier/end_boss_alter_biome_modifier.json",
           "src/main/resources/data/sussy/worldgen/configured_feature/end_boss_alter.json",
-          "src/main/java/net/mcreator/sussy/world/features/EndBossAlterFeature.java"
+          "src/main/resources/data/sussy/worldgen/placed_feature/end_boss_alter.json"
         ]
       },
       "path": "~/Structures"
@@ -1313,8 +1301,8 @@
       "registry_name": "butter",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sussy/models/item/butter.json",
-          "src/main/java/net/mcreator/sussy/item/ButterItem.java"
+          "src/main/java/net/mcreator/sussy/item/ButterItem.java",
+          "src/main/resources/assets/sussy/models/item/butter.json"
         ]
       },
       "path": "~/CarsonsMods"
@@ -1334,10 +1322,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "itemstack",
-            "type": "itemstack"
           }
         ]
       },
@@ -1366,8 +1350,8 @@
       "registry_name": "hologram",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sussy/models/item/hologram.json",
-          "src/main/java/net/mcreator/sussy/item/HologramItem.java"
+          "src/main/java/net/mcreator/sussy/item/HologramItem.java",
+          "src/main/resources/assets/sussy/models/item/hologram.json"
         ]
       },
       "path": "~/music discs"
@@ -1418,6 +1402,129 @@
         ]
       },
       "path": "~/CarsonsMods"
+    },
+    {
+      "name": "DragonStoneOreBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_stone_ore_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/procedures/DragonStoneOreBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/DragonStone"
+    },
+    {
+      "name": "MOAT",
+      "type": "tab",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moat",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/CarsonsMods"
+    },
+    {
+      "name": "EmArmor",
+      "type": "procedure",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "em_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/procedures/EmArmorProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CarsonsMods"
+    },
+    {
+      "name": "RingofLuckItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ringof_luck_item_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/procedures/RingofLuckItemInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CarsonsMods"
+    },
+    {
+      "name": "RingofLuck",
+      "type": "item",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ringof_luck",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/item/RingofLuckItem.java",
+          "src/main/resources/assets/sussy/models/item/ringof_luck.json"
+        ]
+      },
+      "path": "~/CarsonsMods"
+    },
+    {
+      "name": "DragonSet",
+      "type": "procedure",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_set",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/procedures/DragonSetProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CarsonsMods/Dragon Tools"
     }
   ],
   "variable_elements": [],
@@ -1454,6 +1561,7 @@
       "enchantment.sussy.butter_fingers": "Butter Fingers",
       "item.sussy.emerald_hammer_tool": "Emerald Hammer Tool",
       "item.sussy.emerald_armor_armor_leggings": "Emerald_Armor Leggings",
+      "item_group.sussy.moat": "MOAT",
       "item.sussy.star_fruit": "Star Fruit",
       "item.sussy.copper_tools_pickaxe": "CopperTools Pickaxe",
       "item.sussy.hologram.desc": "Hologram",
@@ -1466,6 +1574,7 @@
       "item.sussy.copper_tools_axe": "CopperTools Axe",
       "item.sussy.emerald_armor_armor_chestplate": "Emerald_Armor Chestplate",
       "item.sussy.dragon_axe": "Dragon Axe",
+      "item.sussy.ringof_luck": "Ringof Luck",
       "item.sussy.emerald_armor_armor_helmet": "Emerald_Armor Helmet",
       "item.sussy.copper_tools_shovel": "CopperTools Shovel",
       "item.sussy.dragon_armor_chestplate": "Dragon Chestplate",
@@ -1481,7 +1590,6 @@
       "item.sussy.copper_tools_hoe": "CopperTools Hoe",
       "item.sussy.copper_armor_armor_boots": "CopperArmor Boots",
       "item.sussy.dragon_hoe": "Dragon Hoe",
-      "item_group.sussy.vanilla_addon": "Carsoa\u0027s Extra Content",
       "item.sussy.emerald_armor_armor_boots": "Emerald_Armor Boots",
       "item.sussy.dragon_stone_ingot": "DragonStone",
       "advancements.reach_for_the_stars.title": "Reach For The Stars",

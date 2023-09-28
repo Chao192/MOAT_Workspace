@@ -10,18 +10,29 @@
     "textureLeggings": "emerald_armor_leggings",
     "enableBoots": true,
     "textureBoots": "emerald_armor_boots",
+    "onHelmetTick": {
+      "name": "EmArmor"
+    },
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:MOAT"
     },
     "armorTextureFile": "emerald_armor",
     "helmetName": "Emerald_Armor Helmet",
     "bodyName": "Emerald_Armor Chestplate",
     "leggingsName": "Emerald_Armor Leggings",
     "bootsName": "Emerald_Armor Boots",
-    "helmetSpecialInfo": [],
-    "bodySpecialInfo": [],
-    "leggingsSpecialInfo": [],
-    "bootsSpecialInfo": [],
+    "helmetSpecialInfo": [
+      "Full set grants 42% discount on villager trades!"
+    ],
+    "bodySpecialInfo": [
+      "Full set grants 42% discount on villager trades!"
+    ],
+    "leggingsSpecialInfo": [
+      "Full set grants 42% discount on villager trades!"
+    ],
+    "bootsSpecialInfo": [
+      "Full set grants 42% discount on villager trades!"
+    ],
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",
     "helmetModelTexture": "From armor",
@@ -52,12 +63,12 @@
     "bootsImmuneToFire": false,
     "maxDamage": 25,
     "damageValueHelmet": 2,
-    "damageValueBody": 7,
-    "damageValueLeggings": 5,
+    "damageValueBody": 6,
+    "damageValueLeggings": 4,
     "damageValueBoots": 2,
     "enchantability": 18,
     "toughness": 2.5,
-    "knockbackResistance": 0.1,
+    "knockbackResistance": 0.0,
     "equipSound": {
       "value": "item.armor.equip_generic"
     },
