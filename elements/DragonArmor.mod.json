@@ -10,6 +10,9 @@
     "textureLeggings": "dragon_leggings",
     "enableBoots": true,
     "textureBoots": "dragon_boots",
+    "onHelmetTick": {
+      "name": "CopperArmorArmorHelmetTickEvent"
+    },
     "creativeTab": {
       "value": "CUSTOM:MOAT"
     },

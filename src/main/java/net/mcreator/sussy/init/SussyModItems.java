@@ -21,6 +21,7 @@ import net.mcreator.sussy.item.NetheriteclaymoretoolItem;
 import net.mcreator.sussy.item.MoonFruitItem;
 import net.mcreator.sussy.item.HologramItem;
 import net.mcreator.sussy.item.GrungoItem;
+import net.mcreator.sussy.item.FireWandItem;
 import net.mcreator.sussy.item.Emerald_ArmorArmorItem;
 import net.mcreator.sussy.item.EmeraldHammerToolItem;
 import net.mcreator.sussy.item.DragonclaymoretoolItem;
@@ -92,6 +93,7 @@ public class SussyModItems {
 	public static final RegistryObject<Item> HOLOGRAM = REGISTRY.register("hologram", () -> new HologramItem());
 	public static final RegistryObject<Item> UNIVERSAL_RESPAWN_ANCHOR = REGISTRY.register("universal_respawn_anchor", () -> new UniversalRespawnAnchorItem());
 	public static final RegistryObject<Item> RINGOF_LUCK = REGISTRY.register("ringof_luck", () -> new RingofLuckItem());
+	public static final RegistryObject<Item> FIRE_WAND = REGISTRY.register("fire_wand", () -> new FireWandItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

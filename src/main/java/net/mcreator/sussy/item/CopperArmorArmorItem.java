@@ -1,16 +1,20 @@
 
 package net.mcreator.sussy.item;
 
+import net.minecraft.world.level.Level;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.ArmorItem;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundEvent;
+
+import net.mcreator.sussy.procedures.CopperArmorArmorHelmetTickEventProcedure;
 
 public abstract class CopperArmorArmorItem extends ArmorItem {
 	public CopperArmorArmorItem(ArmorItem.Type type, Item.Properties properties) {
@@ -65,6 +69,11 @@ public abstract class CopperArmorArmorItem extends ArmorItem {
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "sussy:textures/models/armor/copperarmor_layer_1.png";
+		}
+
+		@Override
+		public void onArmorTick(ItemStack itemstack, Level world, Player entity) {
+			CopperArmorArmorHelmetTickEventProcedure.execute(entity);
 		}
 	}
 

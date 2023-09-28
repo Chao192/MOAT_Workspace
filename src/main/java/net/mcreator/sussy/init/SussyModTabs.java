@@ -66,5 +66,6 @@ public class SussyModTabs {
 				tabData.accept(SussyModItems.BUTTER.get());
 				tabData.accept(SussyModItems.UNIVERSAL_RESPAWN_ANCHOR.get());
 				tabData.accept(SussyModItems.RINGOF_LUCK.get());
+				tabData.accept(SussyModItems.FIRE_WAND.get());
 			}).withSearchBar().build());
 }

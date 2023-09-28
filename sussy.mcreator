@@ -1305,7 +1305,7 @@
           "src/main/resources/assets/sussy/models/item/butter.json"
         ]
       },
-      "path": "~/CarsonsMods"
+      "path": "~/CarsonsMods/Enchants"
     },
     {
       "name": "ButterFingerEnchant",
@@ -1325,7 +1325,7 @@
           }
         ]
       },
-      "path": "~/CarsonsMods"
+      "path": "~/CarsonsMods/Enchants"
     },
     {
       "name": "ButterFingers",
@@ -1339,7 +1339,7 @@
           "src/main/java/net/mcreator/sussy/enchantment/ButterFingersEnchantment.java"
         ]
       },
-      "path": "~/CarsonsMods"
+      "path": "~/CarsonsMods/Enchants"
     },
     {
       "name": "Hologram",
@@ -1525,6 +1525,79 @@
         ]
       },
       "path": "~/CarsonsMods/Dragon Tools"
+    },
+    {
+      "name": "CopperArmorArmorHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_armor_armor_helmet_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/procedures/CopperArmorArmorHelmetTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CarsonsMods/CopperTools"
+    },
+    {
+      "name": "CopperTool",
+      "type": "tag",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_tool",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/tags/items/copper_tool.json"
+        ]
+      },
+      "path": "~/CarsonsMods/CopperTools"
+    },
+    {
+      "name": "FireWandPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_wand_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/procedures/FireWandPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/CarsonsMods"
+    },
+    {
+      "name": "FireWand",
+      "type": "item",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_wand",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sussy/models/item/fire_wand.json",
+          "src/main/java/net/mcreator/sussy/item/FireWandItem.java"
+        ]
+      },
+      "path": "~/CarsonsMods"
     }
   ],
   "variable_elements": [],
@@ -1578,6 +1651,7 @@
       "item.sussy.emerald_armor_armor_helmet": "Emerald_Armor Helmet",
       "item.sussy.copper_tools_shovel": "CopperTools Shovel",
       "item.sussy.dragon_armor_chestplate": "Dragon Chestplate",
+      "item.sussy.fire_wand": "Fire Wand",
       "item.sussy.crimson_amulet": "Crimson Amulet",
       "item.sussy.dragon_armor_helmet": "Dragon Helmet",
       "item.sussy.dragon_ingot": "Dragon Ingot",
@@ -1672,6 +1746,10 @@
           },
           {
             "name": "CopperTools",
+            "children": []
+          },
+          {
+            "name": "Enchants",
             "children": []
           }
         ]
