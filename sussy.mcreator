@@ -1418,6 +1418,93 @@
         ]
       },
       "path": "~/CarsonsMods"
+    },
+    {
+      "name": "Diamonddagger",
+      "type": "tool",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamonddagger",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/item/DiamonddaggerItem.java",
+          "src/main/resources/assets/sussy/models/item/diamonddagger.json"
+        ]
+      },
+      "path": "~/Ethans_Mods/dagger weapon/diamond dagger"
+    },
+    {
+      "name": "Diamonddaggerrecipe",
+      "type": "recipe",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamonddaggerrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/recipes/diamonddaggerrecipe.json"
+        ]
+      },
+      "path": "~/Ethans_Mods/dagger weapon/diamond dagger"
+    },
+    {
+      "name": "Netheritedagger",
+      "type": "tool",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netheritedagger",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sussy/models/item/netheritedagger.json",
+          "src/main/java/net/mcreator/sussy/item/NetheritedaggerItem.java"
+        ]
+      },
+      "path": "~/Ethans_Mods/dagger weapon/netherite dagger"
+    },
+    {
+      "name": "Netheritedaggerecipe",
+      "type": "recipe",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netheritedaggerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/recipes/netheritedaggerecipe.json"
+        ]
+      },
+      "path": "~/Ethans_Mods/dagger weapon/netherite dagger"
+    },
+    {
+      "name": "Dragondagger",
+      "type": "tool",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragondagger",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sussy/models/item/dragondagger.json",
+          "src/main/java/net/mcreator/sussy/item/DragondaggerItem.java"
+        ]
+      },
+      "path": "~/Ethans_Mods/dagger weapon/dragon dagger"
+    },
+    {
+      "name": "Dragondaggerrecipe",
+      "type": "recipe",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragondaggerrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/recipes/dragondaggerrecipe.json"
+        ]
+      },
+      "path": "~/Ethans_Mods/dagger weapon/dragon dagger"
     }
   ],
   "variable_elements": [],
@@ -1433,16 +1520,16 @@
   ],
   "language_map": {
     "en_us": {
-      "block.sussy.dragon_stone_block": "Block of DragonStone",
       "item.sussy.universal_respawn_anchor": "Test",
+      "block.sussy.dragon_stone_block": "Block of DragonStone",
       "item.sussy.dragon_pickaxe": "Dragon Pickaxe",
       "item.sussy.dragon_armor_boots": "Dragon Boots",
-      "block.sussy.raw_dragon_stone": "Raw Dragon Stone",
       "item.sussy.dragon_shovel": "Dragon Shovel",
+      "block.sussy.raw_dragon_stone": "Raw Dragon Stone",
       "item.sussy.hologram": "Hologram",
       "item.sussy.moon_fruit": "Moon Fruit",
-      "item.sussy.copper_tools_sword": "CopperTools Sword",
       "item_group.sussy.ethans_mods": "Ethan\u0027s Mods",
+      "item.sussy.copper_tools_sword": "CopperTools Sword",
       "item.sussy.grungo": "Blaze Bat",
       "subtitles.hologramaudio": "",
       "item.sussy.copper_armor_armor_leggings": "CopperArmor Leggings",
@@ -1473,11 +1560,13 @@
       "item.sussy.dragon_armor_helmet": "Dragon Helmet",
       "item.sussy.dragon_ingot": "Dragon Ingot",
       "item.sussy.butter": "Butter",
+      "item.sussy.netheritedagger": "Netheritedagger",
       "item.sussy.copper_armor_armor_helmet": "CopperArmor Helmet",
       "advancements.dragonstaradvancement.descr": "Is it lean?",
       "item.sussy.dragon_sword": "Dragon Sword",
       "advancements.true_freedom.descr": "Eat a Moon Fruit",
       "item.sussy.copper_armor_armor_chestplate": "CopperArmor Chestplate",
+      "item.sussy.dragondagger": "Dragondagger",
       "item.sussy.copper_tools_hoe": "CopperTools Hoe",
       "item.sussy.copper_armor_armor_boots": "CopperArmor Boots",
       "item.sussy.dragon_hoe": "Dragon Hoe",
@@ -1485,6 +1574,7 @@
       "item.sussy.emerald_armor_armor_boots": "Emerald_Armor Boots",
       "item.sussy.dragon_stone_ingot": "DragonStone",
       "advancements.reach_for_the_stars.title": "Reach For The Stars",
+      "item.sussy.diamonddagger": "Diamonddagger",
       "advancements.are_you_serious.title": "Are You Serious",
       "enchantment.sussy.critical_strike": "Critical Strike"
     }
@@ -1548,6 +1638,23 @@
           {
             "name": "enchantments",
             "children": []
+          },
+          {
+            "name": "dagger weapon",
+            "children": [
+              {
+                "name": "diamond dagger",
+                "children": []
+              },
+              {
+                "name": "netherite dagger",
+                "children": []
+              },
+              {
+                "name": "dragon dagger",
+                "children": []
+              }
+            ]
           }
         ]
       },

@@ -16,12 +16,14 @@ import net.mcreator.sussy.item.UniversalRespawnAnchorItem;
 import net.mcreator.sussy.item.StarFruitItem;
 import net.mcreator.sussy.item.SnowballCannonItem;
 import net.mcreator.sussy.item.NetheritedualglaiveItem;
+import net.mcreator.sussy.item.NetheritedaggerItem;
 import net.mcreator.sussy.item.NetheriteclaymoretoolItem;
 import net.mcreator.sussy.item.MoonFruitItem;
 import net.mcreator.sussy.item.HologramItem;
 import net.mcreator.sussy.item.GrungoItem;
 import net.mcreator.sussy.item.Emerald_ArmorArmorItem;
 import net.mcreator.sussy.item.EmeraldHammerToolItem;
+import net.mcreator.sussy.item.DragondaggerItem;
 import net.mcreator.sussy.item.DragonclaymoretoolItem;
 import net.mcreator.sussy.item.DragonSwordItem;
 import net.mcreator.sussy.item.DragonStoneIngotItem;
@@ -33,6 +35,7 @@ import net.mcreator.sussy.item.DragonHoeItem;
 import net.mcreator.sussy.item.DragonDualGlaiveItem;
 import net.mcreator.sussy.item.DragonAxeItem;
 import net.mcreator.sussy.item.DragonArmorItem;
+import net.mcreator.sussy.item.DiamonddaggerItem;
 import net.mcreator.sussy.item.DiamondDualGlaiveItem;
 import net.mcreator.sussy.item.CrimsonAmuletItem;
 import net.mcreator.sussy.item.CopperToolsSwordItem;
@@ -90,6 +93,9 @@ public class SussyModItems {
 	public static final RegistryObject<Item> BUTTER = REGISTRY.register("butter", () -> new ButterItem());
 	public static final RegistryObject<Item> HOLOGRAM = REGISTRY.register("hologram", () -> new HologramItem());
 	public static final RegistryObject<Item> UNIVERSAL_RESPAWN_ANCHOR = REGISTRY.register("universal_respawn_anchor", () -> new UniversalRespawnAnchorItem());
+	public static final RegistryObject<Item> DIAMONDDAGGER = REGISTRY.register("diamonddagger", () -> new DiamonddaggerItem());
+	public static final RegistryObject<Item> NETHERITEDAGGER = REGISTRY.register("netheritedagger", () -> new NetheritedaggerItem());
+	public static final RegistryObject<Item> DRAGONDAGGER = REGISTRY.register("dragondagger", () -> new DragondaggerItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
