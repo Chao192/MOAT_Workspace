@@ -1724,6 +1724,26 @@
         "files": []
       },
       "path": "~/CarsonsMods"
+    },
+    {
+      "name": "NetheriteSet",
+      "type": "procedure",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_set",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/procedures/NetheriteSetProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CarsonsMods"
     }
   ],
   "variable_elements": [],
