@@ -98,8 +98,8 @@ public class SussyModItems {
 	public static final RegistryObject<Item> UNIVERSAL_RESPAWN_ANCHOR = REGISTRY.register("universal_respawn_anchor", () -> new UniversalRespawnAnchorItem());
 	public static final RegistryObject<Item> DIAMONDDAGGER = REGISTRY.register("diamonddagger", () -> new DiamonddaggerItem());
 	public static final RegistryObject<Item> NETHERITEDAGGER = REGISTRY.register("netheritedagger", () -> new NetheritedaggerItem());
-	public static final RegistryObject<Item> RINGOF_LUCK = REGISTRY.register("ringof_luck", () -> new RingofLuckItem());
 	public static final RegistryObject<Item> DRAGONDAGGER = REGISTRY.register("dragondagger", () -> new DragondaggerItem());
+	public static final RegistryObject<Item> RINGOF_LUCK = REGISTRY.register("ringof_luck", () -> new RingofLuckItem());
 	public static final RegistryObject<Item> FIRE_WAND = REGISTRY.register("fire_wand", () -> new FireWandItem());
 	public static final RegistryObject<Item> BAKA_MITAI = REGISTRY.register("baka_mitai", () -> new DameDameItem());
 
