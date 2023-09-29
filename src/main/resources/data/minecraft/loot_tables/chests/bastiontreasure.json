@@ -34,10 +34,10 @@
             {
               "add": false,
               "count": 1.0,
-              "function": "minecraft:baka_mitai"
+              "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:ancient_debris",
+          "name": "minecraft:baka_mitai",
           "weight": 10
         },
         {
