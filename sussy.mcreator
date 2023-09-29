@@ -1411,7 +1411,7 @@
       "name": "Diamonddagger",
       "type": "tool",
       "sortid": 96,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "diamonddagger",
       "metadata": {
@@ -1426,7 +1426,7 @@
       "name": "Dragondagger",
       "type": "tool",
       "sortid": 100,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "dragondagger",
       "metadata": {
@@ -1441,7 +1441,7 @@
       "name": "Netheritedagger",
       "type": "tool",
       "sortid": 98,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "netheritedagger",
       "metadata": {
@@ -1498,7 +1498,7 @@
       "name": "EmArmor",
       "type": "procedure",
       "sortid": 98,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "em_armor",
       "metadata": {
@@ -1530,7 +1530,7 @@
       "name": "RingofLuckItemInInventoryTick",
       "type": "procedure",
       "sortid": 99,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "ringof_luck_item_in_inventory_tick",
       "metadata": {
@@ -1550,7 +1550,7 @@
       "name": "DragonStoneOreBlockDestroyedByPlayer",
       "type": "procedure",
       "sortid": 96,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "dragon_stone_ore_block_destroyed_by_player",
       "metadata": {
@@ -1586,7 +1586,7 @@
       "name": "DragonSet",
       "type": "procedure",
       "sortid": 101,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "dragon_set",
       "metadata": {
@@ -1606,7 +1606,7 @@
       "name": "RingofLuck",
       "type": "item",
       "sortid": 100,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "ringof_luck",
       "metadata": {
