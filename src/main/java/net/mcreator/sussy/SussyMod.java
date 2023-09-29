@@ -31,6 +31,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.sussy.init.SussyModTabs;
 import net.mcreator.sussy.init.SussyModSounds;
+import net.mcreator.sussy.init.SussyModPotions;
 import net.mcreator.sussy.init.SussyModPaintings;
 import net.mcreator.sussy.init.SussyModItems;
 import net.mcreator.sussy.init.SussyModFeatures;
@@ -64,6 +65,7 @@ public class SussyMod {
 		SussyModTabs.REGISTRY.register(bus);
 		SussyModFeatures.REGISTRY.register(bus);
 
+		SussyModPotions.REGISTRY.register(bus);
 		SussyModPaintings.REGISTRY.register(bus);
 
 	}
