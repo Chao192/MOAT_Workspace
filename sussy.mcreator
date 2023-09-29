@@ -1746,39 +1746,6 @@
       "path": "~/CarsonsMods"
     },
     {
-      "name": "THICC",
-      "type": "painting",
-      "sortid": 114,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "thicc",
-      "metadata": {
-        "files": []
-      }
-    },
-    {
-      "name": "Baddy",
-      "type": "painting",
-      "sortid": 113,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "baddy",
-      "metadata": {
-        "files": []
-      }
-    },
-    {
-      "name": "ShadowWizardMoneyGang",
-      "type": "painting",
-      "sortid": 112,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "shadow_wizard_money_gang",
-      "metadata": {
-        "files": []
-      }
-    },
-    {
       "name": "Bastionloottable",
       "type": "loottable",
       "sortid": 112,
@@ -1791,6 +1758,42 @@
         ]
       },
       "path": "~/loot tables"
+    },
+    {
+      "name": "Shadowwizardmoneygang",
+      "type": "painting",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadowwizardmoneygang",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/CarsonsMods"
+    },
+    {
+      "name": "Shadowwizardbaddie",
+      "type": "painting",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadowwizardbaddie",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/CarsonsMods"
+    },
+    {
+      "name": "Shadowqizarddumpy",
+      "type": "painting",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadowqizarddumpy",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/CarsonsMods"
     }
   ],
   "variable_elements": [],
@@ -1838,6 +1841,7 @@
       "item.sussy.emerald_hammer_tool": "Emerald Hammer Tool",
       "item.sussy.emerald_armor_armor_leggings": "Emerald_Armor Leggings",
       "item_group.sussy.moat": "MOAT",
+      "painting.sussy.shadowwizardmoneygang.author": "carsoa5",
       "item.sussy.star_fruit": "Star Fruit",
       "item.sussy.copper_tools_pickaxe": "Copper Pickaxe",
       "item.sussy.hologram.desc": "Hologram",
@@ -1851,6 +1855,7 @@
       "item.sussy.emerald_armor_armor_chestplate": "Emerald_Armor Chestplate",
       "item.sussy.dragon_axe": "Dragon Axe",
       "painting.sussy.sussy_man.author": "Carsoa5",
+      "painting.sussy.shadowwizardmoneygang.title": "Shadowwizardmoneygang",
       "item.sussy.ringof_luck": "Ringof Luck",
       "item.sussy.emerald_armor_armor_helmet": "Emerald_Armor Helmet",
       "item.sussy.copper_tools_shovel": "Copper Shovel",
