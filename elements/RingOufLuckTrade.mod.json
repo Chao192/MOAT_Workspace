@@ -1,0 +1,33 @@
+{
+  "_fv": 47,
+  "_type": "villagertrade",
+  "definition": {
+    "tradeEntries": [
+      {
+        "villagerProfession": {
+          "value": "CLERIC"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 10,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:RingofLuck"
+            },
+            "countOffer": 1,
+            "level": 3,
+            "maxTrades": 3,
+            "xp": 8,
+            "priceMultiplier": 0.5
+          }
+        ]
+      }
+    ]
+  }
+}

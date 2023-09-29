@@ -6,7 +6,7 @@
     "renderType": 0,
     "texture": "coppertools_pickaxe",
     "customModelName": "Normal",
-    "name": "CopperTools Pickaxe",
+    "name": "Copper Pickaxe",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:MOAT"

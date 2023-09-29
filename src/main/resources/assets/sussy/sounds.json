@@ -6,5 +6,13 @@
         "stream": true
       }
     ]
+  },
+  "bakamitai": {
+    "sounds": [
+      {
+        "name": "sussy:baka-mitai-bakamitai-kiryu-full-version",
+        "stream": true
+      }
+    ]
   }
 }

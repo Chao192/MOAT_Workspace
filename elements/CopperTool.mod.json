@@ -1,0 +1,30 @@
+{
+  "_fv": 47,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:CopperToolsPickaxe"
+      },
+      {
+        "value": "CUSTOM:CopperToolsAxe"
+      },
+      {
+        "value": "CUSTOM:CopperToolsSword"
+      },
+      {
+        "value": "CUSTOM:CopperToolsShovel"
+      },
+      {
+        "value": "CUSTOM:CopperToolsHoe"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "copper_tool",
+    "namespace": "mod"
+  }
+}
