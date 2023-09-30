@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DragonPickaxe"
+      },
+      {
+        "value": "CUSTOM:DragonShovel"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DragonAxe"
+      },
+      {
+        "value": "CUSTOM:DragonHoe"
+      },
+      {
+        "value": "CUSTOM:DragonSword"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:OmniTool"
+    },
+    "name": "omni_tool_recipe",
+    "namespace": "mod"
+  }
+}
