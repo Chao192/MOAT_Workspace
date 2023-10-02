@@ -1823,6 +1823,40 @@
         ]
       },
       "path": "~/CarsonsMods/Dragon Tools"
+    },
+    {
+      "name": "ROOBEEREffectEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roobeer_effect_effect_startedapplied",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/procedures/ROOBEEREffectEffectStartedappliedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CarsonsMods"
+    },
+    {
+      "name": "ROOBEEREffect",
+      "type": "potioneffect",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roobeer_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/potion/ROOBEEREffectMobEffect.java"
+        ]
+      },
+      "path": "~/CarsonsMods"
     }
   ],
   "variable_elements": [],
@@ -1916,6 +1950,7 @@
       "subtitles.bakamitai": "",
       "item.sussy.emerald_armor_armor_boots": "Emerald_Armor Boots",
       "item.sussy.dragon_stone_ingot": "DragonStone",
+      "effect.sussy.roobeer_effect": "ROOBEER",
       "advancements.reach_for_the_stars.title": "Reach For The Stars",
       "painting.sussy.shadowqizarddumpy.author": "carsoa5",
       "item.sussy.diamonddagger": "Diamonddagger",
@@ -2006,6 +2041,10 @@
           },
           {
             "name": "Dragon Tools",
+            "children": []
+          },
+          {
+            "name": "Bosses",
             "children": []
           }
         ]

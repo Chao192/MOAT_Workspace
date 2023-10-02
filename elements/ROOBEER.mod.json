@@ -9,19 +9,10 @@
     "effects": [
       {
         "effect": {
-          "value": "SPEED"
+          "value": "CUSTOM:ROOBEEREffect"
         },
         "duration": 3600,
         "amplifier": 0,
-        "ambient": false,
-        "showParticles": true
-      },
-      {
-        "effect": {
-          "value": "SATURATION"
-        },
-        "duration": 3600,
-        "amplifier": 40,
         "ambient": false,
         "showParticles": true
       }
