@@ -10,6 +10,8 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.damagesource.DamageTypes;
+import net.minecraft.world.damagesource.DamageSource;
 
 import net.mcreator.sussy.init.SussyModMobEffects;
 import net.mcreator.sussy.init.SussyModEnchantments;
@@ -23,19 +25,19 @@ public class ImplosionMatrixProcedure {
 	@SubscribeEvent
 	public static void onEntityAttacked(LivingAttackEvent event) {
 		if (event != null && event.getEntity() != null) {
-			execute(event, event.getEntity(), event.getSource().getEntity());
+			execute(event, event.getSource(), event.getEntity(), event.getSource().getEntity());
 		}
 	}
 
-	public static void execute(Entity entity, Entity sourceentity) {
-		execute(null, entity, sourceentity);
+	public static void execute(DamageSource damagesource, Entity entity, Entity sourceentity) {
+		execute(null, damagesource, entity, sourceentity);
 	}
 
-	private static void execute(@Nullable Event event, Entity entity, Entity sourceentity) {
-		if (entity == null || sourceentity == null)
+	private static void execute(@Nullable Event event, DamageSource damagesource, Entity entity, Entity sourceentity) {
+		if (damagesource == null || entity == null || sourceentity == null)
 			return;
 		double Random = 0;
-		if (EnchantmentHelper.getItemEnchantmentLevel(SussyModEnchantments.HEMORRAGE_ENCHANT.get(), (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) != 0) {
+		if (EnchantmentHelper.getItemEnchantmentLevel(SussyModEnchantments.HEMORRAGE_ENCHANT.get(), (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) != 0 && damagesource.is(DamageTypes.PLAYER_ATTACK)) {
 			Random = Math.random() * 100;
 			if (Random <= (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getEnchantmentLevel(SussyModEnchantments.HEMORRAGE_ENCHANT.get()) * 100) {
 				if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
