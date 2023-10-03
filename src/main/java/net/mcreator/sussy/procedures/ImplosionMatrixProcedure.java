@@ -39,10 +39,10 @@ public class ImplosionMatrixProcedure {
 		double Random = 0;
 		if (EnchantmentHelper.getItemEnchantmentLevel(SussyModEnchantments.HEMORRAGE_ENCHANT.get(), (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) != 0 && damagesource.is(DamageTypes.PLAYER_ATTACK)) {
 			Random = Math.random() * 100;
-			if (Random <= (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getEnchantmentLevel(SussyModEnchantments.HEMORRAGE_ENCHANT.get()) * 100) {
+			if (Random <= (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getEnchantmentLevel(SussyModEnchantments.HEMORRAGE_ENCHANT.get()) * 5) {
 				if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 					_entity.addEffect(new MobEffectInstance(SussyModMobEffects.BLEEDING.get(),
-							(int) ((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getEnchantmentLevel(SussyModEnchantments.HEMORRAGE_ENCHANT.get()) * 100), 1));
+							(int) ((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getEnchantmentLevel(SussyModEnchantments.HEMORRAGE_ENCHANT.get()) * 100), 1, false, false));
 			}
 		}
 	}

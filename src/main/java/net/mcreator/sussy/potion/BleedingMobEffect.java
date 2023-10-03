@@ -10,7 +10,7 @@ import net.mcreator.sussy.procedures.BleedingOnEffectActiveTickProcedure;
 
 public class BleedingMobEffect extends MobEffect {
 	public BleedingMobEffect() {
-		super(MobEffectCategory.HARMFUL, -65536);
+		super(MobEffectCategory.HARMFUL, -10092544);
 	}
 
 	@Override
