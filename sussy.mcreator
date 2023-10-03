@@ -1857,6 +1857,174 @@
         ]
       },
       "path": "~/CarsonsMods"
+    },
+    {
+      "name": "ROOBEERReciper",
+      "type": "recipe",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roobeer_reciper",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/recipes/brewing/ROOBEERReciperBrewingRecipe.java"
+        ]
+      },
+      "path": "~/CarsonsMods"
+    },
+    {
+      "name": "Hemorrage",
+      "type": "procedure",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hemorrage",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/sussy/procedures/HemorrageProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "amplifier",
+            "type": "number"
+          },
+          {
+            "name": "duration",
+            "type": "number"
+          }
+        ]
+      },
+      "path": "~/CarsonsMods"
+    },
+    {
+      "name": "HemorrageEnchant",
+      "type": "enchantment",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hemorrage_enchant",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/enchantment/HemorrageEnchantEnchantment.java"
+        ]
+      },
+      "path": "~/CarsonsMods"
+    },
+    {
+      "name": "ImplosionMatrix",
+      "type": "procedure",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hemorrage",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/procedures/ImplosionMatrixProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CarsonsMods"
+    },
+    {
+      "name": "BleedingOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bleeding_on_effect_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/procedures/BleedingOnEffectActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/CarsonsMods"
+    },
+    {
+      "name": "Bleeding",
+      "type": "potioneffect",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bleeding",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/potion/BleedingMobEffect.java"
+        ]
+      },
+      "path": "~/CarsonsMods"
+    },
+    {
+      "name": "Bleed",
+      "type": "particle",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bleed",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sussy/particles/bleed.json",
+          "src/main/java/net/mcreator/sussy/client/particle/BleedParticle.java"
+        ]
+      },
+      "path": "~/CarsonsMods"
+    },
+    {
+      "name": "Pullenchant",
+      "type": "enchantment",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pullenchant",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/enchantment/PullenchantEnchantment.java"
+        ]
+      },
+      "path": "~/CarsonsMods"
+    },
+    {
+      "name": "Pull",
+      "type": "procedure",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pull",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/procedures/PullProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CarsonsMods"
     }
   ],
   "variable_elements": [],
@@ -1880,17 +2048,19 @@
   ],
   "language_map": {
     "en_us": {
-      "block.sussy.dragon_stone_block": "Block of DragonStone",
+      "enchantment.sussy.hemorrage_enchant": "Hemorrage",
       "item.sussy.universal_respawn_anchor": "Universal Respawn Anchor",
+      "block.sussy.dragon_stone_block": "Block of DragonStone",
       "item.sussy.dragon_pickaxe": "Dragon Pickaxe",
       "item.sussy.dragon_armor_boots": "Dragon Boots",
       "item.sussy.dragon_shovel": "Dragon Shovel",
       "block.sussy.raw_dragon_stone": "Raw Dragon Stone",
+      "effect.sussy.bleeding": "Bleed",
       "item.sussy.hologram": "Hologram",
       "item.sussy.moon_fruit": "Moon Fruit",
-      "item.sussy.baka_mitai": "Baka Mitai",
-      "item.sussy.copper_tools_sword": "Copper Sword",
       "item_group.sussy.ethans_mods": "Ethan\u0027s Mods",
+      "item.sussy.copper_tools_sword": "Copper Sword",
+      "item.sussy.baka_mitai": "Baka Mitai",
       "item.sussy.grungo": "Blaze Bat",
       "subtitles.hologramaudio": "",
       "item.sussy.copper_armor_armor_leggings": "Copper Leggings",
@@ -1934,6 +2104,7 @@
       "item.sussy.crimson_amulet": "Crimson Amulet",
       "item.sussy.dragon_armor_helmet": "Dragon Helmet",
       "item.sussy.dragon_ingot": "Dragon Ingot",
+      "enchantment.sussy.pullenchant": "Pullenchant",
       "item.sussy.butter": "Butter",
       "item.sussy.netheritedagger": "Netheritedagger",
       "item.sussy.copper_armor_armor_helmet": "Copper Helmet",
