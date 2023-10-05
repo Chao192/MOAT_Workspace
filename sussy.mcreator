@@ -13,7 +13,7 @@
           "src/main/java/net/mcreator/sussy/item/GrungoItem.java"
         ]
       },
-      "path": "~/CarsonsMods"
+      "path": "~/CarsonsMods/artifacts"
     },
     {
       "name": "GrungoRightclicked",
@@ -37,7 +37,7 @@
           }
         ]
       },
-      "path": "~/CarsonsMods"
+      "path": "~/CarsonsMods/artifacts"
     },
     {
       "name": "GrungoLivingEntityIsHitWithTool",
@@ -57,7 +57,7 @@
           }
         ]
       },
-      "path": "~/CarsonsMods"
+      "path": "~/CarsonsMods/artifacts"
     },
     {
       "name": "GrungoRecipe",
@@ -71,7 +71,7 @@
           "src/main/resources/data/sussy/recipes/grungo_recipe.json"
         ]
       },
-      "path": "~/CarsonsMods"
+      "path": "~/CarsonsMods/artifacts"
     },
     {
       "name": "CrimsonAmuletRightclicked",
@@ -103,7 +103,7 @@
           }
         ]
       },
-      "path": "~/CarsonsMods"
+      "path": "~/CarsonsMods/artifacts"
     },
     {
       "name": "CrimsonAmulet",
@@ -118,7 +118,7 @@
           "src/main/java/net/mcreator/sussy/item/CrimsonAmuletItem.java"
         ]
       },
-      "path": "~/CarsonsMods"
+      "path": "~/CarsonsMods/artifacts"
     },
     {
       "name": "CrimsonAmuletRecipe",
@@ -132,7 +132,7 @@
           "src/main/resources/data/sussy/recipes/crimson_amulet_recipe.json"
         ]
       },
-      "path": "~/CarsonsMods"
+      "path": "~/CarsonsMods/artifacts"
     },
     {
       "name": "SnowballCannon",
@@ -148,7 +148,7 @@
           "src/main/java/net/mcreator/sussy/item/SnowballCannonItem.java"
         ]
       },
-      "path": "~/CarsonsMods"
+      "path": "~/CarsonsMods/artifacts"
     },
     {
       "name": "StarFruitPlayerFinishesUsingItem",
@@ -168,7 +168,7 @@
           }
         ]
       },
-      "path": "~/CarsonsMods"
+      "path": "~/CarsonsMods/artifacts"
     },
     {
       "name": "StarFruit",
@@ -183,7 +183,7 @@
           "src/main/resources/assets/sussy/models/item/star_fruit.json"
         ]
       },
-      "path": "~/CarsonsMods"
+      "path": "~/CarsonsMods/artifacts"
     },
     {
       "name": "MoonFruitPlayerFinishesUsingItem",
@@ -203,7 +203,7 @@
           }
         ]
       },
-      "path": "~/CarsonsMods"
+      "path": "~/CarsonsMods/artifacts"
     },
     {
       "name": "StarFruitRecipe",
@@ -217,7 +217,7 @@
           "src/main/resources/data/sussy/recipes/star_fruit_recipe.json"
         ]
       },
-      "path": "~/CarsonsMods"
+      "path": "~/CarsonsMods/artifacts"
     },
     {
       "name": "MoonFruit",
@@ -232,7 +232,7 @@
           "src/main/resources/assets/sussy/models/item/moon_fruit.json"
         ]
       },
-      "path": "~/CarsonsMods"
+      "path": "~/CarsonsMods/artifacts"
     },
     {
       "name": "MoonFruitRecipe",
@@ -246,7 +246,7 @@
           "src/main/resources/data/sussy/recipes/moon_fruit_recipe.json"
         ]
       },
-      "path": "~/CarsonsMods"
+      "path": "~/CarsonsMods/artifacts"
     },
     {
       "name": "CopperToolsPickaxe",
@@ -815,7 +815,7 @@
           "src/main/resources/data/sussy/loot_tables/chests/addon.json"
         ]
       },
-      "path": "~/CarsonsMods"
+      "path": "~/CarsonsMods/artifacts"
     },
     {
       "name": "SnowBallCannonRecipe",
@@ -829,7 +829,7 @@
           "src/main/resources/data/sussy/recipes/snow_ball_cannon_recipe.json"
         ]
       },
-      "path": "~/CarsonsMods"
+      "path": "~/CarsonsMods/artifacts"
     },
     {
       "name": "TrueFreedom",
@@ -1390,7 +1390,7 @@
           }
         ]
       },
-      "path": "~/CarsonsMods"
+      "path": "~/CarsonsMods/artifacts"
     },
     {
       "name": "UniversalRespawnAnchor",
@@ -1405,7 +1405,7 @@
           "src/main/resources/assets/sussy/models/item/universal_respawn_anchor.json"
         ]
       },
-      "path": "~/CarsonsMods"
+      "path": "~/CarsonsMods/artifacts"
     },
     {
       "name": "DragonStoneOreBlockDestroyedByPlayer",
@@ -1493,7 +1493,7 @@
           }
         ]
       },
-      "path": "~/CarsonsMods"
+      "path": "~/CarsonsMods/artifacts"
     },
     {
       "name": "RingofLuck",
@@ -1508,7 +1508,7 @@
           "src/main/resources/assets/sussy/models/item/ringof_luck.json"
         ]
       },
-      "path": "~/CarsonsMods"
+      "path": "~/CarsonsMods/artifacts"
     },
     {
       "name": "DragonSet",
@@ -1572,7 +1572,7 @@
           }
         ]
       },
-      "path": "~/CarsonsMods"
+      "path": "~/CarsonsMods/artifacts"
     },
     {
       "name": "FireWand",
@@ -1587,7 +1587,7 @@
           "src/main/java/net/mcreator/sussy/item/FireWandItem.java"
         ]
       },
-      "path": "~/CarsonsMods"
+      "path": "~/CarsonsMods/artifacts"
     },
     {
       "name": "CopperTool",
@@ -1727,7 +1727,7 @@
       "metadata": {
         "files": []
       },
-      "path": "~/CarsonsMods"
+      "path": "~/CarsonsMods/artifacts"
     },
     {
       "name": "NetheriteSet",
@@ -1960,6 +1960,18 @@
             "type": "entity"
           },
           {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
             "name": "world",
             "type": "world"
           }
@@ -2085,8 +2097,8 @@
   "language_map": {
     "en_us": {
       "enchantment.sussy.hemorrage_enchant": "Hemorrage",
-      "block.sussy.dragon_stone_block": "Block of DragonStone",
       "item.sussy.universal_respawn_anchor": "Universal Respawn Anchor",
+      "block.sussy.dragon_stone_block": "Block of DragonStone",
       "item.sussy.dragon_pickaxe": "Dragon Pickaxe",
       "item.sussy.dragon_armor_boots": "Dragon Boots",
       "item.sussy.dragon_shovel": "Dragon Shovel",
@@ -2252,6 +2264,10 @@
           },
           {
             "name": "Bosses",
+            "children": []
+          },
+          {
+            "name": "artifacts",
             "children": []
           }
         ]
