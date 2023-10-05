@@ -2037,6 +2037,30 @@
         ]
       },
       "path": "~/CarsonsMods"
+    },
+    {
+      "name": "ROOBEEREffectOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roobeer_effect_on_effect_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/procedures/ROOBEEREffectOnEffectActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/CarsonsMods"
     }
   ],
   "variable_elements": [],
@@ -2061,8 +2085,8 @@
   "language_map": {
     "en_us": {
       "enchantment.sussy.hemorrage_enchant": "Hemorrage",
-      "item.sussy.universal_respawn_anchor": "Universal Respawn Anchor",
       "block.sussy.dragon_stone_block": "Block of DragonStone",
+      "item.sussy.universal_respawn_anchor": "Universal Respawn Anchor",
       "item.sussy.dragon_pickaxe": "Dragon Pickaxe",
       "item.sussy.dragon_armor_boots": "Dragon Boots",
       "item.sussy.dragon_shovel": "Dragon Shovel",
