@@ -17,6 +17,7 @@ import net.mcreator.sussy.item.StarFruitItem;
 import net.mcreator.sussy.item.SnowballCannonItem;
 import net.mcreator.sussy.item.RingofLuckItem;
 import net.mcreator.sussy.item.OmniToolItem;
+import net.mcreator.sussy.item.OmniHoeItem;
 import net.mcreator.sussy.item.NetheritedualglaiveItem;
 import net.mcreator.sussy.item.NetheritedaggerItem;
 import net.mcreator.sussy.item.NetheriteclaymoretoolItem;
@@ -104,6 +105,7 @@ public class SussyModItems {
 	public static final RegistryObject<Item> FIRE_WAND = REGISTRY.register("fire_wand", () -> new FireWandItem());
 	public static final RegistryObject<Item> BAKA_MITAI = REGISTRY.register("baka_mitai", () -> new DameDameItem());
 	public static final RegistryObject<Item> OMNI_TOOL = REGISTRY.register("omni_tool", () -> new OmniToolItem());
+	public static final RegistryObject<Item> OMNI_HOE = REGISTRY.register("omni_hoe", () -> new OmniHoeItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

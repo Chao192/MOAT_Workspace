@@ -2073,6 +2073,35 @@
         ]
       },
       "path": "~/CarsonsMods"
+    },
+    {
+      "name": "OmniHoe",
+      "type": "tool",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "omni_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/item/OmniHoeItem.java",
+          "src/main/resources/assets/sussy/models/item/omni_hoe.json"
+        ]
+      },
+      "path": "~/CarsonsMods/Dragon Tools"
+    },
+    {
+      "name": "OmniHoeRecipe",
+      "type": "recipe",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "omni_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/recipes/omni_hoe_recipe.json"
+        ]
+      },
+      "path": "~/CarsonsMods/Dragon Tools"
     }
   ],
   "variable_elements": [],
@@ -2097,9 +2126,10 @@
   "language_map": {
     "en_us": {
       "enchantment.sussy.hemorrage_enchant": "Hemorrage",
-      "item.sussy.universal_respawn_anchor": "Universal Respawn Anchor",
       "block.sussy.dragon_stone_block": "Block of DragonStone",
+      "item.sussy.universal_respawn_anchor": "Universal Respawn Anchor",
       "item.sussy.dragon_pickaxe": "Dragon Pickaxe",
+      "item.sussy.omni_hoe": "Omni Hoe",
       "item.sussy.dragon_armor_boots": "Dragon Boots",
       "item.sussy.dragon_shovel": "Dragon Shovel",
       "block.sussy.raw_dragon_stone": "Raw Dragon Stone",
