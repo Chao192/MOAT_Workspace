@@ -1,0 +1,21 @@
+{
+  "_fv": 47,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of ROOBEER",
+    "splashName": "Splash Potion of ROOBEER",
+    "lingeringName": "Lingering Potion of ROOBEER",
+    "arrowName": "Arrow of ROOBEER",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:ROOBEEREffect"
+        },
+        "duration": 3600,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

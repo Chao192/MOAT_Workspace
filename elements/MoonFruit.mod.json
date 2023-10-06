@@ -10,7 +10,7 @@
     "name": "Moon Fruit",
     "rarity": "EPIC",
     "creativeTab": {
-      "value": "CUSTOM:VanillaAddon"
+      "value": "CUSTOM:MOAT"
     },
     "stackSize": 1,
     "enchantability": 0,

@@ -6,10 +6,10 @@
     "renderType": 0,
     "texture": "coppertools_hoe",
     "customModelName": "Normal",
-    "name": "CopperTools Hoe",
+    "name": "Copper Hoe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:VanillaAddon"
+      "value": "CUSTOM:MOAT"
     },
     "harvestLevel": 2,
     "efficiency": 5.5,

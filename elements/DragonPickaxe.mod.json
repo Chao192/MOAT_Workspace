@@ -9,7 +9,7 @@
     "name": "Dragon Pickaxe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:MOAT"
     },
     "harvestLevel": 5,
     "efficiency": 13.0,

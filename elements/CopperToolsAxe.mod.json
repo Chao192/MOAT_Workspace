@@ -6,10 +6,10 @@
     "renderType": 0,
     "texture": "coppertools_axe",
     "customModelName": "Normal",
-    "name": "CopperTools Axe",
+    "name": "Coppe Axe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:MOAT"
     },
     "harvestLevel": 2,
     "efficiency": 6.0,

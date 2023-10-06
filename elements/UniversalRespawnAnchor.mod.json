@@ -7,10 +7,10 @@
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Test",
+    "name": "Universal Respawn Anchor",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:VanillaAddon"
+      "value": "CUSTOM:MOAT"
     },
     "stackSize": 1,
     "enchantability": 0,

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " 12",
+    " 45",
+    "6  "
+  ],
+  "key": {
+    "1": {
+      "item": "sussy:dragon_pickaxe"
+    },
+    "2": {
+      "item": "sussy:dragon_shovel"
+    },
+    "4": {
+      "item": "sussy:dragon_axe"
+    },
+    "5": {
+      "item": "sussy:dragon_hoe"
+    },
+    "6": {
+      "item": "sussy:dragon_sword"
+    }
+  },
+  "result": {
+    "item": "sussy:deleted_mod_element",
+    "count": 1
+  }
+}

@@ -6,10 +6,10 @@
     "renderType": 0,
     "texture": "coppertools_shovel",
     "customModelName": "Normal",
-    "name": "CopperTools Shovel",
+    "name": "Copper Shovel",
     "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:VanillaAddon"
+      "value": "CUSTOM:MOAT"
     },
     "harvestLevel": 2,
     "efficiency": 5.5,

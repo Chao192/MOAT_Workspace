@@ -1,0 +1,21 @@
+{
+  "_fv": 47,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Baka Mitai",
+    "texture": "damedisk",
+    "description": "From YAKUZA:0",
+    "creativeTab": {
+      "value": "CUSTOM:MOAT"
+    },
+    "specialInfo": [
+      "I've been a fool..."
+    ],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:bakamitai"
+    },
+    "lengthInTicks": 5800,
+    "analogOutput": 0
+  }
+}

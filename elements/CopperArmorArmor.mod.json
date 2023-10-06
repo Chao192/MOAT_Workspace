@@ -10,18 +10,29 @@
     "textureLeggings": "copperarmor_leggings",
     "enableBoots": true,
     "textureBoots": "copperarmor_boots",
+    "onHelmetTick": {
+      "name": "CopperArmorArmorHelmetTickEvent"
+    },
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:MOAT"
     },
     "armorTextureFile": "copperarmor",
-    "helmetName": "CopperArmor Helmet",
-    "bodyName": "CopperArmor Chestplate",
-    "leggingsName": "CopperArmor Leggings",
-    "bootsName": "CopperArmor Boots",
-    "helmetSpecialInfo": [],
-    "bodySpecialInfo": [],
-    "leggingsSpecialInfo": [],
-    "bootsSpecialInfo": [],
+    "helmetName": "Copper Helmet",
+    "bodyName": "Copper Chestplate",
+    "leggingsName": "Copper Leggings",
+    "bootsName": "Copper Boots",
+    "helmetSpecialInfo": [
+      "Full Set Bonus: Speed (Haste When Used With Pickaxe)"
+    ],
+    "bodySpecialInfo": [
+      "Full Set Bonus: Speed (Haste When Used With Pickaxe)"
+    ],
+    "leggingsSpecialInfo": [
+      "Full Set Bonus: Speed (Haste When Used With Pickaxe)"
+    ],
+    "bootsSpecialInfo": [
+      "Full Set Bonus: Speed (Haste When Used With Pickaxe)"
+    ],
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",
     "helmetModelTexture": "From armor",

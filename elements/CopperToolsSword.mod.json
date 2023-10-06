@@ -6,10 +6,10 @@
     "renderType": 0,
     "texture": "coppertools_sword",
     "customModelName": "Normal",
-    "name": "CopperTools Sword",
+    "name": "Copper Sword",
     "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:VanillaAddon"
+      "value": "CUSTOM:MOAT"
     },
     "harvestLevel": 2,
     "efficiency": 5.0,

@@ -186,18 +186,6 @@
       "path": "~/CarsonsMods"
     },
     {
-      "name": "VanillaAddon",
-      "type": "tab",
-      "sortid": 14,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "vanilla_addon",
-      "metadata": {
-        "files": []
-      },
-      "path": "~/CarsonsMods"
-    },
-    {
       "name": "MoonFruitPlayerFinishesUsingItem",
       "type": "procedure",
       "sortid": 15,
@@ -1418,6 +1406,702 @@
         ]
       },
       "path": "~/CarsonsMods"
+    },
+    {
+      "name": "EmArmor",
+      "type": "procedure",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "em_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/procedures/EmArmorProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CarsonsMods"
+    },
+    {
+      "name": "Pullenchant",
+      "type": "enchantment",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pullenchant",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/enchantment/PullenchantEnchantment.java"
+        ]
+      },
+      "path": "~/CarsonsMods"
+    },
+    {
+      "name": "Netheritedagger",
+      "type": "tool",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netheritedagger",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sussy/models/item/netheritedagger.json",
+          "src/main/java/net/mcreator/sussy/item/NetheritedaggerItem.java"
+        ]
+      },
+      "path": "~/Ethans_Mods"
+    },
+    {
+      "name": "Pull",
+      "type": "procedure",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pull",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/procedures/PullProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "damagesource",
+            "type": "damagesource"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CarsonsMods"
+    },
+    {
+      "name": "ImplosionMatrix",
+      "type": "procedure",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hemorrage",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/procedures/ImplosionMatrixProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "damagesource",
+            "type": "damagesource"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CarsonsMods"
+    },
+    {
+      "name": "RingOufLuckTrade",
+      "type": "villagertrade",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ring_ouf_luck_trade",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/CarsonsMods/artifacts"
+    },
+    {
+      "name": "SussyMan",
+      "type": "painting",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sussy_man",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/CarsonsMods"
+    },
+    {
+      "name": "ROOBEEREffectOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roobeer_effect_on_effect_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/procedures/ROOBEEREffectOnEffectActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/CarsonsMods"
+    },
+    {
+      "name": "OmniToolRecipe",
+      "type": "recipe",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "omni_tool_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/recipes/omni_tool_recipe.json"
+        ]
+      },
+      "path": "~/CarsonsMods/Dragon Tools"
+    },
+    {
+      "name": "Bleeding",
+      "type": "potioneffect",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bleeding",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/potion/BleedingMobEffect.java"
+        ]
+      },
+      "path": "~/CarsonsMods"
+    },
+    {
+      "name": "Bleed",
+      "type": "particle",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bleed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/client/particle/BleedParticle.java",
+          "src/main/resources/assets/sussy/particles/bleed.json"
+        ]
+      },
+      "path": "~/CarsonsMods"
+    },
+    {
+      "name": "OmniHoe",
+      "type": "tool",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "omni_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sussy/models/item/omni_hoe.json",
+          "src/main/java/net/mcreator/sussy/item/OmniHoeItem.java"
+        ]
+      },
+      "path": "~/CarsonsMods/Dragon Tools"
+    },
+    {
+      "name": "CopperArmorArmorHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_armor_armor_helmet_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/procedures/CopperArmorArmorHelmetTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CarsonsMods/CopperTools"
+    },
+    {
+      "name": "FireWandPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_wand_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/procedures/FireWandPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/CarsonsMods/artifacts"
+    },
+    {
+      "name": "DameDame",
+      "type": "musicdisc",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baka_mitai",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/item/DameDameItem.java",
+          "src/main/resources/assets/sussy/models/item/baka_mitai.json"
+        ]
+      },
+      "path": "~/music discs"
+    },
+    {
+      "name": "ROOBEEREffectEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roobeer_effect_effect_startedapplied",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/procedures/ROOBEEREffectEffectStartedappliedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CarsonsMods"
+    },
+    {
+      "name": "Shadowqizarddumpy",
+      "type": "painting",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadowqizarddumpy",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/CarsonsMods"
+    },
+    {
+      "name": "OmniTool",
+      "type": "tool",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "omni_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/item/OmniToolItem.java",
+          "src/main/resources/assets/sussy/models/item/omni_tool.json"
+        ]
+      },
+      "path": "~/CarsonsMods/Dragon Tools"
+    },
+    {
+      "name": "CopperTool",
+      "type": "tag",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_tool",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/tags/items/copper_tool.json"
+        ]
+      },
+      "path": "~/CarsonsMods/CopperTools"
+    },
+    {
+      "name": "RingofLuck",
+      "type": "item",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ringof_luck",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sussy/models/item/ringof_luck.json",
+          "src/main/java/net/mcreator/sussy/item/RingofLuckItem.java"
+        ]
+      },
+      "path": "~/CarsonsMods/artifacts"
+    },
+    {
+      "name": "Diamonddagger",
+      "type": "tool",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamonddagger",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/item/DiamonddaggerItem.java",
+          "src/main/resources/assets/sussy/models/item/diamonddagger.json"
+        ]
+      },
+      "path": "~/Ethans_Mods"
+    },
+    {
+      "name": "Dragondagger",
+      "type": "tool",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragondagger",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sussy/models/item/dragondagger.json",
+          "src/main/java/net/mcreator/sussy/item/DragondaggerItem.java"
+        ]
+      },
+      "path": "~/Ethans_Mods"
+    },
+    {
+      "name": "Hemorrage",
+      "type": "procedure",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hemorrage",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/sussy/procedures/HemorrageProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "amplifier",
+            "type": "number"
+          },
+          {
+            "name": "duration",
+            "type": "number"
+          }
+        ]
+      },
+      "path": "~/CarsonsMods"
+    },
+    {
+      "name": "RingofLuckItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ringof_luck_item_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/procedures/RingofLuckItemInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CarsonsMods/artifacts"
+    },
+    {
+      "name": "ROOBEER",
+      "type": "potion",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roobeer",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/CarsonsMods"
+    },
+    {
+      "name": "Dragondaggerrecipe",
+      "type": "recipe",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragondaggerrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/recipes/dragondaggerrecipe.json"
+        ]
+      },
+      "path": "~/Ethans_Mods"
+    },
+    {
+      "name": "Shadowwizardbaddie",
+      "type": "painting",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadowwizardbaddie",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/CarsonsMods"
+    },
+    {
+      "name": "ROOBEEREffect",
+      "type": "potioneffect",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roobeer_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/potion/ROOBEEREffectMobEffect.java"
+        ]
+      },
+      "path": "~/CarsonsMods"
+    },
+    {
+      "name": "DragonStoneOreBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_stone_ore_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/procedures/DragonStoneOreBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/DragonStone"
+    },
+    {
+      "name": "BleedingOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bleeding_on_effect_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/procedures/BleedingOnEffectActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/CarsonsMods"
+    },
+    {
+      "name": "NetheriteSet",
+      "type": "procedure",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_set",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/procedures/NetheriteSetProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CarsonsMods"
+    },
+    {
+      "name": "OmniHoeRecipe",
+      "type": "recipe",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "omni_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/recipes/omni_hoe_recipe.json"
+        ]
+      },
+      "path": "~/CarsonsMods/Dragon Tools"
+    },
+    {
+      "name": "DragonSet",
+      "type": "procedure",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_set",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/procedures/DragonSetProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CarsonsMods/Dragon Tools"
+    },
+    {
+      "name": "Netheritedaggerecipe",
+      "type": "recipe",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netheritedaggerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/recipes/netheritedaggerecipe.json"
+        ]
+      },
+      "path": "~/Ethans_Mods"
+    },
+    {
+      "name": "MOAT",
+      "type": "tab",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moat",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/CarsonsMods"
+    },
+    {
+      "name": "Bastionloottable",
+      "type": "loottable",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "bastionloottable",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/chests/bastiontreasure.json"
+        ]
+      },
+      "path": "~/loot tables"
+    },
+    {
+      "name": "FireWand",
+      "type": "item",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_wand",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/item/FireWandItem.java",
+          "src/main/resources/assets/sussy/models/item/fire_wand.json"
+        ]
+      },
+      "path": "~/CarsonsMods/artifacts"
+    },
+    {
+      "name": "HemorrageEnchant",
+      "type": "enchantment",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hemorrage_enchant",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/enchantment/HemorrageEnchantEnchantment.java"
+        ]
+      },
+      "path": "~/CarsonsMods"
+    },
+    {
+      "name": "ROOBEERReciper",
+      "type": "recipe",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roobeer_reciper",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/recipes/brewing/ROOBEERReciperBrewingRecipe.java"
+        ]
+      },
+      "path": "~/CarsonsMods"
+    },
+    {
+      "name": "Diamonddaggerrecipe",
+      "type": "recipe",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamonddaggerrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/recipes/diamonddaggerrecipe.json"
+        ]
+      },
+      "path": "~/Ethans_Mods"
     }
   ],
   "variable_elements": [],
@@ -1428,6 +2112,14 @@
         "hologram_audio"
       ],
       "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "bakamitai",
+      "files": [
+        "baka-mitai-bakamitai-kiryu-full-version"
+      ],
+      "category": "record",
       "subtitle": ""
     }
   ],
@@ -1454,6 +2146,7 @@
       "enchantment.sussy.butter_fingers": "Butter Fingers",
       "item.sussy.emerald_hammer_tool": "Emerald Hammer Tool",
       "item.sussy.emerald_armor_armor_leggings": "Emerald_Armor Leggings",
+      "painting.sussy.shadowwizardmoneygang.author": "carsoa5",
       "item.sussy.star_fruit": "Star Fruit",
       "item.sussy.copper_tools_pickaxe": "CopperTools Pickaxe",
       "item.sussy.hologram.desc": "Hologram",
@@ -1466,6 +2159,7 @@
       "item.sussy.copper_tools_axe": "CopperTools Axe",
       "item.sussy.emerald_armor_armor_chestplate": "Emerald_Armor Chestplate",
       "item.sussy.dragon_axe": "Dragon Axe",
+      "painting.sussy.shadowwizardmoneygang.title": "Shadowwizardmoneygang",
       "item.sussy.emerald_armor_armor_helmet": "Emerald_Armor Helmet",
       "item.sussy.copper_tools_shovel": "CopperTools Shovel",
       "item.sussy.dragon_armor_chestplate": "Dragon Chestplate",
@@ -1481,7 +2175,7 @@
       "item.sussy.copper_tools_hoe": "CopperTools Hoe",
       "item.sussy.copper_armor_armor_boots": "CopperArmor Boots",
       "item.sussy.dragon_hoe": "Dragon Hoe",
-      "item_group.sussy.vanilla_addon": "Carsoa\u0027s Extra Content",
+      "subtitles.bakamitai": "",
       "item.sussy.emerald_armor_armor_boots": "Emerald_Armor Boots",
       "item.sussy.dragon_stone_ingot": "DragonStone",
       "advancements.reach_for_the_stars.title": "Reach For The Stars",
@@ -1498,6 +2192,10 @@
       },
       {
         "name": "DragonStone",
+        "children": []
+      },
+      {
+        "name": "music discs",
         "children": []
       },
       {
@@ -1552,18 +2250,30 @@
         ]
       },
       {
-        "name": "music discs",
+        "name": "loot tables",
         "children": []
       },
       {
         "name": "CarsonsMods",
         "children": [
           {
-            "name": "Dragon Tools",
+            "name": "CopperTools",
             "children": []
           },
           {
-            "name": "CopperTools",
+            "name": "Bosses",
+            "children": []
+          },
+          {
+            "name": "artifacts",
+            "children": []
+          },
+          {
+            "name": "Enchants",
+            "children": []
+          },
+          {
+            "name": "Dragon Tools",
             "children": []
           }
         ]

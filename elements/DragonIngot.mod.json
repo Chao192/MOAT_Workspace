@@ -10,7 +10,7 @@
     "name": "Dragon Ingot",
     "rarity": "RARE",
     "creativeTab": {
-      "value": "CUSTOM:VanillaAddon"
+      "value": "CUSTOM:MOAT"
     },
     "stackSize": 64,
     "enchantability": 0,

@@ -1,0 +1,33 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "MultiTool",
+    "renderType": 0,
+    "texture": "omnitool",
+    "customModelName": "Normal",
+    "name": "Omni Tool",
+    "specialInfo": [
+      "UNLIMITED POWER"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:MOAT"
+    },
+    "harvestLevel": 5,
+    "efficiency": 14.0,
+    "attackSpeed": 1.3,
+    "enchantability": 28,
+    "damageVsEntity": 20.0,
+    "usageCount": 12000,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [
+      {
+        "value": "CUSTOM:DragonStar"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}
