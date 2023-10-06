@@ -72,5 +72,6 @@ public class SussyModTabs {
 				tabData.accept(SussyModItems.FIRE_WAND.get());
 				tabData.accept(SussyModItems.BAKA_MITAI.get());
 				tabData.accept(SussyModItems.OMNI_TOOL.get());
+				tabData.accept(SussyModItems.OMNI_HOE.get());
 			}).withSearchBar().build());
 }
