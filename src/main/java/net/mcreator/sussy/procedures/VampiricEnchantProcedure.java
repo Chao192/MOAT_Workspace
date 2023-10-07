@@ -37,25 +37,17 @@ public class VampiricEnchantProcedure {
 		if (EnchantmentHelper.getItemEnchantmentLevel(SussyModEnchantments.VAMPIRIC.get(), (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) != 0) {
 			enchant_level = (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getEnchantmentLevel(SussyModEnchantments.VAMPIRIC.get());
 			random = Math.random() * 100;
-			if (enchant_level == 1 && random <= 5 && damagesource.is(DamageTypes.PLAYER_ATTACK)) {
+			if (enchant_level == 1 && random <= 10 && damagesource.is(DamageTypes.PLAYER_ATTACK)) {
 				if (sourceentity instanceof LivingEntity _entity)
 					_entity.setHealth((float) ((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) + amount * 0.2));
 			}
-			if (enchant_level == 2 && random <= 10 && damagesource.is(DamageTypes.PLAYER_ATTACK)) {
+			if (enchant_level == 2 && random <= 15 && damagesource.is(DamageTypes.PLAYER_ATTACK)) {
 				if (sourceentity instanceof LivingEntity _entity)
 					_entity.setHealth((float) ((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) + amount * 0.25));
 			}
-			if (enchant_level == 3 && random <= 15 && damagesource.is(DamageTypes.PLAYER_ATTACK)) {
+			if (enchant_level == 3 && random <= 20 && damagesource.is(DamageTypes.PLAYER_ATTACK)) {
 				if (sourceentity instanceof LivingEntity _entity)
 					_entity.setHealth((float) ((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) + amount * 0.3));
-			}
-			if (enchant_level == 4 && random <= 20 && damagesource.is(DamageTypes.PLAYER_ATTACK)) {
-				if (sourceentity instanceof LivingEntity _entity)
-					_entity.setHealth((float) ((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) + amount * 0.35));
-			}
-			if (enchant_level == 5 && random <= 25 && damagesource.is(DamageTypes.PLAYER_ATTACK)) {
-				if (sourceentity instanceof LivingEntity _entity)
-					_entity.setHealth((float) ((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) + amount * 0.4));
 			}
 		}
 	}

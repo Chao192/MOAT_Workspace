@@ -16,6 +16,11 @@ public class VampiricEnchantment extends Enchantment {
 	}
 
 	@Override
+	public int getMaxLevel() {
+		return 3;
+	}
+
+	@Override
 	protected boolean checkCompatibility(Enchantment ench) {
 		return this != ench && !List.of(Enchantments.MENDING, SussyModEnchantments.HEMORRAGE_ENCHANT.get(), Enchantments.FIRE_ASPECT).contains(ench);
 	}

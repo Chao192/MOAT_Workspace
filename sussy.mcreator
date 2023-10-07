@@ -2221,6 +2221,167 @@
         ]
       },
       "path": "~/CarsonsMods/Dragon Tools"
+    },
+    {
+      "name": "ConentratedXPBottlePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "conentrated_xp_bottle_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/procedures/ConentratedXPBottlePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/CarsonsMods/artifacts"
+    },
+    {
+      "name": "ConentratedXPBottle",
+      "type": "item",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "conentrated_xp_bottle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/item/ConentratedXPBottleItem.java",
+          "src/main/resources/assets/sussy/models/item/conentrated_xp_bottle.json"
+        ]
+      },
+      "path": "~/CarsonsMods/artifacts"
+    },
+    {
+      "name": "ConecentratedXPBottleRecipe",
+      "type": "recipe",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "conecentrated_xp_bottle_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/recipes/conecentrated_xp_bottle_recipe.json"
+        ]
+      },
+      "path": "~/CarsonsMods/artifacts"
+    },
+    {
+      "name": "SaddleRecipe",
+      "type": "recipe",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saddle_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/recipes/saddle_recipe.json"
+        ]
+      },
+      "path": "~/CarsonsMods"
+    },
+    {
+      "name": "NotchAppleRecipe",
+      "type": "recipe",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "notch_apple_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/recipes/notch_apple_recipe.json"
+        ]
+      },
+      "path": "~/CarsonsMods"
+    },
+    {
+      "name": "Gamemodechanges",
+      "type": "procedure",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gamemodechanges",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/procedures/GamemodechangesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CarsonsMods"
+    },
+    {
+      "name": "Gm",
+      "type": "command",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/command/GmCommand.java"
+        ]
+      },
+      "path": "~/CarsonsMods"
+    },
+    {
+      "name": "Gms",
+      "type": "command",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gms",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/command/GmsCommand.java"
+        ]
+      },
+      "path": "~/CarsonsMods"
+    },
+    {
+      "name": "Gmsp",
+      "type": "procedure",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gmsp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/procedures/GmspProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CarsonsMods"
     }
   ],
   "variable_elements": [],
@@ -2282,6 +2443,7 @@
       "item.sussy.dragon_dual_glaive": "Dragon Dual Glaive",
       "item.minecraft.potion.effect.roobeer": "Potion of ROOBEER",
       "enchantment.sussy.vampiric": "Vampiric",
+      "item.sussy.conentrated_xp_bottle": "Conentrated XP Bottle",
       "item.sussy.dragon_star": "Dragon Star",
       "advancements.true_freedom.title": "True Freedom",
       "item.sussy.snowball_cannon": "Snowball Cannon",

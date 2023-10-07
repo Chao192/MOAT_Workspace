@@ -74,5 +74,6 @@ public class SussyModTabs {
 				tabData.accept(SussyModItems.OMNI_TOOL.get());
 				tabData.accept(SussyModItems.OMNI_HOE.get());
 				tabData.accept(SussyModItems.THAT_ONE_RING.get());
+				tabData.accept(SussyModItems.CONENTRATED_XP_BOTTLE.get());
 			}).withSearchBar().build());
 }
