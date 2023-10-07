@@ -2285,19 +2285,19 @@
             "children": []
           },
           {
-            "name": "Enchants",
-            "children": []
-          },
-          {
-            "name": "Dragon Tools",
-            "children": []
-          },
-          {
             "name": "Bosses",
             "children": []
           },
           {
             "name": "artifacts",
+            "children": []
+          },
+          {
+            "name": "Enchants",
+            "children": []
+          },
+          {
+            "name": "Dragon Tools",
             "children": []
           }
         ]

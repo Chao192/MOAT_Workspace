@@ -1,24 +1,8 @@
 package net.mcreator.sussy.procedures;
 
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.eventbus.api.Event;
-import net.minecraftforge.event.entity.living.LivingAttackEvent;
-
-import net.minecraft.world.item.enchantment.EnchantmentHelper;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.world.effect.MobEffectInstance;
-import net.minecraft.world.damagesource.DamageTypes;
-import net.minecraft.world.damagesource.DamageSource;
-
-import net.mcreator.sussy.init.SussyModMobEffects;
-import net.mcreator.sussy.init.SussyModEnchantments;
 
 import javax.annotation.Nullable;
-
-import java.util.Random;
 
 @Mod.EventBusSubscriber
 public class ImplosionMatrixProcedure {
@@ -37,12 +21,12 @@ public class ImplosionMatrixProcedure {
 		if (damagesource == null || entity == null || sourceentity == null)
 			return;
 		double Random = 0;
-		if (EnchantmentHelper.getItemEnchantmentLevel(SussyModEnchantments.HEMORRAGE_ENCHANT.get(), (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) != 0 && damagesource.is(DamageTypes.PLAYER_ATTACK)) {
+		if (EnchantmentHelper.getItemEnchantmentLevel(SussyModEnchantments.DELETED_MOD_ELEMENT.get(), (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) != 0 && damagesource.is(DamageTypes.PLAYER_ATTACK)) {
 			Random = Math.random() * 100;
-			if (Random <= (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getEnchantmentLevel(SussyModEnchantments.HEMORRAGE_ENCHANT.get()) * 5) {
+			if (Random <= (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getEnchantmentLevel(SussyModEnchantments.DELETED_MOD_ELEMENT.get()) * 5) {
 				if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-					_entity.addEffect(new MobEffectInstance(SussyModMobEffects.BLEEDING.get(),
-							(int) ((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getEnchantmentLevel(SussyModEnchantments.HEMORRAGE_ENCHANT.get()) * 100), 1, false, false));
+					_entity.addEffect(new MobEffectInstance(SussyModMobEffects.DELETED_MOD_ELEMENT.get(),
+							(int) ((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getEnchantmentLevel(SussyModEnchantments.DELETED_MOD_ELEMENT.get()) * 100), 1, false, false));
 			}
 		}
 	}

@@ -1,13 +1,6 @@
 
 package net.mcreator.sussy.potion;
 
-import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.effect.MobEffectCategory;
-import net.minecraft.world.effect.MobEffect;
-
-import net.mcreator.sussy.procedures.HemorrageProcedure;
-import net.mcreator.sussy.procedures.BleedingOnEffectActiveTickProcedure;
-
 public class BleedingMobEffect extends MobEffect {
 	public BleedingMobEffect() {
 		super(MobEffectCategory.HARMFUL, -10092544);
@@ -20,11 +13,11 @@ public class BleedingMobEffect extends MobEffect {
 
 	@Override
 	public void applyEffectTick(LivingEntity entity, int amplifier) {
-		BleedingOnEffectActiveTickProcedure.execute(entity.level(), entity.getX(), entity.getY(), entity.getZ(), entity);
+		BleedingOnEffectActiveTickProcedure.execute();
 	}
 
 	@Override
 	public boolean isDurationEffectTick(int duration, int amplifier) {
-		return HemorrageProcedure.execute(amplifier, duration);
+		return HemorrageProcedure.execute();
 	}
 }
