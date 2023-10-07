@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "sussy:omni_hoe"
+    },
+    "title": {
+      "translate": "advancements.get_some_sun.title"
+    },
+    "description": {
+      "translate": "advancements.get_some_sun.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "get_some_sun": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sussy:omni_hoe"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "sussy:are_you_serious"
+}

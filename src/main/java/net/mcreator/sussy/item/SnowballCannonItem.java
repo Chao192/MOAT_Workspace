@@ -23,7 +23,7 @@ import java.util.List;
 
 public class SnowballCannonItem extends Item {
 	public SnowballCannonItem() {
-		super(new Item.Properties().durability(100));
+		super(new Item.Properties().durability(1250));
 	}
 
 	@Override

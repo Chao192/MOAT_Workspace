@@ -1,9 +1,5 @@
 package net.mcreator.sussy.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
-
-import javax.annotation.Nullable;
-
 public class HemorrageProcedure {
 	public static boolean execute(double amplifier, double duration) {
 		double baseRate = 0;

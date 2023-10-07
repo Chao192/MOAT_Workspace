@@ -73,5 +73,6 @@ public class SussyModTabs {
 				tabData.accept(SussyModItems.BAKA_MITAI.get());
 				tabData.accept(SussyModItems.OMNI_TOOL.get());
 				tabData.accept(SussyModItems.OMNI_HOE.get());
+				tabData.accept(SussyModItems.THAT_ONE_RING.get());
 			}).withSearchBar().build());
 }

@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.item.enchantment.Enchantment;
 
+import net.mcreator.sussy.enchantment.VampiricEnchantment;
 import net.mcreator.sussy.enchantment.PullenchantEnchantment;
 import net.mcreator.sussy.enchantment.HemorrageEnchantEnchantment;
 import net.mcreator.sussy.enchantment.CriticalStrikeEnchantment;
@@ -22,4 +23,5 @@ public class SussyModEnchantments {
 	public static final RegistryObject<Enchantment> BUTTER_FINGERS = REGISTRY.register("butter_fingers", () -> new ButterFingersEnchantment());
 	public static final RegistryObject<Enchantment> HEMORRAGE_ENCHANT = REGISTRY.register("hemorrage_enchant", () -> new HemorrageEnchantEnchantment());
 	public static final RegistryObject<Enchantment> PULLENCHANT = REGISTRY.register("pullenchant", () -> new PullenchantEnchantment());
+	public static final RegistryObject<Enchantment> VAMPIRIC = REGISTRY.register("vampiric", () -> new VampiricEnchantment());
 }

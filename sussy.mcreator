@@ -261,7 +261,7 @@
           "src/main/java/net/mcreator/sussy/item/CopperToolsPickaxeItem.java"
         ]
       },
-      "path": "~/CarsonsMods/CopperTools"
+      "path": "~/CarsonsMods/ModdedArmor"
     },
     {
       "name": "CopperToolsAxe",
@@ -276,7 +276,7 @@
           "src/main/java/net/mcreator/sussy/item/CopperToolsAxeItem.java"
         ]
       },
-      "path": "~/CarsonsMods/CopperTools"
+      "path": "~/CarsonsMods/ModdedArmor"
     },
     {
       "name": "CopperToolsSword",
@@ -291,7 +291,7 @@
           "src/main/resources/assets/sussy/models/item/copper_tools_sword.json"
         ]
       },
-      "path": "~/CarsonsMods/CopperTools"
+      "path": "~/CarsonsMods/ModdedArmor"
     },
     {
       "name": "CopperToolsShovel",
@@ -306,7 +306,7 @@
           "src/main/resources/assets/sussy/models/item/copper_tools_shovel.json"
         ]
       },
-      "path": "~/CarsonsMods/CopperTools"
+      "path": "~/CarsonsMods/ModdedArmor"
     },
     {
       "name": "CopperToolsHoe",
@@ -321,7 +321,7 @@
           "src/main/java/net/mcreator/sussy/item/CopperToolsHoeItem.java"
         ]
       },
-      "path": "~/CarsonsMods/CopperTools"
+      "path": "~/CarsonsMods/ModdedArmor"
     },
     {
       "name": "CopperToolsPickaxeRecipe",
@@ -335,7 +335,7 @@
           "src/main/resources/data/sussy/recipes/copper_tools_pickaxe_recipe.json"
         ]
       },
-      "path": "~/CarsonsMods/CopperTools"
+      "path": "~/CarsonsMods/ModdedArmor"
     },
     {
       "name": "CopperToolsAxeRecipe",
@@ -349,7 +349,7 @@
           "src/main/resources/data/sussy/recipes/copper_tools_axe_recipe.json"
         ]
       },
-      "path": "~/CarsonsMods/CopperTools"
+      "path": "~/CarsonsMods/ModdedArmor"
     },
     {
       "name": "CopperToolsSwordRecipe",
@@ -363,7 +363,7 @@
           "src/main/resources/data/sussy/recipes/copper_tools_sword_recipe.json"
         ]
       },
-      "path": "~/CarsonsMods/CopperTools"
+      "path": "~/CarsonsMods/ModdedArmor"
     },
     {
       "name": "CopperToolsShovelRecipe",
@@ -377,7 +377,7 @@
           "src/main/resources/data/sussy/recipes/copper_tools_shovel_recipe.json"
         ]
       },
-      "path": "~/CarsonsMods/CopperTools"
+      "path": "~/CarsonsMods/ModdedArmor"
     },
     {
       "name": "CopperToolsHoeRecipe",
@@ -391,7 +391,7 @@
           "src/main/resources/data/sussy/recipes/copper_tools_hoe_recipe.json"
         ]
       },
-      "path": "~/CarsonsMods/CopperTools"
+      "path": "~/CarsonsMods/ModdedArmor"
     },
     {
       "name": "Emerald_ArmorArmor",
@@ -409,7 +409,7 @@
           "src/main/resources/assets/sussy/models/item/emerald_armor_armor_leggings.json"
         ]
       },
-      "path": "~/CarsonsMods"
+      "path": "~/CarsonsMods/ModdedArmor"
     },
     {
       "name": "Emerald_ArmorArmorHelmetRecipe",
@@ -423,7 +423,7 @@
           "src/main/resources/data/sussy/recipes/emerald_armor_armor_helmet_recipe.json"
         ]
       },
-      "path": "~/CarsonsMods"
+      "path": "~/CarsonsMods/ModdedArmor"
     },
     {
       "name": "Emerald_ArmorArmorChestplateRecipe",
@@ -437,7 +437,7 @@
           "src/main/resources/data/sussy/recipes/emerald_armor_armor_chestplate_recipe.json"
         ]
       },
-      "path": "~/CarsonsMods"
+      "path": "~/CarsonsMods/ModdedArmor"
     },
     {
       "name": "Emerald_ArmorArmorLeggingsRecipe",
@@ -451,7 +451,7 @@
           "src/main/resources/data/sussy/recipes/emerald_armor_armor_leggings_recipe.json"
         ]
       },
-      "path": "~/CarsonsMods"
+      "path": "~/CarsonsMods/ModdedArmor"
     },
     {
       "name": "Emerald_ArmorArmorBootsRecipe",
@@ -465,7 +465,7 @@
           "src/main/resources/data/sussy/recipes/emerald_armor_armor_boots_recipe.json"
         ]
       },
-      "path": "~/CarsonsMods"
+      "path": "~/CarsonsMods/ModdedArmor"
     },
     {
       "name": "DragonStar",
@@ -494,7 +494,7 @@
           "src/main/resources/data/sussy/advancements/reach_for_the_stars.json"
         ]
       },
-      "path": "~/CarsonsMods"
+      "path": "~/CarsonsMods/ModdedArmor"
     },
     {
       "name": "CopperArmorArmor",
@@ -512,7 +512,7 @@
           "src/main/resources/assets/sussy/models/item/copper_armor_armor_leggings.json"
         ]
       },
-      "path": "~/CarsonsMods/CopperTools"
+      "path": "~/CarsonsMods/ModdedArmor"
     },
     {
       "name": "CopperArmorArmorHelmetRecipe",
@@ -526,7 +526,7 @@
           "src/main/resources/data/sussy/recipes/copper_armor_armor_helmet_recipe.json"
         ]
       },
-      "path": "~/CarsonsMods/CopperTools"
+      "path": "~/CarsonsMods/ModdedArmor"
     },
     {
       "name": "CopperArmorArmorChestplateRecipe",
@@ -540,7 +540,7 @@
           "src/main/resources/data/sussy/recipes/copper_armor_armor_chestplate_recipe.json"
         ]
       },
-      "path": "~/CarsonsMods/CopperTools"
+      "path": "~/CarsonsMods/ModdedArmor"
     },
     {
       "name": "CopperArmorArmorLeggingsRecipe",
@@ -554,7 +554,7 @@
           "src/main/resources/data/sussy/recipes/copper_armor_armor_leggings_recipe.json"
         ]
       },
-      "path": "~/CarsonsMods/CopperTools"
+      "path": "~/CarsonsMods/ModdedArmor"
     },
     {
       "name": "CopperArmorArmorBootsRecipe",
@@ -568,7 +568,7 @@
           "src/main/resources/data/sussy/recipes/copper_armor_armor_boots_recipe.json"
         ]
       },
-      "path": "~/CarsonsMods/CopperTools"
+      "path": "~/CarsonsMods/ModdedArmor"
     },
     {
       "name": "DragonPickaxe",
@@ -843,7 +843,7 @@
           "src/main/resources/data/sussy/advancements/true_freedom.json"
         ]
       },
-      "path": "~/CarsonsMods"
+      "path": "~/CarsonsMods/ModdedArmor"
     },
     {
       "name": "EthansMods",
@@ -927,7 +927,7 @@
           "src/main/resources/data/sussy/advancements/are_you_serious.json"
         ]
       },
-      "path": "~/CarsonsMods"
+      "path": "~/CarsonsMods/Dragon Tools"
     },
     {
       "name": "DragonDualGlaive",
@@ -1453,7 +1453,7 @@
       "metadata": {
         "files": []
       },
-      "path": "~/CarsonsMods"
+      "path": "~/CarsonsMods/ModdedArmor"
     },
     {
       "name": "EmArmor",
@@ -1473,7 +1473,7 @@
           }
         ]
       },
-      "path": "~/CarsonsMods"
+      "path": "~/CarsonsMods/ModdedArmor"
     },
     {
       "name": "RingofLuckItemInInventoryTick",
@@ -1548,7 +1548,7 @@
           }
         ]
       },
-      "path": "~/CarsonsMods/CopperTools"
+      "path": "~/CarsonsMods/ModdedArmor"
     },
     {
       "name": "FireWandPlayerFinishesUsingItem",
@@ -1601,7 +1601,7 @@
           "src/main/resources/data/sussy/tags/items/copper_tool.json"
         ]
       },
-      "path": "~/CarsonsMods/CopperTools"
+      "path": "~/CarsonsMods/ModdedArmor"
     },
     {
       "name": "Diamonddagger",
@@ -1700,7 +1700,7 @@
       "metadata": {
         "files": []
       },
-      "path": "~/CarsonsMods"
+      "path": "~/CarsonsMods/ModdedArmor"
     },
     {
       "name": "DameDame",
@@ -1747,7 +1747,7 @@
           }
         ]
       },
-      "path": "~/CarsonsMods"
+      "path": "~/CarsonsMods/ModdedArmor"
     },
     {
       "name": "Bastionloottable",
@@ -1899,7 +1899,7 @@
           }
         ]
       },
-      "path": "~/CarsonsMods"
+      "path": "~/CarsonsMods/Enchants"
     },
     {
       "name": "HemorrageEnchant",
@@ -1913,7 +1913,7 @@
           "src/main/java/net/mcreator/sussy/enchantment/HemorrageEnchantEnchantment.java"
         ]
       },
-      "path": "~/CarsonsMods"
+      "path": "~/CarsonsMods/Enchants"
     },
     {
       "name": "ImplosionMatrix",
@@ -1941,7 +1941,7 @@
           }
         ]
       },
-      "path": "~/CarsonsMods"
+      "path": "~/CarsonsMods/Enchants"
     },
     {
       "name": "BleedingOnEffectActiveTick",
@@ -1977,7 +1977,7 @@
           }
         ]
       },
-      "path": "~/CarsonsMods"
+      "path": "~/CarsonsMods/Enchants"
     },
     {
       "name": "Bleeding",
@@ -1991,7 +1991,7 @@
           "src/main/java/net/mcreator/sussy/potion/BleedingMobEffect.java"
         ]
       },
-      "path": "~/CarsonsMods"
+      "path": "~/CarsonsMods/Enchants"
     },
     {
       "name": "Bleed",
@@ -2006,7 +2006,7 @@
           "src/main/java/net/mcreator/sussy/client/particle/BleedParticle.java"
         ]
       },
-      "path": "~/CarsonsMods"
+      "path": "~/CarsonsMods/Enchants"
     },
     {
       "name": "Pullenchant",
@@ -2020,7 +2020,7 @@
           "src/main/java/net/mcreator/sussy/enchantment/PullenchantEnchantment.java"
         ]
       },
-      "path": "~/CarsonsMods"
+      "path": "~/CarsonsMods/Enchants"
     },
     {
       "name": "Pull",
@@ -2048,7 +2048,7 @@
           }
         ]
       },
-      "path": "~/CarsonsMods"
+      "path": "~/CarsonsMods/Enchants"
     },
     {
       "name": "ROOBEEREffectOnEffectActiveTick",
@@ -2102,6 +2102,125 @@
         ]
       },
       "path": "~/CarsonsMods/Dragon Tools"
+    },
+    {
+      "name": "OmniToolAdvancement",
+      "type": "achievement",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "omni_tool_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/advancements/omni_tool_advancement.json"
+        ]
+      },
+      "path": "~/CarsonsMods/Dragon Tools"
+    },
+    {
+      "name": "Vampiric",
+      "type": "enchantment",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vampiric",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/enchantment/VampiricEnchantment.java"
+        ]
+      },
+      "path": "~/CarsonsMods/Enchants"
+    },
+    {
+      "name": "VampiricEnchant",
+      "type": "procedure",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vampiric_enchant",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/procedures/VampiricEnchantProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "damagesource",
+            "type": "damagesource"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "amount",
+            "type": "number"
+          }
+        ]
+      },
+      "path": "~/CarsonsMods/Enchants"
+    },
+    {
+      "name": "ThatOneRing",
+      "type": "item",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "that_one_ring",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sussy/models/item/that_one_ring.json",
+          "src/main/java/net/mcreator/sussy/item/ThatOneRingItem.java"
+        ]
+      },
+      "path": "~/CarsonsMods/artifacts"
+    },
+    {
+      "name": "ThatOneRingRightclicked",
+      "type": "procedure",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "that_one_ring_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/procedures/ThatOneRingRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CarsonsMods/artifacts"
+    },
+    {
+      "name": "Thrall",
+      "type": "potioneffect",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thrall",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/potion/ThrallMobEffect.java"
+        ]
+      },
+      "path": "~/CarsonsMods/artifacts"
+    },
+    {
+      "name": "GetSomeSun",
+      "type": "achievement",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_some_sun",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/advancements/get_some_sun.json"
+        ]
+      },
+      "path": "~/CarsonsMods/Dragon Tools"
     }
   ],
   "variable_elements": [],
@@ -2126,15 +2245,17 @@
   "language_map": {
     "en_us": {
       "enchantment.sussy.hemorrage_enchant": "Hemorrage",
-      "item.sussy.universal_respawn_anchor": "Universal Respawn Anchor",
       "block.sussy.dragon_stone_block": "Block of DragonStone",
-      "item.sussy.omni_hoe": "Omni Hoe",
+      "item.sussy.universal_respawn_anchor": "Universal Respawn Anchor",
       "item.sussy.dragon_pickaxe": "Dragon Pickaxe",
+      "item.sussy.omni_hoe": "Omni Hoe",
       "item.sussy.dragon_armor_boots": "Dragon Boots",
+      "item.sussy.that_one_ring": "That One Ring",
       "item.sussy.dragon_shovel": "Dragon Shovel",
       "block.sussy.raw_dragon_stone": "Raw Dragon Stone",
       "effect.sussy.bleeding": "Bleed",
       "item.sussy.hologram": "Hologram",
+      "advancements.get_some_sun.title": "Get Some Sun",
       "item.sussy.moon_fruit": "Moon Fruit",
       "item_group.sussy.ethans_mods": "Ethan\u0027s Mods",
       "item.sussy.copper_tools_sword": "Copper Sword",
@@ -2156,9 +2277,11 @@
       "painting.sussy.shadowwizardmoneygang.author": "carsoa5",
       "item.sussy.star_fruit": "Star Fruit",
       "item.sussy.copper_tools_pickaxe": "Copper Pickaxe",
+      "advancements.omni_tool_advancement.title": "One tool to rule them all",
       "item.sussy.hologram.desc": "Hologram",
       "item.sussy.dragon_dual_glaive": "Dragon Dual Glaive",
       "item.minecraft.potion.effect.roobeer": "Potion of ROOBEER",
+      "enchantment.sussy.vampiric": "Vampiric",
       "item.sussy.dragon_star": "Dragon Star",
       "advancements.true_freedom.title": "True Freedom",
       "item.sussy.snowball_cannon": "Snowball Cannon",
@@ -2169,6 +2292,7 @@
       "item.sussy.dragon_axe": "Dragon Axe",
       "painting.sussy.sussy_man.author": "Carsoa5",
       "painting.sussy.shadowwizardmoneygang.title": "Shadowwizardmoneygang",
+      "effect.sussy.thrall": "Thrall",
       "item.sussy.ringof_luck": "Ring of Luck",
       "painting.sussy.shadowwizardbaddie.author": "carsoa5",
       "item.minecraft.lingering_potion.effect.roobeer": "Lingering Potion of ROOBEER",
@@ -2191,6 +2315,7 @@
       "advancements.true_freedom.descr": "Eat a Moon Fruit",
       "item.sussy.copper_armor_armor_chestplate": "Copper Chestplate",
       "item.minecraft.tipped_arrow.effect.roobeer": "Arrow of ROOBEER",
+      "advancements.get_some_sun.descr": "Touch Grass I\u0027m Begging You",
       "item.minecraft.splash_potion.effect.roobeer": "Splash Potion of ROOBEER",
       "item.sussy.dragondagger": "Dragondagger",
       "item.sussy.copper_tools_hoe": "Copper Hoe",
@@ -2200,6 +2325,7 @@
       "item.sussy.emerald_armor_armor_boots": "Emerald_Armor Boots",
       "item.sussy.dragon_stone_ingot": "DragonStone",
       "effect.sussy.roobeer_effect": "ROOBEER",
+      "advancements.omni_tool_advancement.descr": "Build the ultimate tool",
       "advancements.reach_for_the_stars.title": "Reach For The Stars",
       "painting.sussy.shadowqizarddumpy.author": "carsoa5",
       "item.sussy.diamonddagger": "Diamonddagger",
@@ -2281,7 +2407,7 @@
         "name": "CarsonsMods",
         "children": [
           {
-            "name": "CopperTools",
+            "name": "ModdedArmor",
             "children": []
           },
           {
