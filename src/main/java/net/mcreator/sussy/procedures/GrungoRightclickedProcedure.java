@@ -30,7 +30,7 @@ public class GrungoRightclickedProcedure {
 			if (entity instanceof Player _player)
 				_player.getCooldowns().addCooldown(SussyModItems.GRUNGO.get(), 400);
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 120, 4));
+				_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 120, 2));
 		}
 	}
 }

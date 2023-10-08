@@ -579,8 +579,8 @@
       "registry_name": "dragon_pickaxe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sussy/models/item/dragon_pickaxe.json",
-          "src/main/java/net/mcreator/sussy/item/DragonPickaxeItem.java"
+          "src/main/java/net/mcreator/sussy/item/DragonPickaxeItem.java",
+          "src/main/resources/assets/sussy/models/item/dragon_pickaxe.json"
         ]
       },
       "path": "~/CarsonsMods/Dragon Tools"
@@ -594,8 +594,8 @@
       "registry_name": "dragon_axe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sussy/models/item/dragon_axe.json",
-          "src/main/java/net/mcreator/sussy/item/DragonAxeItem.java"
+          "src/main/java/net/mcreator/sussy/item/DragonAxeItem.java",
+          "src/main/resources/assets/sussy/models/item/dragon_axe.json"
         ]
       },
       "path": "~/CarsonsMods/Dragon Tools"
@@ -624,8 +624,8 @@
       "registry_name": "dragon_shovel",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/sussy/item/DragonShovelItem.java",
-          "src/main/resources/assets/sussy/models/item/dragon_shovel.json"
+          "src/main/resources/assets/sussy/models/item/dragon_shovel.json",
+          "src/main/java/net/mcreator/sussy/item/DragonShovelItem.java"
         ]
       },
       "path": "~/CarsonsMods/Dragon Tools"
@@ -738,11 +738,11 @@
       "registry_name": "dragon_armor",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/sussy/item/DragonArmorItem.java",
           "src/main/resources/assets/sussy/models/item/dragon_armor_chestplate.json",
-          "src/main/resources/assets/sussy/models/item/dragon_armor_leggings.json",
           "src/main/resources/assets/sussy/models/item/dragon_armor_helmet.json",
-          "src/main/resources/assets/sussy/models/item/dragon_armor_boots.json",
-          "src/main/java/net/mcreator/sussy/item/DragonArmorItem.java"
+          "src/main/resources/assets/sussy/models/item/dragon_armor_leggings.json",
+          "src/main/resources/assets/sussy/models/item/dragon_armor_boots.json"
         ]
       },
       "path": "~/CarsonsMods/Dragon Tools"
@@ -1010,8 +1010,8 @@
       "registry_name": "dragon_stone_ingot",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sussy/models/item/dragon_stone_ingot.json",
-          "src/main/java/net/mcreator/sussy/item/DragonStoneIngotItem.java"
+          "src/main/java/net/mcreator/sussy/item/DragonStoneIngotItem.java",
+          "src/main/resources/assets/sussy/models/item/dragon_stone_ingot.json"
         ]
       },
       "path": "~/DragonStone"
@@ -1026,13 +1026,13 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/sussy/world/features/ores/DragonStoneOreFeature.java",
-          "src/main/resources/assets/sussy/models/item/dragon_stone_ore.json",
-          "src/main/java/net/mcreator/sussy/block/DragonStoneOreBlock.java",
-          "src/main/resources/data/sussy/worldgen/configured_feature/dragon_stone_ore.json",
-          "src/main/resources/data/sussy/worldgen/placed_feature/dragon_stone_ore.json",
-          "src/main/resources/assets/sussy/blockstates/dragon_stone_ore.json",
           "src/main/resources/data/sussy/forge/biome_modifier/dragon_stone_ore_biome_modifier.json",
-          "src/main/resources/assets/sussy/models/block/dragon_stone_ore.json"
+          "src/main/resources/data/sussy/worldgen/placed_feature/dragon_stone_ore.json",
+          "src/main/resources/assets/sussy/models/item/dragon_stone_ore.json",
+          "src/main/resources/data/sussy/worldgen/configured_feature/dragon_stone_ore.json",
+          "src/main/resources/assets/sussy/models/block/dragon_stone_ore.json",
+          "src/main/java/net/mcreator/sussy/block/DragonStoneOreBlock.java",
+          "src/main/resources/assets/sussy/blockstates/dragon_stone_ore.json"
         ]
       },
       "path": "~/DragonStone"
@@ -1088,10 +1088,10 @@
       "registry_name": "dragon_stone_block",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/sussy/block/DragonStoneBlockBlock.java",
           "src/main/resources/assets/sussy/models/block/dragon_stone_block.json",
-          "src/main/resources/assets/sussy/models/item/dragon_stone_block.json",
           "src/main/resources/assets/sussy/blockstates/dragon_stone_block.json",
-          "src/main/java/net/mcreator/sussy/block/DragonStoneBlockBlock.java"
+          "src/main/resources/assets/sussy/models/item/dragon_stone_block.json"
         ]
       },
       "path": "~/DragonStone"
@@ -1119,9 +1119,9 @@
       "registry_name": "raw_dragon_stone",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/sussy/block/RawDragonStoneBlock.java",
           "src/main/resources/assets/sussy/models/item/raw_dragon_stone.json",
           "src/main/resources/assets/sussy/blockstates/raw_dragon_stone.json",
-          "src/main/java/net/mcreator/sussy/block/RawDragonStoneBlock.java",
           "src/main/resources/assets/sussy/models/block/raw_dragon_stone.json"
         ]
       },
@@ -1151,10 +1151,10 @@
       "registry_name": "end_boss_alter",
       "metadata": {
         "files": [
-          "src/main/resources/data/sussy/worldgen/placed_feature/end_boss_alter.json",
+          "src/main/java/net/mcreator/sussy/world/features/EndBossAlterFeature.java",
           "src/main/resources/data/sussy/forge/biome_modifier/end_boss_alter_biome_modifier.json",
           "src/main/resources/data/sussy/worldgen/configured_feature/end_boss_alter.json",
-          "src/main/java/net/mcreator/sussy/world/features/EndBossAlterFeature.java"
+          "src/main/resources/data/sussy/worldgen/placed_feature/end_boss_alter.json"
         ]
       },
       "path": "~/Structures"
@@ -1305,8 +1305,8 @@
       "registry_name": "butter",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sussy/models/item/butter.json",
-          "src/main/java/net/mcreator/sussy/item/ButterItem.java"
+          "src/main/java/net/mcreator/sussy/item/ButterItem.java",
+          "src/main/resources/assets/sussy/models/item/butter.json"
         ]
       },
       "path": "~/CarsonsMods/Enchants"
@@ -1354,8 +1354,8 @@
       "registry_name": "hologram",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sussy/models/item/hologram.json",
-          "src/main/java/net/mcreator/sussy/item/HologramItem.java"
+          "src/main/java/net/mcreator/sussy/item/HologramItem.java",
+          "src/main/resources/assets/sussy/models/item/hologram.json"
         ]
       },
       "path": "~/music discs"
@@ -1711,8 +1711,8 @@
       "registry_name": "baka_mitai",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/sussy/item/DameDameItem.java",
-          "src/main/resources/assets/sussy/models/item/baka_mitai.json"
+          "src/main/resources/assets/sussy/models/item/baka_mitai.json",
+          "src/main/java/net/mcreator/sussy/item/DameDameItem.java"
         ]
       },
       "path": "~/music discs"
@@ -2102,6 +2102,286 @@
         ]
       },
       "path": "~/CarsonsMods/Dragon Tools"
+    },
+    {
+      "name": "ThatOneRing",
+      "type": "item",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "that_one_ring",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sussy/models/item/that_one_ring.json",
+          "src/main/java/net/mcreator/sussy/item/ThatOneRingItem.java"
+        ]
+      },
+      "path": "~/CarsonsMods/artifacts"
+    },
+    {
+      "name": "Gmsp",
+      "type": "procedure",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gmsp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/procedures/GmspProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CarsonsMods"
+    },
+    {
+      "name": "OmniToolAdvancement",
+      "type": "achievement",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "omni_tool_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/advancements/omni_tool_advancement.json"
+        ]
+      },
+      "path": "~/CarsonsMods/Dragon Tools"
+    },
+    {
+      "name": "Thrall",
+      "type": "potioneffect",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thrall",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/potion/ThrallMobEffect.java"
+        ]
+      },
+      "path": "~/CarsonsMods/artifacts"
+    },
+    {
+      "name": "GetSomeSun",
+      "type": "achievement",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_some_sun",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/advancements/get_some_sun.json"
+        ]
+      },
+      "path": "~/CarsonsMods/Dragon Tools"
+    },
+    {
+      "name": "Gm",
+      "type": "command",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/command/GmCommand.java"
+        ]
+      },
+      "path": "~/CarsonsMods"
+    },
+    {
+      "name": "VampiricEnchant",
+      "type": "procedure",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vampiric_enchant",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/procedures/VampiricEnchantProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "damagesource",
+            "type": "damagesource"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "amount",
+            "type": "number"
+          }
+        ]
+      },
+      "path": "~/CarsonsMods/Enchants"
+    },
+    {
+      "name": "Vampiric",
+      "type": "enchantment",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vampiric",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/enchantment/VampiricEnchantment.java"
+        ]
+      },
+      "path": "~/CarsonsMods/Enchants"
+    },
+    {
+      "name": "Gms",
+      "type": "command",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gms",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/command/GmsCommand.java"
+        ]
+      },
+      "path": "~/CarsonsMods"
+    },
+    {
+      "name": "ConentratedXPBottle",
+      "type": "item",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "conentrated_xp_bottle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sussy/models/item/conentrated_xp_bottle.json",
+          "src/main/java/net/mcreator/sussy/item/ConentratedXPBottleItem.java"
+        ]
+      },
+      "path": "~/CarsonsMods/artifacts"
+    },
+    {
+      "name": "ThatOneRingRightclicked",
+      "type": "procedure",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "that_one_ring_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/procedures/ThatOneRingRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CarsonsMods/artifacts"
+    },
+    {
+      "name": "ConentratedXPBottlePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "conentrated_xp_bottle_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/procedures/ConentratedXPBottlePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/CarsonsMods/artifacts"
+    },
+    {
+      "name": "Gamemodechanges",
+      "type": "procedure",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gamemodechanges",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/procedures/GamemodechangesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CarsonsMods"
+    },
+    {
+      "name": "ConecentratedXPBottleRecipe",
+      "type": "recipe",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "conecentrated_xp_bottle_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/recipes/conecentrated_xp_bottle_recipe.json"
+        ]
+      },
+      "path": "~/CarsonsMods/artifacts"
+    },
+    {
+      "name": "NotchAppleRecipe",
+      "type": "recipe",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "notch_apple_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/recipes/notch_apple_recipe.json"
+        ]
+      },
+      "path": "~/CarsonsMods"
+    },
+    {
+      "name": "SaddleRecipe",
+      "type": "recipe",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saddle_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sussy/recipes/saddle_recipe.json"
+        ]
+      },
+      "path": "~/CarsonsMods"
     }
   ],
   "variable_elements": [],
@@ -2281,10 +2561,6 @@
         "name": "CarsonsMods",
         "children": [
           {
-            "name": "CopperTools",
-            "children": []
-          },
-          {
             "name": "Bosses",
             "children": []
           },
@@ -2298,6 +2574,10 @@
           },
           {
             "name": "Dragon Tools",
+            "children": []
+          },
+          {
+            "name": "ModdedArmor",
             "children": []
           }
         ]

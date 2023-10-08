@@ -1,21 +1,8 @@
 
 package net.mcreator.sussy.item;
 
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
-
-import net.minecraft.world.level.Level;
-import net.minecraft.world.item.TooltipFlag;
-import net.minecraft.world.item.Rarity;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.food.FoodProperties;
-import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.network.chat.Component;
-
-import net.mcreator.sussy.procedures.StarFruitPlayerFinishesUsingItemProcedure;
-
-import java.util.List;
+import net.minecraft.world.entity.ai.attributes.Attributes;
+import javax.annotation.Nullable;
 
 public class StarFruitItem extends Item {
 	public StarFruitItem() {

@@ -7,6 +7,6 @@ import net.minecraft.world.entity.EquipmentSlot;
 
 public class PullenchantEnchantment extends Enchantment {
 	public PullenchantEnchantment(EquipmentSlot... slots) {
-		super(Enchantment.Rarity.COMMON, EnchantmentCategory.BOW, slots);
+		super(Enchantment.Rarity.UNCOMMON, EnchantmentCategory.BOW, slots);
 	}
 }

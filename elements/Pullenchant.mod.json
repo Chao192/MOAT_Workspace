@@ -4,7 +4,7 @@
   "definition": {
     "name": "Pullenchant",
     "type": "BOW",
-    "rarity": "COMMON",
+    "rarity": "UNCOMMON",
     "minLevel": 1,
     "maxLevel": 1,
     "damageModifier": 0,

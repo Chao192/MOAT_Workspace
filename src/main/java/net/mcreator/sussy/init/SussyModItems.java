@@ -13,6 +13,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.sussy.item.UniversalRespawnAnchorItem;
+import net.mcreator.sussy.item.ThatOneRingItem;
 import net.mcreator.sussy.item.StarFruitItem;
 import net.mcreator.sussy.item.SnowballCannonItem;
 import net.mcreator.sussy.item.RingofLuckItem;
@@ -49,6 +50,7 @@ import net.mcreator.sussy.item.CopperToolsPickaxeItem;
 import net.mcreator.sussy.item.CopperToolsHoeItem;
 import net.mcreator.sussy.item.CopperToolsAxeItem;
 import net.mcreator.sussy.item.CopperArmorArmorItem;
+import net.mcreator.sussy.item.ConentratedXPBottleItem;
 import net.mcreator.sussy.item.ClaymoreweapontoolItem;
 import net.mcreator.sussy.item.ButterItem;
 import net.mcreator.sussy.SussyMod;
@@ -106,6 +108,8 @@ public class SussyModItems {
 	public static final RegistryObject<Item> BAKA_MITAI = REGISTRY.register("baka_mitai", () -> new DameDameItem());
 	public static final RegistryObject<Item> OMNI_TOOL = REGISTRY.register("omni_tool", () -> new OmniToolItem());
 	public static final RegistryObject<Item> OMNI_HOE = REGISTRY.register("omni_hoe", () -> new OmniHoeItem());
+	public static final RegistryObject<Item> THAT_ONE_RING = REGISTRY.register("that_one_ring", () -> new ThatOneRingItem());
+	public static final RegistryObject<Item> CONENTRATED_XP_BOTTLE = REGISTRY.register("conentrated_xp_bottle", () -> new ConentratedXPBottleItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

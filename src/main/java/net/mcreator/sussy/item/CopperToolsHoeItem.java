@@ -1,12 +1,7 @@
 
 package net.mcreator.sussy.item;
 
-import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.Items;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.HoeItem;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 
 public class CopperToolsHoeItem extends HoeItem {
 	public CopperToolsHoeItem() {
