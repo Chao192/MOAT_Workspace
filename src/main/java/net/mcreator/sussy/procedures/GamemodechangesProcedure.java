@@ -1,8 +1,8 @@
 package net.mcreator.sussy.procedures;
 
-import net.minecraft.world.level.GameType;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.server.level.ServerPlayer;
+import net.minecraftforge.eventbus.api.Event;
+
+import javax.annotation.Nullable;
 
 public class GamemodechangesProcedure {
 	public static void execute(Entity entity) {
