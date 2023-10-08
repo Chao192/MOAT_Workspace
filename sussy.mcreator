@@ -2382,6 +2382,40 @@
         ]
       },
       "path": "~/CarsonsMods"
+    },
+    {
+      "name": "Tmsp",
+      "type": "procedure",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tmsp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/procedures/TmspProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/CarsonsMods"
+    },
+    {
+      "name": "Tms",
+      "type": "command",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tms",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sussy/command/TmsCommand.java"
+        ]
+      },
+      "path": "~/CarsonsMods"
     }
   ],
   "variable_elements": [],
