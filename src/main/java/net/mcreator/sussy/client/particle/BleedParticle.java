@@ -37,7 +37,7 @@ public class BleedParticle extends TextureSheetParticle {
 		this.spriteSet = spriteSet;
 		this.setSize(0.2f, 0.2f);
 		this.lifetime = 7;
-		this.gravity = 0.5f;
+		this.gravity = 1f;
 		this.hasPhysics = true;
 		this.xd = vx * 1;
 		this.yd = vy * 1;
